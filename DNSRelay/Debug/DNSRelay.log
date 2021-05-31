@@ -1,46 +1,47 @@
 ﻿  DNSRelay.cpp
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(57): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(149): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(105): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(66): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(116): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 参见“inet_addr”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(113): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(124): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(182): note: 参见“strerror”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(133): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(144): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(135): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(146): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(146): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(187): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: 参见“fscanf”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(147): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(188): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: 参见“fscanf”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(204): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 参见“inet_addr”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(331): warning C4244: “=”: 从“time_t”转换到“unsigned int”，可能丢失数据
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(341): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“IN_ADDR”
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(252): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(258): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(273): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(277): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(300): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(305): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(346): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(392): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(396): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(413): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(432): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(438): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(225): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: 参见“strdup”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(444): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(341): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 参见“inet_addr”的声明
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(717): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(572): warning C4715: “decodeSource”: 不是所有的控件路径都返回值
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(463): warning C4244: “=”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(473): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“IN_ADDR”
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(389): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(395): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(410): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(414): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(432): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(437): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(478): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(522): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(526): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(559): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(578): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(584): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: 参见“strdup”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(590): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 参见“inet_addr”的声明
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(863): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(718): warning C4715: “decodeSource”: 不是所有的控件路径都返回值
   DNSRelay.vcxproj -> C:\Users\lmzop\source\repos\DNSRelay\Debug\DNSRelay.exe

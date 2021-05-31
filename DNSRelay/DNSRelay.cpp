@@ -1,8 +1,16 @@
 ﻿#include <iostream>
 #include <WS2tcpip.h>
 #include "DNSRelay.h"
+#include "cache.h"
 
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
+
+struct Trie *cacheTrie;
+struct Trie *tableTrie;
+struct Node *head;
+struct Node *tail;
+int cacheSize;
+
 bool parseArgu(int argc, char **argv);
 bool init();
 void clientReceive();
@@ -26,6 +34,7 @@ void set8bit(char **buf, uint8_t t);
 void set16bit(char **buf, uint16_t t);
 void set32bit(char **buf, uint32_t t);
 void freePkt(Packet *pkt);
+int search(Packet *pkt);
 
 int main(int argc, char **argv)
 {
@@ -82,8 +91,10 @@ int main(int argc, char **argv)
 	WSACleanup();
 	return 0;
 }
+
 bool init()
 {
+	cacheTrie->tree;
 	WSAStartup(MAKEWORD(2, 2), &wsaData);
 
 	clientSock = socket(AF_INET, SOCK_DGRAM, 0);
@@ -138,12 +149,13 @@ bool init()
 		printf("ERROR:Domain list open failed\n");
 		exit(0);
 	}
+	/*
 	pair<string, string> tmp;
 	char buf[128];
-	char ip[20];
+	char ip1[20];
 	while (!feof(domain))
 	{
-		fscanf(domain, "%s", ip);
+		fscanf(domain, "%s", ip1);
 		fscanf(domain, "%s", buf);
 		unsigned len = strlen(buf);
 		for (int i = 0; i < len; i++)
@@ -154,10 +166,135 @@ bool init()
 			}
 		}
 		tmp.first = buf;
-		tmp.second = ip;
+		tmp.second = ip1;
 		list.push_back(tmp);
+	}*/
+
+	cacheTrie = (struct Trie *)malloc(sizeof(struct Trie));
+	memset(cacheTrie->tree, 0, MAX_ROW * MAX_COL);
+	tableTrie = (struct Trie *)malloc(sizeof(struct Trie));
+	memset(tableTrie->tree, 0, MAX_ROW * MAX_COL);
+	cacheTrie->totalNode = 0;
+	tableTrie->totalNode = 0;
+	cacheSize = 0;
+
+	char domainName[MAX_STR] = { 0 };
+	char ipAddr[MAX_STR] = { 0 };
+
+	unsigned char ip[4];
+	while (!feof(domain))
+	{
+		fscanf(domain, "%s", ipAddr);
+		fscanf(domain, "%s", domainName);
+		tranIp(ip, ipAddr);
+		insertNode(tableTrie, domainName, ip);
+	}
+
+	head = (struct Node *)malloc(sizeof(struct Node));
+	head->next = NULL;
+	tail = head;
+
+	for (int i = 0; i < ID_TABLE_SIZE; i++)
+	{
+		idTable[i].cliId = 0;
+		idTable[i].exprieTime = 0;
+		memset(&(idTable[i].cliAddr), 0, sizeof(struct sockaddr_in));
 	}
 	return true;
+}
+
+int search(Packet *pkt)
+{
+	struct source *s;
+	struct question *q;
+	int ret = -1;
+
+	pkt->pktHead->QR = 1;
+	pkt->pktHead->RA = 1;
+	pkt->pktHead->rcode = 0;
+	pkt->pktHead->ancount = 0;
+	pkt->pktHead->nscount = 0;
+	pkt->pktHead->arcount = 0;
+
+	q = pkt->pktQuestion;
+	while (q)
+	{
+		s = (struct source *)malloc(sizeof(struct source));
+		memset(s, 0, sizeof(struct source));
+
+		s->name = strdup(q->qName);
+		s->type = q->qType;
+		s->Class = q->qClass;
+		s->TTL = 3600;
+
+		if (q->qType == 1)
+		{
+			s->rData = (char *)malloc(4 * sizeof(char));
+			s->rdLength = 4;
+			if (findInCache((unsigned char *)s->rData, q->qName))
+			{
+				switch (dLevel)
+				{
+				case mid:
+					printf("Find in Cache\n");
+					break;
+				case high:
+					printf("Find in Cache %s\n", q->qName);
+				}
+				ret = 0;
+			}
+			else if (findInTable((unsigned char *)s->rData, q->qName))
+			{
+				switch (dLevel)
+				{
+				case mid:
+					printf("Find in Table\n");
+					break;
+				case high:
+					printf("Find in Table %s\n", q->qName);
+				}
+				ret = 0;
+			}
+			else
+			{
+				switch (dLevel)
+				{
+				case mid :
+				case high:
+					printf("Can't find in local\n");
+				}
+				printCache();
+				ret = -1;
+			}
+			if (s->rData[0] == 0 && s->rData[1] == 0
+				&& s->rData[2] == 0 && s->rData[3] == 0)
+			{
+				switch (dLevel)
+				{
+				case mid:
+					printf("Blocked\n");
+					break;
+				case high:
+					printf("Blocked %s", q->qName);
+				}
+				pkt->pktHead->rcode = 3;
+			}
+			if (ret == 0)
+			{
+				pkt->pktHead->ancount++;
+				s->next = pkt->pktAnswer;
+				pkt->pktAnswer = s;
+			}
+			else
+			{
+				free(s->name);
+				free(s->rData);
+				free(s);
+			}
+		}
+		q = q->next;
+	}
+	return ret;
 }
 
 bool parseArgu(int argc, char **argv)
@@ -275,13 +412,8 @@ void clientReceive()
 		, requestCnt++, (1900 + lt->tm_year), (1 + lt->tm_mon), lt->tm_mday
 		, lt->tm_hour, lt->tm_min, lt->tm_sec
 		, inet_ntoa(servSockAddr.sin_addr), ntohs(servSockAddr.sin_port), pkt.pktQuestion->qName);
-	if (searchInList(&pkt))
+	if (search(&pkt)!=-1)
 	{
-		pkt.pktHead->QR = 1;
-		pkt.pktHead->AA = 1;
-		pkt.pktHead->RD = 1;
-		pkt.pktHead->RA = 1;
-		pkt.pktHead->rcode = 3;
 
 		unsigned pktLen;
 		if (!(pktLen = encodePkt(&pkt,(char*)buff)))
@@ -361,16 +493,14 @@ void serverReceive()
 		return;
 	}
 
-	printf("S\n");
 	int len = 0;
 	char buf[BUFFER_SIZE];
 	Packet pkt;
 	memset(&pkt, 0, sizeof(struct packet));
 
-	printf("s\n");
 	len = recvfrom(servSock, buf, sizeof(buf), 0, (struct sockaddr *)&servSockAddr, &addrLen);
+	//printInHex((unsigned char*)buf, len);
 
-	printf("s\n");
 	//printInHex((unsigned char*)buf, len);
 	if (len == EWOULDBLOCK || len == EAGAIN)
 	{
@@ -405,6 +535,22 @@ void serverReceive()
 
 	//idTable[nId].exprieTime = 0;
 	sendto(clientSock, buf, len, 0, (struct sockaddr *)&ca, sizeof(ca));
+
+	if (pkt.pktHead->ancount)
+	{
+		struct source *s = pkt.pktAnswer;
+		while (s)
+		{
+			if (s->type == 1)
+			{
+				char *domainName = s->name;
+				unsigned char *address = (unsigned char *)s->rData;
+//				updateCache(address, domainName);
+//				printCache();
+			}
+			s = s->next;
+		}
+	}
 	freePkt(&pkt);
 }
 
