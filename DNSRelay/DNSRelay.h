@@ -14,23 +14,23 @@
 #define MODE 1
 #define BUFFER_SIZE 2000
 #define TIMEOUT 5
-using namespace std;
-enum debugLevel {low,mid,high};
-debugLevel dLevel = high;
-char logFile[100] = "DNSRelayLog.txt";
-char domainList[100] = "DNS_relay.txt";
-FILE *logName;
-FILE *domain;
-char sAddress[16] = "10.3.9.44";
-WSADATA wsaData;
-SOCKET servSock;
-SOCKET clientSock;
-sockaddr_in servSockAddr;
-sockaddr_in clientSockAddr;
-vector< pair<string, string>> list;
-int addrLen = sizeof(struct sockaddr_in);
-int requestCnt = 0;
 
+enum debugLevel {low,mid,high};		//设置调试等级
+debugLevel dLevel = low;			//默认调试等级为低
+char logFile[100] = "DNSRelayLog.txt";	//默认日志输出文件名
+char domainList[100] = "DNS_relay.txt";	//默认本地域名列表文件名
+FILE *logName;						//日志文件指针
+FILE *domain;						//域名列表文件指针
+char sAddress[16] = "10.3.9.44";	//默认server ip地址
+WSADATA wsaData;					//
+SOCKET servSock;					//   
+SOCKET clientSock;					//     网络套接字
+sockaddr_in servSockAddr;			//
+sockaddr_in clientSockAddr;			//
+int addrLen = sizeof(struct sockaddr_in);
+int requestCnt = 0;					//申请数用于计算id
+
+//拆解网络包用到的相关掩码
 const uint16_t QRMUSK = 0x8000;
 const uint16_t OPCODEMUSK = 0x7800;
 const uint16_t AAMUSK = 0x0400;
@@ -40,6 +40,7 @@ const uint16_t RAMUSK = 0x0080;
 const uint16_t RCODEMUSK = 0x000F;
 const uint8_t COMPRESSMUSK = 0xc0;
 
+//网络包头部结构体
 typedef struct header
 {
 	uint16_t ID;
@@ -56,6 +57,7 @@ typedef struct header
 	uint16_t arcount;
 }Header;
 
+//Question部分结构体
 typedef struct question
 {
 	char * qName;
@@ -64,6 +66,7 @@ typedef struct question
 	struct question *next;
 }Question;
 
+//资源部分结构体，包括Answer，以及Authority
 typedef struct source
 {
 	char *name;
@@ -92,3 +95,34 @@ typedef struct
 }converId;
 
 converId idTable[ID_TABLE_SIZE];
+
+struct Trie *cacheTrie;
+struct Trie *tableTrie;
+struct Node *head;
+struct Node *tail;
+int cacheSize;
+
+bool parseArgu(int argc, char **argv);
+bool init();
+void clientReceive();
+void serverReceive();
+void getHeader(Header *haed, char *buff);
+void setHeader(Header *head, char *buff);
+bool decodeQuestion(Packet *pkt, char **buf);
+unsigned encodeQuestion(Question *q, char **buf);
+bool decodeSource(Source *s, char **buf, char *raw);
+unsigned encodeSource(Source *s, char **buf);
+char * decodeDomain(char **buf, char *raw);
+void encodeDomain(char *name, char **buf);
+bool decodePkt(Packet *pkt, char *buff, unsigned int len);
+unsigned encodePkt(Packet *pkt, char *buff);
+void printInHex(unsigned char *buff, unsigned len);
+//bool searchInList(Packet *pkt);
+uint8_t get8bit(char **buff);
+uint16_t get16bit(char **buff);
+uint32_t get32bit(char **buff);
+void set8bit(char **buf, uint8_t t);
+void set16bit(char **buf, uint16_t t);
+void set32bit(char **buf, uint32_t t);
+void freePkt(Packet *pkt);
+int search(Packet *pkt);	

@@ -5,36 +5,6 @@
 
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 
-struct Trie *cacheTrie;
-struct Trie *tableTrie;
-struct Node *head;
-struct Node *tail;
-int cacheSize;
-
-bool parseArgu(int argc, char **argv);
-bool init();
-void clientReceive();
-void serverReceive();
-void getHeader(Header *haed,char *buff);
-void setHeader(Header *head, char *buff);
-bool decodeQuestion(Packet *pkt, char **buf);
-unsigned encodeQuestion(Question *q, char **buf);
-bool decodeSource(Source *s, char **buf,char *raw);
-unsigned encodeSource(Source *s, char **buf);
-char * decodeDomain(char **buf, char *raw);
-void encodeDomain(char *name,char **buf);
-bool decodePkt(Packet *pkt, char *buff,unsigned int len);
-unsigned encodePkt(Packet *pkt, char *buff);
-void printInHex(unsigned char *buff, unsigned len);
-bool searchInList(Packet *pkt);
-uint8_t get8bit(char **buff);
-uint16_t get16bit(char **buff);
-uint32_t get32bit(char **buff);
-void set8bit(char **buf, uint8_t t);
-void set16bit(char **buf, uint16_t t);
-void set32bit(char **buf, uint32_t t);
-void freePkt(Packet *pkt);
-int search(Packet *pkt);
 
 int main(int argc, char **argv)
 {
@@ -61,7 +31,7 @@ int main(int argc, char **argv)
 				if (FD_ISSET(clientSock, &fdread))
 				{
 					clientReceive();
-					printf("*");
+				//	printf("*");
 				}
 				if (FD_ISSET(servSock, &fdread));
 				{
@@ -129,8 +99,8 @@ bool init()
 	case high:
 		char tmp[20] = {0};
 		inet_ntop(AF_INET, &sAddress, tmp, INET_ADDRSTRLEN);
-		printf("DNS server :%s\n", tmp);
-		printf("Listen on port:53\n");
+		printf("DNS server :%s\n", sAddress);
+		printf("Listening on port:53\n");
 		break;
 	}
 
@@ -142,7 +112,7 @@ bool init()
 	}
 
 	logName = fopen(logFile, "a+");
-	printf("%s", domainList);
+	//printf("%s", domainList);
 	domain = fopen(domainList, "a+");
 	if (domain == NULL)
 	{
@@ -217,6 +187,7 @@ int search(Packet *pkt)
 	pkt->pktHead->arcount = 0;
 
 	q = pkt->pktQuestion;
+	printCache();
 	while (q)
 	{
 		s = (struct source *)malloc(sizeof(struct source));
@@ -263,7 +234,6 @@ int search(Packet *pkt)
 				case high:
 					printf("Can't find in local\n");
 				}
-				printCache();
 				ret = -1;
 			}
 			if (s->rData[0] == 0 && s->rData[1] == 0
@@ -362,7 +332,7 @@ bool parseArgu(int argc, char **argv)
 
 void clientReceive()
 {
-	printf("C\n");
+	//printf("C\n");
 	int pktLen = 0;
 	unsigned char buff[BUFFER_SIZE];
 	Packet pkt;
@@ -399,6 +369,7 @@ void clientReceive()
 		}
 	}
 	
+	//printf("c\n");
 	if (!decodePkt(&pkt, (char *)buff, pktLen))
 	{
 		printf("ERROR: Unpack packet error!\n");
@@ -408,11 +379,11 @@ void clientReceive()
 	struct tm *lt;
 	time(&t);
 	lt = localtime(&t);
-	fprintf(logName, "Requsest:%d\n%d-%02d-%02d\n%02d:%02d:%02d\nclient %15s : %-5d\n%s\n"
+	fprintf(logName, "Requsest:%d\n%d-%02d-%02d\n%02d:%02d:%02d\nclient %15s : %-5d\n%s\n\n"
 		, requestCnt++, (1900 + lt->tm_year), (1 + lt->tm_mon), lt->tm_mday
 		, lt->tm_hour, lt->tm_min, lt->tm_sec
-		, inet_ntoa(servSockAddr.sin_addr), ntohs(servSockAddr.sin_port), pkt.pktQuestion->qName);
-	if (search(&pkt)!=-1)
+		, inet_ntoa(clientSockAddr.sin_addr), ntohs(clientSockAddr.sin_port), pkt.pktQuestion->qName);
+	if (search(&pkt) != -1)
 	{
 
 		unsigned pktLen;
@@ -439,6 +410,13 @@ void clientReceive()
 				printInHex(buff, pktLen);
 				break;
 			}
+			time(&t);
+			lt = localtime(&t);
+			fprintf(logName, "Response:%d\n%d-%02d-%02d\n%02d:%02d:%02d\nclient %15s : %-5d\n Q:%s A:%s\n\n"
+				, requestCnt++, (1900 + lt->tm_year), (1 + lt->tm_mon), lt->tm_mday
+				, lt->tm_hour, lt->tm_min, lt->tm_sec
+				, inet_ntoa(clientSockAddr.sin_addr), ntohs(clientSockAddr.sin_port), pkt.pktQuestion->qName
+				,pkt.pktAnswer->rData);
 			sendto(clientSock, (char *)buff, pktLen, 0, (struct sockaddr*)&clientSockAddr, addrLen);
 		}
 	}
@@ -478,6 +456,12 @@ void clientReceive()
 				, inet_ntoa(servSockAddr.sin_addr), ntohs(servSockAddr.sin_port), servId, pktLen);
 			printInHex(buff, pktLen);
 		}
+		time(&t);
+		lt = localtime(&t);
+		fprintf(logName, "Relay:%d\n%d-%02d-%02d\n%02d:%02d:%02d\nserver %15s : %-5d\n Q:%s\n\n"
+			, requestCnt++, (1900 + lt->tm_year), (1 + lt->tm_mon), lt->tm_mday
+			, lt->tm_hour, lt->tm_min, lt->tm_sec
+			, inet_ntoa(servSockAddr.sin_addr), ntohs(servSockAddr.sin_port), pkt.pktQuestion->qName);
 		sendto(servSock, (char*)buff, pktLen, 0, (struct sockaddr*)&servSockAddr, sizeof(servSockAddr));
 	}
 	freePkt(&pkt);
@@ -499,7 +483,8 @@ void serverReceive()
 	memset(&pkt, 0, sizeof(struct packet));
 
 	len = recvfrom(servSock, buf, sizeof(buf), 0, (struct sockaddr *)&servSockAddr, &addrLen);
-	//printInHex((unsigned char*)buf, len);
+	if (len > 0)
+		printInHex((unsigned char*)buf, len);
 
 	//printInHex((unsigned char*)buf, len);
 	if (len == EWOULDBLOCK || len == EAGAIN)
@@ -507,6 +492,7 @@ void serverReceive()
 		printf("server timeout\n");
 		return;
 	}
+	//printf("s\n");
 	if (len < 0 || !decodePkt(&pkt, buf, len))
 	{
 		printf("Error:Receive from server error\n");
@@ -527,6 +513,14 @@ void serverReceive()
 		printInHex((unsigned char*)buf, len);
 	}
 
+	time_t t;
+	struct tm *lt;
+	time(&t);
+	lt = localtime(&t);
+	fprintf(logName, "Receive:%d\n%d-%02d-%02d\n%02d:%02d:%02d\nserver %15s : %-5d\n Q:%s\n\n"
+		, requestCnt++, (1900 + lt->tm_year), (1 + lt->tm_mon), lt->tm_mday
+		, lt->tm_hour, lt->tm_min, lt->tm_sec
+		, inet_ntoa(servSockAddr.sin_addr), ntohs(servSockAddr.sin_port), pkt.pktQuestion->qName);
 	uint16_t nId = pkt.pktHead->ID;
 	uint16_t clientId = htons(idTable[nId].cliId);
 	memcpy(buf, &clientId, sizeof(uint16_t));
@@ -534,6 +528,12 @@ void serverReceive()
 	struct sockaddr_in ca = idTable[nId].cliAddr;
 
 	//idTable[nId].exprieTime = 0;
+	time(&t);
+	lt = localtime(&t);
+	fprintf(logName, "Reponse:%d\n%d-%02d-%02d\n%02d:%02d:%02d\nclient %15s : %-5d\n Q:%s\n\n"
+		, requestCnt++, (1900 + lt->tm_year), (1 + lt->tm_mon), lt->tm_mday
+		, lt->tm_hour, lt->tm_min, lt->tm_sec
+		, inet_ntoa(clientSockAddr.sin_addr), ntohs(clientSockAddr.sin_port), pkt.pktQuestion->qName);
 	sendto(clientSock, buf, len, 0, (struct sockaddr *)&ca, sizeof(ca));
 
 	if (pkt.pktHead->ancount)
@@ -545,8 +545,8 @@ void serverReceive()
 			{
 				char *domainName = s->name;
 				unsigned char *address = (unsigned char *)s->rData;
-//				updateCache(address, domainName);
-//				printCache();
+				updateCache(address, domainName);
+				printCache();
 			}
 			s = s->next;
 		}
@@ -568,59 +568,59 @@ void printInHex(unsigned char *buff, unsigned len)
 	printf("\n");
 }
 
-bool searchInList(Packet *pkt)
-{
-	Question *q = pkt->pktQuestion;
-	Source *r = (struct source*)malloc(sizeof(struct source));
-	while (q)
-	{
-		int i;
-		for (i = 0; i < list.size(); i++)
-		{
-			if (list[i].first == q->qName)
-			{
-				if (list[i].second != "0.0.0.0")
-				{
-					r->name = strdup(q->qName);
-					r->type = q->qType;
-					r->Class = q->qClass;
-					r->rdLength = 4;
-					r->TTL = 3600;
-					r->rData = (char *)malloc(r->rdLength * (sizeof(char)));
-					unsigned long tmp = inet_addr(list[i].second.c_str());
-					memcpy(r->rData, &tmp, 4);
-					r->next = pkt->pktAnswer;
-					pkt->pktAnswer = r;
-					(pkt->pktHead->ancount)++;
-				}
-				switch (dLevel)
-				{
-				case mid:
-					printf("Find in local file\n");
-					break;
-				case high:
-					printf("Find in local file,line:%d domain:%s ip:%s\n"
-						, i,list[i].first.c_str(),list[i].second.c_str());
-				}
-				return true;
-			}
-		}
-		if (i == list.size())
-		{
-			switch (dLevel)
-			{
-			case mid:
-				printf("Not find in local file\n");
-				break;
-			case high:
-				printf("Not find in local file domain:%s\n", q->qName);
-			}
-			return false;
-		}
-		q = q->next;
-	}
-	return true;
-}
+//bool searchInList(Packet *pkt)
+//{
+//	Question *q = pkt->pktQuestion;
+//	Source *r = (struct source*)malloc(sizeof(struct source));
+//	while (q)
+//	{
+//		int i;
+//		for (i = 0; i < list.size(); i++)
+//		{
+//			if (list[i].first == q->qName)
+//			{
+//				if (list[i].second != "0.0.0.0")
+//				{
+//					r->name = strdup(q->qName);
+//					r->type = q->qType;
+//					r->Class = q->qClass;
+//					r->rdLength = 4;
+//					r->TTL = 3600;
+//					r->rData = (char *)malloc(r->rdLength * (sizeof(char)));
+//					unsigned long tmp = inet_addr(list[i].second.c_str());
+//					memcpy(r->rData, &tmp, 4);
+//					r->next = pkt->pktAnswer;
+//					pkt->pktAnswer = r;
+//					(pkt->pktHead->ancount)++;
+//				}
+//				switch (dLevel)
+//				{
+//				case mid:
+//					printf("Find in local file\n");
+//					break;
+//				case high:
+//					printf("Find in local file,line:%d domain:%s ip:%s\n"
+//						, i,list[i].first.c_str(),list[i].second.c_str());
+//				}
+//				return true;
+//			}
+//		}
+//		if (i == list.size())
+//		{
+//			switch (dLevel)
+//			{
+//			case mid:
+//				printf("Not find in local file\n");
+//				break;
+//			case high:
+//				printf("Not find in local file domain:%s\n", q->qName);
+//			}
+//			return false;
+//		}
+//		q = q->next;
+//	}
+//	return true;
+//}
 
 bool decodePkt(Packet *pkt, char *buff, unsigned int len)
 {
@@ -756,6 +756,11 @@ bool decodeQuestion(Packet *pkt, char **buf)
 
 char * decodeDomain(char **buf, char *raw)
 {
+	if (**buf == '\0')
+	{
+		(*buf)++;
+		return strdup("\0");
+	}
 	//char *rawBuf = *buf;
 	unsigned char len = 0;
 	uint16_t offset = 0;
