@@ -78,6 +78,7 @@ typedef struct source
 	struct source *next;
 }Source;
 
+//DNS包结构体
 typedef struct packet
 {
 	Header *pktHead;
@@ -87,6 +88,7 @@ typedef struct packet
 	Source *pktAdditional;
 }Packet;
 
+//用于记录每个client的id与server id的对应关系
 typedef struct
 {
 	uint16_t cliId;
@@ -94,35 +96,38 @@ typedef struct
 	struct sockaddr_in cliAddr;
 }converId;
 
+//id表
 converId idTable[ID_TABLE_SIZE];
 
+//字典树结构体
 struct Trie *cacheTrie;
 struct Trie *tableTrie;
 struct Node *head;
 struct Node *tail;
 int cacheSize;
 
-bool parseArgu(int argc, char **argv);
-bool init();
-void clientReceive();
-void serverReceive();
-void getHeader(Header *haed, char *buff);
-void setHeader(Header *head, char *buff);
-bool decodeQuestion(Packet *pkt, char **buf);
-unsigned encodeQuestion(Question *q, char **buf);
-bool decodeSource(Source *s, char **buf, char *raw);
-unsigned encodeSource(Source *s, char **buf);
-char * decodeDomain(char **buf, char *raw);
-void encodeDomain(char *name, char **buf);
-bool decodePkt(Packet *pkt, char *buff, unsigned int len);
-unsigned encodePkt(Packet *pkt, char *buff);
-void printInHex(unsigned char *buff, unsigned len);
+//所调用的所有函数
+bool parseArgu(int argc, char **argv);	//处理程序的参数
+bool init();			//程序初始化
+void clientReceive();	//从client方接受DNS包，并处理
+void serverReceive();	//从server方接受DNS包，并处理
+void getHeader(Header *haed, char *buff);//从得到的包中拆解出头部信息
+void setHeader(Header *head, char *buff);//将已生成的头部信息生成网络包
+bool decodeQuestion(Packet *pkt, char **buf);//拆解Question
+unsigned encodeQuestion(Question *q, char **buf);//打包Question
+bool decodeSource(Source *s, char **buf, char *raw);//拆解资源部份
+unsigned encodeSource(Source *s, char **buf);		//打包资源部分
+char * decodeDomain(char **buf, char *raw);			//拆解域名
+void encodeDomain(char *name, char **buf);			//封装域名
+bool decodePkt(Packet *pkt, char *buff, unsigned int len);//拆解网络包
+unsigned encodePkt(Packet *pkt, char *buff);			//封装网络包
+void printInHex(unsigned char *buff, unsigned len);		//将数据以16进制形式打印出 用于Debug
 //bool searchInList(Packet *pkt);
-uint8_t get8bit(char **buff);
-uint16_t get16bit(char **buff);
-uint32_t get32bit(char **buff);
-void set8bit(char **buf, uint8_t t);
-void set16bit(char **buf, uint16_t t);
-void set32bit(char **buf, uint32_t t);
-void freePkt(Packet *pkt);
-int search(Packet *pkt);	
+uint8_t get8bit(char **buff);		//将一个char类型的数据形成一个8位无符号返回
+uint16_t get16bit(char **buff);		//将两个char类型的数据形成一个16位无符号返回
+uint32_t get32bit(char **buff);		//将四个char类型的数据形成一个32位无符号返回
+void set8bit(char **buf, uint8_t t);	//将一个8位无符号形成一个char类型
+void set16bit(char **buf, uint16_t t);	//将一个16位无符号形成两个char类型
+void set32bit(char **buf, uint32_t t);	//将一个32位无符号形成四个char类型
+void freePkt(Packet *pkt);			//释放包占用的内存
+int search(Packet *pkt);			//在缓存中搜索域名
