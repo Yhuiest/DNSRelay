@@ -861,7 +861,7 @@ unsigned encodePkt(Packet *pkt, char *buff)
 
 void encodeDomain(char *name, char **buf)
 {
-	int labLen[4];
+	int labLen[10];
 	int labCount = 0;
 	int len = 0;
 	int nameLoc = 0;

@@ -56,5 +56,7 @@ c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(559): warning C4018: 
 c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(762): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: 参见“strdup”的声明
 c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(868): warning C4018: “<”: 有符号/无符号不匹配
+  cache.cpp
+  正在生成代码...
 c:\users\lmzop\source\repos\dnsrelay\dnsrelay\dnsrelay.cpp(718): warning C4715: “decodeSource”: 不是所有的控件路径都返回值
   DNSRelay.vcxproj -> C:\Users\lmzop\source\repos\DNSRelay\Debug\DNSRelay.exe

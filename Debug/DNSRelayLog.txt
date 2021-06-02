@@ -268,3 +268,2381 @@ Requsest:20
 18:14:45
 client       10.3.9.44 : 53   
 nav.smartscreen.microsoft.com
+Requsest:0
+2021-06-02
+17:25:51
+client       127.0.0.1 : 51513
+client-api.itunes.apple.com
+
+Relay:1
+2021-06-02
+17:25:51
+server       10.3.9.44 : 53   
+ Q:client-api.itunes.apple.com
+
+Receive:2
+2021-06-02
+17:25:51
+server       10.3.9.44 : 53   
+ Q:client-api.itunes.apple.com
+
+Reponse:3
+2021-06-02
+17:25:51
+client       127.0.0.1 : 51513
+ Q:client-api.itunes.apple.com
+
+Requsest:4
+2021-06-02
+17:25:51
+client       127.0.0.1 : 64920
+client-api.itunes.apple.com
+
+Relay:5
+2021-06-02
+17:25:51
+server       10.3.9.44 : 53   
+ Q:client-api.itunes.apple.com
+
+Receive:6
+2021-06-02
+17:25:51
+server       10.3.9.44 : 53   
+ Q:client-api.itunes.apple.com
+
+Reponse:7
+2021-06-02
+17:25:51
+client       127.0.0.1 : 64920
+ Q:client-api.itunes.apple.com
+
+Requsest:8
+2021-06-02
+17:26:00
+client       127.0.0.1 : 50252
+4-courier.push.apple.com
+
+Relay:9
+2021-06-02
+17:26:00
+server       10.3.9.44 : 53   
+ Q:4-courier.push.apple.com
+
+Receive:10
+2021-06-02
+17:26:01
+server       10.3.9.44 : 53   
+ Q:4-courier.push.apple.com
+
+Reponse:11
+2021-06-02
+17:26:01
+client       127.0.0.1 : 50252
+ Q:4-courier.push.apple.com
+
+Requsest:12
+2021-06-02
+17:26:01
+client       127.0.0.1 : 56305
+4-courier.push.apple.com
+
+Relay:13
+2021-06-02
+17:26:01
+server       10.3.9.44 : 53   
+ Q:4-courier.push.apple.com
+
+Receive:14
+2021-06-02
+17:26:01
+server       10.3.9.44 : 53   
+ Q:4-courier.push.apple.com
+
+Reponse:15
+2021-06-02
+17:26:01
+client       127.0.0.1 : 56305
+ Q:4-courier.push.apple.com
+
+Requsest:16
+2021-06-02
+17:26:02
+client       127.0.0.1 : 58535
+fp-vs.azureedge.net
+
+Relay:17
+2021-06-02
+17:26:02
+server       10.3.9.44 : 53   
+ Q:fp-vs.azureedge.net
+
+Receive:18
+2021-06-02
+17:26:02
+server       10.3.9.44 : 53   
+ Q:fp-vs.azureedge.net
+
+Reponse:19
+2021-06-02
+17:26:02
+client       127.0.0.1 : 58535
+ Q:fp-vs.azureedge.net
+
+Requsest:20
+2021-06-02
+17:26:02
+client       127.0.0.1 : 64004
+fp-vs.azureedge.net
+
+Relay:21
+2021-06-02
+17:26:02
+server       10.3.9.44 : 53   
+ Q:fp-vs.azureedge.net
+
+Receive:22
+2021-06-02
+17:26:02
+server       10.3.9.44 : 53   
+ Q:fp-vs.azureedge.net
+
+Reponse:23
+2021-06-02
+17:26:02
+client       127.0.0.1 : 64004
+ Q:fp-vs.azureedge.net
+
+Requsest:24
+2021-06-02
+17:26:05
+client       127.0.0.1 : 56932
+p32-ckdatabase.icloud.com.cn
+
+Relay:25
+2021-06-02
+17:26:05
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Requsest:26
+2021-06-02
+17:26:05
+client       127.0.0.1 : 56694
+p32-ckdatabase.icloud.com.cn
+
+Relay:27
+2021-06-02
+17:26:05
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Receive:28
+2021-06-02
+17:26:05
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Reponse:29
+2021-06-02
+17:26:05
+client       127.0.0.1 : 56694
+ Q:p32-ckdatabase.icloud.com.cn
+
+Receive:30
+2021-06-02
+17:26:05
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Reponse:31
+2021-06-02
+17:26:05
+client       127.0.0.1 : 56694
+ Q:p32-ckdatabase.icloud.com.cn
+
+Requsest:32
+2021-06-02
+17:26:06
+client       127.0.0.1 : 50136
+l-ring.msedge.net
+
+Relay:33
+2021-06-02
+17:26:06
+server       10.3.9.44 : 53   
+ Q:l-ring.msedge.net
+
+Receive:34
+2021-06-02
+17:26:06
+server       10.3.9.44 : 53   
+ Q:l-ring.msedge.net
+
+Reponse:35
+2021-06-02
+17:26:06
+client       127.0.0.1 : 50136
+ Q:l-ring.msedge.net
+
+Requsest:36
+2021-06-02
+17:26:06
+client       127.0.0.1 : 57188
+l-ring.msedge.net
+
+Relay:37
+2021-06-02
+17:26:06
+server       10.3.9.44 : 53   
+ Q:l-ring.msedge.net
+
+Receive:38
+2021-06-02
+17:26:06
+server       10.3.9.44 : 53   
+ Q:l-ring.msedge.net
+
+Reponse:39
+2021-06-02
+17:26:06
+client       127.0.0.1 : 57188
+ Q:l-ring.msedge.net
+
+Requsest:40
+2021-06-02
+17:26:06
+client       127.0.0.1 : 65113
+fp-vp.azureedge.net
+
+Relay:41
+2021-06-02
+17:26:06
+server       10.3.9.44 : 53   
+ Q:fp-vp.azureedge.net
+
+Requsest:42
+2021-06-02
+17:26:06
+client       127.0.0.1 : 60860
+fp-vp.azureedge.net
+
+Relay:43
+2021-06-02
+17:26:06
+server       10.3.9.44 : 53   
+ Q:fp-vp.azureedge.net
+
+Receive:44
+2021-06-02
+17:26:06
+server       10.3.9.44 : 53   
+ Q:fp-vp.azureedge.net
+
+Reponse:45
+2021-06-02
+17:26:06
+client       127.0.0.1 : 60860
+ Q:fp-vp.azureedge.net
+
+Receive:46
+2021-06-02
+17:26:06
+server       10.3.9.44 : 53   
+ Q:fp-vp.azureedge.net
+
+Reponse:47
+2021-06-02
+17:26:06
+client       127.0.0.1 : 60860
+ Q:fp-vp.azureedge.net
+
+Requsest:48
+2021-06-02
+17:26:07
+client       127.0.0.1 : 64394
+moiafdaws.clo.footprintdns.com
+
+Relay:49
+2021-06-02
+17:26:07
+server       10.3.9.44 : 53   
+ Q:moiafdaws.clo.footprintdns.com
+
+Receive:50
+2021-06-02
+17:26:07
+server       10.3.9.44 : 53   
+ Q:moiafdaws.clo.footprintdns.com
+
+Reponse:51
+2021-06-02
+17:26:07
+client       127.0.0.1 : 64394
+ Q:moiafdaws.clo.footprintdns.com
+
+Requsest:52
+2021-06-02
+17:26:07
+client       127.0.0.1 : 49755
+moiafdaws.clo.footprintdns.com
+
+Relay:53
+2021-06-02
+17:26:07
+server       10.3.9.44 : 53   
+ Q:moiafdaws.clo.footprintdns.com
+
+Receive:54
+2021-06-02
+17:26:07
+server       10.3.9.44 : 53   
+ Q:moiafdaws.clo.footprintdns.com
+
+Reponse:55
+2021-06-02
+17:26:07
+client       127.0.0.1 : 49755
+ Q:moiafdaws.clo.footprintdns.com
+
+Requsest:56
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49756
+1.0.0.127.in-addr.arpa
+
+Relay:57
+2021-06-02
+17:26:14
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:58
+2021-06-02
+17:26:14
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:59
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49756
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:60
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49757
+008.cn
+
+Response:61
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49757
+ Q:008.cn A:
+
+Requsest:62
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49758
+008.cn
+
+Relay:63
+2021-06-02
+17:26:14
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Receive:64
+2021-06-02
+17:26:14
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Reponse:65
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49758
+ Q:008.cn
+
+Requsest:66
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49759
+008.cn
+
+Response:67
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49759
+ Q:008.cn A:
+
+Requsest:68
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49760
+008.cn
+
+Relay:69
+2021-06-02
+17:26:14
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Receive:70
+2021-06-02
+17:26:14
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Reponse:71
+2021-06-02
+17:26:14
+client       127.0.0.1 : 49760
+ Q:008.cn
+
+Requsest:72
+2021-06-02
+17:26:37
+client       127.0.0.1 : 49934
+az700632.vo.msecnd.net
+
+Relay:73
+2021-06-02
+17:26:37
+server       10.3.9.44 : 53   
+ Q:az700632.vo.msecnd.net
+
+Requsest:74
+2021-06-02
+17:26:37
+client       127.0.0.1 : 59671
+az700632.vo.msecnd.net
+
+Relay:75
+2021-06-02
+17:26:37
+server       10.3.9.44 : 53   
+ Q:az700632.vo.msecnd.net
+
+Receive:76
+2021-06-02
+17:26:37
+server       10.3.9.44 : 53   
+ Q:az700632.vo.msecnd.net
+
+Reponse:77
+2021-06-02
+17:26:37
+client       127.0.0.1 : 59671
+ Q:az700632.vo.msecnd.net
+
+Requsest:78
+2021-06-02
+17:26:38
+client       127.0.0.1 : 49934
+az700632.vo.msecnd.net
+
+Relay:79
+2021-06-02
+17:26:38
+server       10.3.9.44 : 53   
+ Q:az700632.vo.msecnd.net
+
+Receive:80
+2021-06-02
+17:26:38
+server       10.3.9.44 : 53   
+ Q:az700632.vo.msecnd.net
+
+Reponse:81
+2021-06-02
+17:26:38
+client       127.0.0.1 : 49934
+ Q:az700632.vo.msecnd.net
+
+Requsest:82
+2021-06-02
+17:26:42
+client       127.0.0.1 : 62108
+1.0.0.127.in-addr.arpa
+
+Relay:83
+2021-06-02
+17:26:42
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:84
+2021-06-02
+17:26:42
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:85
+2021-06-02
+17:26:42
+client       127.0.0.1 : 62108
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:86
+2021-06-02
+17:26:42
+client       127.0.0.1 : 62109
+test1
+
+Response:87
+2021-06-02
+17:26:42
+client       127.0.0.1 : 62109
+ Q:test1 A:ooýýýýƒ¡‹
+
+Requsest:88
+2021-06-02
+17:26:42
+client       127.0.0.1 : 62110
+test1
+
+Relay:89
+2021-06-02
+17:26:42
+server       10.3.9.44 : 53   
+ Q:test1
+
+Receive:90
+2021-06-02
+17:26:42
+server       10.3.9.44 : 53   
+ Q:test1
+
+Reponse:91
+2021-06-02
+17:26:42
+client       127.0.0.1 : 62110
+ Q:test1
+
+Requsest:92
+2021-06-02
+17:26:42
+client       127.0.0.1 : 53319
+tile-service.weather.microsoft.com
+
+Relay:93
+2021-06-02
+17:26:42
+server       10.3.9.44 : 53   
+ Q:tile-service.weather.microsoft.com
+
+Requsest:94
+2021-06-02
+17:26:42
+client       127.0.0.1 : 56626
+tile-service.weather.microsoft.com
+
+Relay:95
+2021-06-02
+17:26:42
+server       10.3.9.44 : 53   
+ Q:tile-service.weather.microsoft.com
+
+Receive:96
+2021-06-02
+17:26:42
+server       10.3.9.44 : 53   
+ Q:tile-service.weather.microsoft.com
+
+Reponse:97
+2021-06-02
+17:26:42
+client       127.0.0.1 : 56626
+ Q:tile-service.weather.microsoft.com
+
+Receive:98
+2021-06-02
+17:26:42
+server       10.3.9.44 : 53   
+ Q:tile-service.weather.microsoft.com
+
+Reponse:99
+2021-06-02
+17:26:42
+client       127.0.0.1 : 56626
+ Q:tile-service.weather.microsoft.com
+
+Requsest:100
+2021-06-02
+17:27:12
+client       127.0.0.1 : 57346
+media.st.dl.pinyuncloud.com
+
+Relay:101
+2021-06-02
+17:27:12
+server       10.3.9.44 : 53   
+ Q:media.st.dl.pinyuncloud.com
+
+Receive:102
+2021-06-02
+17:27:12
+server       10.3.9.44 : 53   
+ Q:media.st.dl.pinyuncloud.com
+
+Reponse:103
+2021-06-02
+17:27:12
+client       127.0.0.1 : 57346
+ Q:media.st.dl.pinyuncloud.com
+
+Requsest:104
+2021-06-02
+17:27:14
+client       127.0.0.1 : 53542
+geo.prod.do.dsp.mp.microsoft.com
+
+Relay:105
+2021-06-02
+17:27:14
+server       10.3.9.44 : 53   
+ Q:geo.prod.do.dsp.mp.microsoft.com
+
+Receive:106
+2021-06-02
+17:27:14
+server       10.3.9.44 : 53   
+ Q:geo.prod.do.dsp.mp.microsoft.com
+
+Reponse:107
+2021-06-02
+17:27:14
+client       127.0.0.1 : 53542
+ Q:geo.prod.do.dsp.mp.microsoft.com
+
+Requsest:108
+2021-06-02
+17:27:14
+client       127.0.0.1 : 54870
+geo.prod.do.dsp.mp.microsoft.com
+
+Relay:109
+2021-06-02
+17:27:14
+server       10.3.9.44 : 53   
+ Q:geo.prod.do.dsp.mp.microsoft.com
+
+Receive:110
+2021-06-02
+17:27:14
+server       10.3.9.44 : 53   
+ Q:geo.prod.do.dsp.mp.microsoft.com
+
+Reponse:111
+2021-06-02
+17:27:14
+client       127.0.0.1 : 54870
+ Q:geo.prod.do.dsp.mp.microsoft.com
+
+Requsest:112
+2021-06-02
+17:27:14
+client       127.0.0.1 : 58964
+ts.qq.com
+
+Relay:113
+2021-06-02
+17:27:14
+server       10.3.9.44 : 53   
+ Q:ts.qq.com
+
+Requsest:114
+2021-06-02
+17:27:14
+client       127.0.0.1 : 54064
+ts.qq.com
+
+Relay:115
+2021-06-02
+17:27:14
+server       10.3.9.44 : 53   
+ Q:ts.qq.com
+
+Receive:116
+2021-06-02
+17:27:14
+server       10.3.9.44 : 53   
+ Q:ts.qq.com
+
+Reponse:117
+2021-06-02
+17:27:14
+client       127.0.0.1 : 54064
+ Q:ts.qq.com
+
+Receive:118
+2021-06-02
+17:27:15
+server       10.3.9.44 : 53   
+ Q:ts.qq.com
+
+Reponse:119
+2021-06-02
+17:27:15
+client       127.0.0.1 : 54064
+ Q:ts.qq.com
+
+Requsest:120
+2021-06-02
+17:27:15
+client       127.0.0.1 : 54001
+oth.eve.mdt.qq.com
+
+Relay:121
+2021-06-02
+17:27:15
+server       10.3.9.44 : 53   
+ Q:oth.eve.mdt.qq.com
+
+Receive:122
+2021-06-02
+17:27:15
+server       10.3.9.44 : 53   
+ Q:oth.eve.mdt.qq.com
+
+Reponse:123
+2021-06-02
+17:27:15
+client       127.0.0.1 : 54001
+ Q:oth.eve.mdt.qq.com
+
+Requsest:124
+2021-06-02
+17:27:15
+client       127.0.0.1 : 50934
+groupclient.qq.com
+
+Relay:125
+2021-06-02
+17:27:15
+server       10.3.9.44 : 53   
+ Q:groupclient.qq.com
+
+Requsest:126
+2021-06-02
+17:27:15
+client       127.0.0.1 : 65198
+groupclient.qq.com
+
+Relay:127
+2021-06-02
+17:27:15
+server       10.3.9.44 : 53   
+ Q:groupclient.qq.com
+
+Receive:128
+2021-06-02
+17:27:15
+server       10.3.9.44 : 53   
+ Q:groupclient.qq.com
+
+Reponse:129
+2021-06-02
+17:27:15
+client       127.0.0.1 : 65198
+ Q:groupclient.qq.com
+
+Receive:130
+2021-06-02
+17:27:15
+server       10.3.9.44 : 53   
+ Q:groupclient.qq.com
+
+Reponse:131
+2021-06-02
+17:27:15
+client       127.0.0.1 : 65198
+ Q:groupclient.qq.com
+
+Requsest:132
+2021-06-02
+17:27:17
+client       127.0.0.1 : 60956
+kv501.prod.do.dsp.mp.microsoft.com
+
+Relay:133
+2021-06-02
+17:27:17
+server       10.3.9.44 : 53   
+ Q:kv501.prod.do.dsp.mp.microsoft.com
+
+Receive:134
+2021-06-02
+17:27:17
+server       10.3.9.44 : 53   
+ Q:kv501.prod.do.dsp.mp.microsoft.com
+
+Reponse:135
+2021-06-02
+17:27:17
+client       127.0.0.1 : 60956
+ Q:kv501.prod.do.dsp.mp.microsoft.com
+
+Requsest:136
+2021-06-02
+17:27:17
+client       127.0.0.1 : 49805
+kv501.prod.do.dsp.mp.microsoft.com
+
+Relay:137
+2021-06-02
+17:27:17
+server       10.3.9.44 : 53   
+ Q:kv501.prod.do.dsp.mp.microsoft.com
+
+Receive:138
+2021-06-02
+17:27:17
+server       10.3.9.44 : 53   
+ Q:kv501.prod.do.dsp.mp.microsoft.com
+
+Reponse:139
+2021-06-02
+17:27:17
+client       127.0.0.1 : 49805
+ Q:kv501.prod.do.dsp.mp.microsoft.com
+
+Requsest:140
+2021-06-02
+17:27:18
+client       127.0.0.1 : 60829
+api.steampowered.com
+
+Relay:141
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:api.steampowered.com
+
+Receive:142
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:api.steampowered.com
+
+Reponse:143
+2021-06-02
+17:27:18
+client       127.0.0.1 : 60829
+ Q:api.steampowered.com
+
+Requsest:144
+2021-06-02
+17:27:18
+client       127.0.0.1 : 53189
+api.steampowered.com
+
+Relay:145
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:api.steampowered.com
+
+Receive:146
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:api.steampowered.com
+
+Reponse:147
+2021-06-02
+17:27:18
+client       127.0.0.1 : 53189
+ Q:api.steampowered.com
+
+Requsest:148
+2021-06-02
+17:27:18
+client       127.0.0.1 : 51004
+ipv6check-udp.steamcontent.com
+
+Relay:149
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:ipv6check-udp.steamcontent.com
+
+Receive:150
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:ipv6check-udp.steamcontent.com
+
+Reponse:151
+2021-06-02
+17:27:18
+client       127.0.0.1 : 51004
+ Q:ipv6check-udp.steamcontent.com
+
+Requsest:152
+2021-06-02
+17:27:18
+client       127.0.0.1 : 52705
+ipv6check-http.steamcontent.com
+
+Relay:153
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:ipv6check-http.steamcontent.com
+
+Receive:154
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:ipv6check-http.steamcontent.com
+
+Reponse:155
+2021-06-02
+17:27:18
+client       127.0.0.1 : 52705
+ Q:ipv6check-http.steamcontent.com
+
+Requsest:156
+2021-06-02
+17:27:18
+client       127.0.0.1 : 52683
+ipv6check-http.steamcontent.com
+
+Relay:157
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:ipv6check-http.steamcontent.com
+
+Receive:158
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:ipv6check-http.steamcontent.com
+
+Reponse:159
+2021-06-02
+17:27:18
+client       127.0.0.1 : 52683
+ Q:ipv6check-http.steamcontent.com
+
+Requsest:160
+2021-06-02
+17:27:18
+client       127.0.0.1 : 61593
+cm2-tyo2.cm.steampowered.com
+
+Relay:161
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:cm2-tyo2.cm.steampowered.com
+
+Receive:162
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:cm2-tyo2.cm.steampowered.com
+
+Reponse:163
+2021-06-02
+17:27:18
+client       127.0.0.1 : 61593
+ Q:cm2-tyo2.cm.steampowered.com
+
+Requsest:164
+2021-06-02
+17:27:18
+client       127.0.0.1 : 64248
+cm4-hkg1.cm.steampowered.com
+
+Relay:165
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:cm4-hkg1.cm.steampowered.com
+
+Receive:166
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:cm4-hkg1.cm.steampowered.com
+
+Reponse:167
+2021-06-02
+17:27:18
+client       127.0.0.1 : 64248
+ Q:cm4-hkg1.cm.steampowered.com
+
+Requsest:168
+2021-06-02
+17:27:18
+client       127.0.0.1 : 52797
+cm1-tyo2.cm.steampowered.com
+
+Relay:169
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:cm1-tyo2.cm.steampowered.com
+
+Receive:170
+2021-06-02
+17:27:18
+server       10.3.9.44 : 53   
+ Q:cm1-tyo2.cm.steampowered.com
+
+Reponse:171
+2021-06-02
+17:27:18
+client       127.0.0.1 : 52797
+ Q:cm1-tyo2.cm.steampowered.com
+
+Requsest:172
+2021-06-02
+17:27:19
+client       127.0.0.1 : 58617
+cm1-tyo1.cm.steampowered.com
+
+Relay:173
+2021-06-02
+17:27:19
+server       10.3.9.44 : 53   
+ Q:cm1-tyo1.cm.steampowered.com
+
+Receive:174
+2021-06-02
+17:27:19
+server       10.3.9.44 : 53   
+ Q:cm1-tyo1.cm.steampowered.com
+
+Reponse:175
+2021-06-02
+17:27:19
+client       127.0.0.1 : 58617
+ Q:cm1-tyo1.cm.steampowered.com
+
+Requsest:176
+2021-06-02
+17:27:20
+client       127.0.0.1 : 49973
+p32-ckdatabase.icloud.com.cn
+
+Relay:177
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Receive:178
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Reponse:179
+2021-06-02
+17:27:20
+client       127.0.0.1 : 49973
+ Q:p32-ckdatabase.icloud.com.cn
+
+Requsest:180
+2021-06-02
+17:27:20
+client       127.0.0.1 : 64420
+skydrive.wns.windows.com
+
+Relay:181
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:skydrive.wns.windows.com
+
+Receive:182
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:skydrive.wns.windows.com
+
+Reponse:183
+2021-06-02
+17:27:20
+client       127.0.0.1 : 64420
+ Q:skydrive.wns.windows.com
+
+Requsest:184
+2021-06-02
+17:27:20
+client       127.0.0.1 : 52160
+skydrive.wns.windows.com
+
+Relay:185
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:skydrive.wns.windows.com
+
+Receive:186
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:skydrive.wns.windows.com
+
+Reponse:187
+2021-06-02
+17:27:20
+client       127.0.0.1 : 52160
+ Q:skydrive.wns.windows.com
+
+Requsest:188
+2021-06-02
+17:27:20
+client       127.0.0.1 : 62287
+p32-ckdatabase.icloud.com.cn
+
+Relay:189
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Receive:190
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Reponse:191
+2021-06-02
+17:27:20
+client       127.0.0.1 : 62287
+ Q:p32-ckdatabase.icloud.com.cn
+
+Requsest:192
+2021-06-02
+17:27:20
+client       127.0.0.1 : 60870
+login.live.com
+
+Relay:193
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:login.live.com
+
+Receive:194
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:login.live.com
+
+Reponse:195
+2021-06-02
+17:27:20
+client       127.0.0.1 : 60870
+ Q:login.live.com
+
+Requsest:196
+2021-06-02
+17:27:20
+client       127.0.0.1 : 57216
+login.live.com
+
+Relay:197
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:login.live.com
+
+Receive:198
+2021-06-02
+17:27:20
+server       10.3.9.44 : 53   
+ Q:login.live.com
+
+Reponse:199
+2021-06-02
+17:27:20
+client       127.0.0.1 : 57216
+ Q:login.live.com
+
+Requsest:200
+2021-06-02
+17:27:21
+client       127.0.0.1 : 56448
+client.wns.windows.com
+
+Relay:201
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Receive:202
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Reponse:203
+2021-06-02
+17:27:21
+client       127.0.0.1 : 56448
+ Q:client.wns.windows.com
+
+Requsest:204
+2021-06-02
+17:27:21
+client       127.0.0.1 : 52401
+client.wns.windows.com
+
+Relay:205
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Receive:206
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Reponse:207
+2021-06-02
+17:27:21
+client       127.0.0.1 : 52401
+ Q:client.wns.windows.com
+
+Requsest:208
+2021-06-02
+17:27:21
+client       127.0.0.1 : 62270
+licensing.mp.microsoft.com
+
+Relay:209
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:licensing.mp.microsoft.com
+
+Receive:210
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:licensing.mp.microsoft.com
+
+Reponse:211
+2021-06-02
+17:27:21
+client       127.0.0.1 : 62270
+ Q:licensing.mp.microsoft.com
+
+Requsest:212
+2021-06-02
+17:27:21
+client       127.0.0.1 : 55229
+licensing.mp.microsoft.com
+
+Relay:213
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:licensing.mp.microsoft.com
+
+Receive:214
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:licensing.mp.microsoft.com
+
+Reponse:215
+2021-06-02
+17:27:21
+client       127.0.0.1 : 55229
+ Q:licensing.mp.microsoft.com
+
+Requsest:216
+2021-06-02
+17:27:21
+client       127.0.0.1 : 55114
+vortex.data.microsoft.com
+
+Relay:217
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Receive:218
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Reponse:219
+2021-06-02
+17:27:21
+client       127.0.0.1 : 55114
+ Q:vortex.data.microsoft.com
+
+Requsest:220
+2021-06-02
+17:27:21
+client       127.0.0.1 : 60921
+vortex.data.microsoft.com
+
+Relay:221
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Receive:222
+2021-06-02
+17:27:21
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Reponse:223
+2021-06-02
+17:27:21
+client       127.0.0.1 : 60921
+ Q:vortex.data.microsoft.com
+
+Requsest:224
+2021-06-02
+17:27:22
+client       127.0.0.1 : 55354
+steamcommunity.com
+
+Relay:225
+2021-06-02
+17:27:22
+server       10.3.9.44 : 53   
+ Q:steamcommunity.com
+
+Requsest:226
+2021-06-02
+17:27:22
+client       127.0.0.1 : 57575
+steamcommunity.com
+
+Relay:227
+2021-06-02
+17:27:22
+server       10.3.9.44 : 53   
+ Q:steamcommunity.com
+
+Receive:228
+2021-06-02
+17:27:22
+server       10.3.9.44 : 53   
+ Q:steamcommunity.com
+
+Reponse:229
+2021-06-02
+17:27:22
+client       127.0.0.1 : 57575
+ Q:steamcommunity.com
+
+Receive:230
+2021-06-02
+17:27:22
+server       10.3.9.44 : 53   
+ Q:steamcommunity.com
+
+Reponse:231
+2021-06-02
+17:27:22
+client       127.0.0.1 : 57575
+ Q:steamcommunity.com
+
+Requsest:232
+2021-06-02
+17:27:23
+client       127.0.0.1 : 51026
+steamcdn-a.akamaihd.net
+
+Relay:233
+2021-06-02
+17:27:23
+server       10.3.9.44 : 53   
+ Q:steamcdn-a.akamaihd.net
+
+Receive:234
+2021-06-02
+17:27:23
+server       10.3.9.44 : 53   
+ Q:steamcdn-a.akamaihd.net
+
+Reponse:235
+2021-06-02
+17:27:23
+client       127.0.0.1 : 51026
+ Q:steamcdn-a.akamaihd.net
+
+Requsest:236
+2021-06-02
+17:27:23
+client       127.0.0.1 : 50005
+25-courier.push.apple.com
+
+Relay:237
+2021-06-02
+17:27:23
+server       10.3.9.44 : 53   
+ Q:25-courier.push.apple.com
+
+Receive:238
+2021-06-02
+17:27:23
+server       10.3.9.44 : 53   
+ Q:25-courier.push.apple.com
+
+Reponse:239
+2021-06-02
+17:27:23
+client       127.0.0.1 : 50005
+ Q:25-courier.push.apple.com
+
+Requsest:240
+2021-06-02
+17:27:23
+client       127.0.0.1 : 63499
+25-courier.push.apple.com
+
+Relay:241
+2021-06-02
+17:27:23
+server       10.3.9.44 : 53   
+ Q:25-courier.push.apple.com
+
+Receive:242
+2021-06-02
+17:27:23
+server       10.3.9.44 : 53   
+ Q:25-courier.push.apple.com
+
+Reponse:243
+2021-06-02
+17:27:23
+client       127.0.0.1 : 63499
+ Q:25-courier.push.apple.com
+
+Requsest:244
+2021-06-02
+17:27:27
+client       127.0.0.1 : 55274
+showxml.qq.com
+
+Relay:245
+2021-06-02
+17:27:27
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Requsest:246
+2021-06-02
+17:27:27
+client       127.0.0.1 : 53101
+showxml.qq.com
+
+Relay:247
+2021-06-02
+17:27:27
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Receive:248
+2021-06-02
+17:27:27
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Reponse:249
+2021-06-02
+17:27:27
+client       127.0.0.1 : 53101
+ Q:showxml.qq.com
+
+Receive:250
+2021-06-02
+17:27:27
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Reponse:251
+2021-06-02
+17:27:27
+client       127.0.0.1 : 53101
+ Q:showxml.qq.com
+
+Requsest:252
+2021-06-02
+17:27:29
+client       127.0.0.1 : 59130
+az667904.vo.msecnd.net
+
+Relay:253
+2021-06-02
+17:27:29
+server       10.3.9.44 : 53   
+ Q:az667904.vo.msecnd.net
+
+Receive:254
+2021-06-02
+17:27:29
+server       10.3.9.44 : 53   
+ Q:az667904.vo.msecnd.net
+
+Reponse:255
+2021-06-02
+17:27:29
+client       127.0.0.1 : 59130
+ Q:az667904.vo.msecnd.net
+
+Requsest:256
+2021-06-02
+17:27:29
+client       127.0.0.1 : 63635
+az667904.vo.msecnd.net
+
+Relay:257
+2021-06-02
+17:27:29
+server       10.3.9.44 : 53   
+ Q:az667904.vo.msecnd.net
+
+Receive:258
+2021-06-02
+17:27:29
+server       10.3.9.44 : 53   
+ Q:az667904.vo.msecnd.net
+
+Reponse:259
+2021-06-02
+17:27:29
+client       127.0.0.1 : 63635
+ Q:az667904.vo.msecnd.net
+
+Requsest:260
+2021-06-02
+17:27:35
+client       127.0.0.1 : 62077
+q.i.gdt.qq.com
+
+Relay:261
+2021-06-02
+17:27:35
+server       10.3.9.44 : 53   
+ Q:q.i.gdt.qq.com
+
+Requsest:262
+2021-06-02
+17:27:35
+client       127.0.0.1 : 49918
+q.i.gdt.qq.com
+
+Relay:263
+2021-06-02
+17:27:35
+server       10.3.9.44 : 53   
+ Q:q.i.gdt.qq.com
+
+Receive:264
+2021-06-02
+17:27:35
+server       10.3.9.44 : 53   
+ Q:q.i.gdt.qq.com
+
+Reponse:265
+2021-06-02
+17:27:35
+client       127.0.0.1 : 49918
+ Q:q.i.gdt.qq.com
+
+Receive:266
+2021-06-02
+17:27:35
+server       10.3.9.44 : 53   
+ Q:q.i.gdt.qq.com
+
+Reponse:267
+2021-06-02
+17:27:35
+client       127.0.0.1 : 49918
+ Q:q.i.gdt.qq.com
+
+Requsest:268
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49922
+1.0.0.127.in-addr.arpa
+
+Relay:269
+2021-06-02
+17:27:48
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:270
+2021-06-02
+17:27:48
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:271
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49922
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:272
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49923
+www.5DSOFT.COM
+
+Response:273
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49923
+ Q:www.5DSOFT.COM A:
+
+Requsest:274
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49924
+www.5DSOFT.COM
+
+Relay:275
+2021-06-02
+17:27:48
+server       10.3.9.44 : 53   
+ Q:www.5DSOFT.COM
+
+Receive:276
+2021-06-02
+17:27:48
+server       10.3.9.44 : 53   
+ Q:www.5DSOFT.COM
+
+Reponse:277
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49924
+ Q:www.5DSOFT.COM
+
+Requsest:278
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49925
+www.5DSOFT.COM
+
+Response:279
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49925
+ Q:www.5DSOFT.COM A:
+
+Requsest:280
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49926
+www.5DSOFT.COM
+
+Relay:281
+2021-06-02
+17:27:48
+server       10.3.9.44 : 53   
+ Q:www.5DSOFT.COM
+
+Receive:282
+2021-06-02
+17:27:48
+server       10.3.9.44 : 53   
+ Q:www.5DSOFT.COM
+
+Reponse:283
+2021-06-02
+17:27:48
+client       127.0.0.1 : 49926
+ Q:www.5DSOFT.COM
+
+Requsest:284
+2021-06-02
+17:27:52
+client       127.0.0.1 : 58591
+p.qlogo.cn
+
+Relay:285
+2021-06-02
+17:27:52
+server       10.3.9.44 : 53   
+ Q:p.qlogo.cn
+
+Receive:286
+2021-06-02
+17:27:52
+server       10.3.9.44 : 53   
+ Q:p.qlogo.cn
+
+Reponse:287
+2021-06-02
+17:27:52
+client       127.0.0.1 : 58591
+ Q:p.qlogo.cn
+
+Requsest:288
+2021-06-02
+17:27:52
+client       127.0.0.1 : 51012
+p.qlogo.cn
+
+Relay:289
+2021-06-02
+17:27:52
+server       10.3.9.44 : 53   
+ Q:p.qlogo.cn
+
+Receive:290
+2021-06-02
+17:27:52
+server       10.3.9.44 : 53   
+ Q:p.qlogo.cn
+
+Reponse:291
+2021-06-02
+17:27:52
+client       127.0.0.1 : 51012
+ Q:p.qlogo.cn
+
+Requsest:292
+2021-06-02
+17:28:08
+client       127.0.0.1 : 55253
+v10.events.data.microsoft.com
+
+Relay:293
+2021-06-02
+17:28:08
+server       10.3.9.44 : 53   
+ Q:v10.events.data.microsoft.com
+
+Receive:294
+2021-06-02
+17:28:08
+server       10.3.9.44 : 53   
+ Q:v10.events.data.microsoft.com
+
+Reponse:295
+2021-06-02
+17:28:08
+client       127.0.0.1 : 55253
+ Q:v10.events.data.microsoft.com
+
+Requsest:296
+2021-06-02
+17:28:08
+client       127.0.0.1 : 55110
+v10.events.data.microsoft.com
+
+Relay:297
+2021-06-02
+17:28:08
+server       10.3.9.44 : 53   
+ Q:v10.events.data.microsoft.com
+
+Receive:298
+2021-06-02
+17:28:08
+server       10.3.9.44 : 53   
+ Q:v10.events.data.microsoft.com
+
+Reponse:299
+2021-06-02
+17:28:08
+client       127.0.0.1 : 55110
+ Q:v10.events.data.microsoft.com
+
+Requsest:300
+2021-06-02
+17:28:14
+client       127.0.0.1 : 55111
+1.0.0.127.in-addr.arpa
+
+Relay:301
+2021-06-02
+17:28:14
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:302
+2021-06-02
+17:28:14
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:303
+2021-06-02
+17:28:14
+client       127.0.0.1 : 55111
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:304
+2021-06-02
+17:28:14
+client       127.0.0.1 : 55112
+zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Response:305
+2021-06-02
+17:28:14
+client       127.0.0.1 : 55112
+ Q:zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com A:
+
+Requsest:306
+2021-06-02
+17:28:14
+client       127.0.0.1 : 55113
+zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Relay:307
+2021-06-02
+17:28:14
+server       10.3.9.44 : 53   
+ Q:zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Receive:308
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Reponse:309
+2021-06-02
+17:28:15
+client       127.0.0.1 : 55113
+ Q:zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Requsest:310
+2021-06-02
+17:28:15
+client       127.0.0.1 : 55114
+zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Response:311
+2021-06-02
+17:28:15
+client       127.0.0.1 : 55114
+ Q:zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com A:
+
+Requsest:312
+2021-06-02
+17:28:15
+client       127.0.0.1 : 55115
+zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Relay:313
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Receive:314
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Reponse:315
+2021-06-02
+17:28:15
+client       127.0.0.1 : 55115
+ Q:zhendeshi.tiebiechang-tiebiechangde.zuichang255zifu.domain-name.com
+
+Requsest:316
+2021-06-02
+17:28:15
+client       127.0.0.1 : 54170
+cgi.qqweb.qq.com
+
+Relay:317
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:cgi.qqweb.qq.com
+
+Requsest:318
+2021-06-02
+17:28:15
+client       127.0.0.1 : 60163
+cgi.find.qq.com
+
+Relay:319
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:cgi.find.qq.com
+
+Receive:320
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:cgi.qqweb.qq.com
+
+Reponse:321
+2021-06-02
+17:28:15
+client       127.0.0.1 : 60163
+ Q:cgi.qqweb.qq.com
+
+Requsest:322
+2021-06-02
+17:28:15
+client       127.0.0.1 : 49497
+find.qq.com
+
+Relay:323
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:find.qq.com
+
+Receive:324
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:cgi.find.qq.com
+
+Reponse:325
+2021-06-02
+17:28:15
+client       127.0.0.1 : 49497
+ Q:cgi.find.qq.com
+
+Requsest:326
+2021-06-02
+17:28:15
+client       127.0.0.1 : 64639
+cgi.qqweb.qq.com
+
+Relay:327
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:cgi.qqweb.qq.com
+
+Receive:328
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:find.qq.com
+
+Reponse:329
+2021-06-02
+17:28:15
+client       127.0.0.1 : 64639
+ Q:find.qq.com
+
+Requsest:330
+2021-06-02
+17:28:15
+client       127.0.0.1 : 54323
+cgi.find.qq.com
+
+Relay:331
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:cgi.find.qq.com
+
+Requsest:332
+2021-06-02
+17:28:15
+client       127.0.0.1 : 50495
+appbox.qq.com
+
+Relay:333
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:appbox.qq.com
+
+Receive:334
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:cgi.qqweb.qq.com
+
+Reponse:335
+2021-06-02
+17:28:15
+client       127.0.0.1 : 50495
+ Q:cgi.qqweb.qq.com
+
+Receive:336
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:cgi.find.qq.com
+
+Reponse:337
+2021-06-02
+17:28:15
+client       127.0.0.1 : 50495
+ Q:cgi.find.qq.com
+
+Receive:338
+2021-06-02
+17:28:15
+server       10.3.9.44 : 53   
+ Q:appbox.qq.com
+
+Reponse:339
+2021-06-02
+17:28:15
+client       127.0.0.1 : 50495
+ Q:appbox.qq.com
+
+Requsest:340
+2021-06-02
+17:28:41
+client       127.0.0.1 : 50497
+1.0.0.127.in-addr.arpa
+
+Relay:341
+2021-06-02
+17:28:41
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:342
+2021-06-02
+17:28:41
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:343
+2021-06-02
+17:28:41
+client       127.0.0.1 : 50497
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:344
+2021-06-02
+17:28:41
+client       127.0.0.1 : 50498
+bupt
+
+Response:345
+2021-06-02
+17:28:41
+client       127.0.0.1 : 50498
+ Q:bupt A:{†
+ýýýý%9‰‹8
+
+Requsest:346
+2021-06-02
+17:28:41
+client       127.0.0.1 : 50499
+bupt
+
+Relay:347
+2021-06-02
+17:28:41
+server       10.3.9.44 : 53   
+ Q:bupt
+
+Receive:348
+2021-06-02
+17:28:41
+server       10.3.9.44 : 53   
+ Q:bupt
+
+Reponse:349
+2021-06-02
+17:28:41
+client       127.0.0.1 : 50499
+ Q:bupt
+
+Requsest:350
+2021-06-02
+17:29:02
+client       127.0.0.1 : 50500
+1.0.0.127.in-addr.arpa
+
+Relay:351
+2021-06-02
+17:29:02
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:352
+2021-06-02
+17:29:02
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:353
+2021-06-02
+17:29:02
+client       127.0.0.1 : 50500
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:354
+2021-06-02
+17:29:02
+client       127.0.0.1 : 50501
+bupt
+
+Response:355
+2021-06-02
+17:29:02
+client       127.0.0.1 : 50501
+ Q:bupt A:{†
+ýýýý9í‹
+
+Requsest:356
+2021-06-02
+17:29:02
+client       127.0.0.1 : 50502
+bupt
+
+Relay:357
+2021-06-02
+17:29:02
+server       10.3.9.44 : 53   
+ Q:bupt
+
+Receive:358
+2021-06-02
+17:29:02
+server       10.3.9.44 : 53   
+ Q:bupt
+
+Reponse:359
+2021-06-02
+17:29:02
+client       127.0.0.1 : 50502
+ Q:bupt
+
+Requsest:360
+2021-06-02
+17:29:11
+client       127.0.0.1 : 50503
+1.0.0.127.in-addr.arpa
+
+Relay:361
+2021-06-02
+17:29:11
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:362
+2021-06-02
+17:29:11
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:363
+2021-06-02
+17:29:11
+client       127.0.0.1 : 50503
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:364
+2021-06-02
+17:29:11
+client       127.0.0.1 : 50504
+www.baidu.com
+
+Relay:365
+2021-06-02
+17:29:11
+server       10.3.9.44 : 53   
+ Q:www.baidu.com
+
+Receive:366
+2021-06-02
+17:29:11
+server       10.3.9.44 : 53   
+ Q:www.baidu.com
+
+Reponse:367
+2021-06-02
+17:29:11
+client       127.0.0.1 : 50504
+ Q:www.baidu.com
+
+Requsest:368
+2021-06-02
+17:29:11
+client       127.0.0.1 : 50505
+www.baidu.com
+
+Relay:369
+2021-06-02
+17:29:11
+server       10.3.9.44 : 53   
+ Q:www.baidu.com
+
+Receive:370
+2021-06-02
+17:29:11
+server       10.3.9.44 : 53   
+ Q:www.baidu.com
+
+Reponse:371
+2021-06-02
+17:29:11
+client       127.0.0.1 : 50505
+ Q:www.baidu.com
+
+Requsest:372
+2021-06-02
+17:29:45
+client       127.0.0.1 : 50507
+1.0.0.127.in-addr.arpa
+
+Relay:373
+2021-06-02
+17:29:45
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:374
+2021-06-02
+17:29:45
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:375
+2021-06-02
+17:29:45
+client       127.0.0.1 : 50507
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:376
+2021-06-02
+17:29:45
+client       127.0.0.1 : 50508
+www.github.com
+
+Relay:377
+2021-06-02
+17:29:45
+server       10.3.9.44 : 53   
+ Q:www.github.com
+
+Receive:378
+2021-06-02
+17:29:45
+server       10.3.9.44 : 53   
+ Q:www.github.com
+
+Reponse:379
+2021-06-02
+17:29:45
+client       127.0.0.1 : 50508
+ Q:www.github.com
+
+Requsest:380
+2021-06-02
+17:29:45
+client       127.0.0.1 : 50509
+www.github.com
+
+Relay:381
+2021-06-02
+17:29:45
+server       10.3.9.44 : 53   
+ Q:www.github.com
+
+Receive:382
+2021-06-02
+17:29:45
+server       10.3.9.44 : 53   
+ Q:www.github.com
+
+Reponse:383
+2021-06-02
+17:29:45
+client       127.0.0.1 : 50509
+ Q:www.github.com
+
+Requsest:384
+2021-06-02
+17:30:07
+client       127.0.0.1 : 50510
+1.0.0.127.in-addr.arpa
+
+Relay:385
+2021-06-02
+17:30:07
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:386
+2021-06-02
+17:30:07
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:387
+2021-06-02
+17:30:07
+client       127.0.0.1 : 50510
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:388
+2021-06-02
+17:30:07
+client       127.0.0.1 : 50511
+bt.byr.cn
+
+Relay:389
+2021-06-02
+17:30:07
+server       10.3.9.44 : 53   
+ Q:bt.byr.cn
+
+Receive:390
+2021-06-02
+17:30:07
+server       10.3.9.44 : 53   
+ Q:bt.byr.cn
+
+Reponse:391
+2021-06-02
+17:30:07
+client       127.0.0.1 : 50511
+ Q:bt.byr.cn
+
+Requsest:392
+2021-06-02
+17:30:07
+client       127.0.0.1 : 50512
+bt.byr.cn
+
+Relay:393
+2021-06-02
+17:30:07
+server       10.3.9.44 : 53   
+ Q:bt.byr.cn
+
+Receive:394
+2021-06-02
+17:30:07
+server       10.3.9.44 : 53   
+ Q:bt.byr.cn
+
+Reponse:395
+2021-06-02
+17:30:07
+client       127.0.0.1 : 50512
+ Q:bt.byr.cn
+
