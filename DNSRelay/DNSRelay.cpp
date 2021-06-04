@@ -189,7 +189,6 @@ int search(Packet *pkt)
 	pkt->pktHead->arcount = 0;
 
 	q = pkt->pktQuestion;
-	printCache();
 	while (q)
 	{
 		s = (struct source *)malloc(sizeof(struct source));
@@ -491,8 +490,6 @@ void serverReceive()
 	memset(&pkt, 0, sizeof(struct packet));
 
 	len = recvfrom(servSock, buf, sizeof(buf), 0, (struct sockaddr *)&servSockAddr, &addrLen);
-	if (len > 0)
-		printInHex((unsigned char*)buf, len);
 
 	//printInHex((unsigned char*)buf, len);
 	if (len == EWOULDBLOCK || len == EAGAIN)
@@ -554,7 +551,7 @@ void serverReceive()
 				char *domainName = s->name;
 				unsigned char *address = (unsigned char *)s->rData;
 				updateCache(address, domainName);
-				printCache();
+				//printCache();
 			}
 			s = s->next;
 		}

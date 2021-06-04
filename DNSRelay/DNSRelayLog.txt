@@ -52813,4 +52813,8249 @@ Relay:4265
 2021-06-01
 20:33:59
 server       10.3.9.44 : 53   
- Q:vortex.data.microso
+ Q:vortex.data.microsoRequsest:0
+2021-06-04
+20:19:04
+client       127.0.0.1 : 57904
+api.github.com
+
+Relay:1
+2021-06-04
+20:19:04
+server       10.3.9.44 : 53   
+ Q:api.github.com
+
+Requsest:2
+2021-06-04
+20:19:04
+client       127.0.0.1 : 54182
+api.github.com
+
+Relay:3
+2021-06-04
+20:19:04
+server       10.3.9.44 : 53   
+ Q:api.github.com
+
+Receive:4
+2021-06-04
+20:19:04
+server       10.3.9.44 : 53   
+ Q:api.github.com
+
+Reponse:5
+2021-06-04
+20:19:04
+client       127.0.0.1 : 54182
+ Q:api.github.com
+
+Receive:6
+2021-06-04
+20:19:04
+server       10.3.9.44 : 53   
+ Q:api.github.com
+
+Reponse:7
+2021-06-04
+20:19:04
+client       127.0.0.1 : 54182
+ Q:api.github.com
+
+Requsest:8
+2021-06-04
+20:19:05
+client       127.0.0.1 : 54354
+google.com
+
+Relay:9
+2021-06-04
+20:19:05
+server       10.3.9.44 : 53   
+ Q:google.com
+
+Receive:10
+2021-06-04
+20:19:05
+server       10.3.9.44 : 53   
+ Q:google.com
+
+Reponse:11
+2021-06-04
+20:19:05
+client       127.0.0.1 : 54354
+ Q:google.com
+
+Requsest:12
+2021-06-04
+20:19:05
+client       127.0.0.1 : 57840
+deff.nelreports.net
+
+Relay:13
+2021-06-04
+20:19:05
+server       10.3.9.44 : 53   
+ Q:deff.nelreports.net
+
+Receive:14
+2021-06-04
+20:19:05
+server       10.3.9.44 : 53   
+ Q:deff.nelreports.net
+
+Reponse:15
+2021-06-04
+20:19:05
+client       127.0.0.1 : 57840
+ Q:deff.nelreports.net
+
+Requsest:16
+2021-06-04
+20:19:05
+client       127.0.0.1 : 54671
+deff.nelreports.net
+
+Relay:17
+2021-06-04
+20:19:05
+server       10.3.9.44 : 53   
+ Q:deff.nelreports.net
+
+Receive:18
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:deff.nelreports.net
+
+Reponse:19
+2021-06-04
+20:19:06
+client       127.0.0.1 : 54671
+ Q:deff.nelreports.net
+
+Requsest:20
+2021-06-04
+20:19:06
+client       127.0.0.1 : 58066
+client.wns.windows.com
+
+Relay:21
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Receive:22
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Reponse:23
+2021-06-04
+20:19:06
+client       127.0.0.1 : 58066
+ Q:client.wns.windows.com
+
+Requsest:24
+2021-06-04
+20:19:06
+client       127.0.0.1 : 60286
+api.msn.com
+
+Relay:25
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Receive:26
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Reponse:27
+2021-06-04
+20:19:06
+client       127.0.0.1 : 60286
+ Q:api.msn.com
+
+Requsest:28
+2021-06-04
+20:19:06
+client       127.0.0.1 : 59783
+api.msn.com
+
+Relay:29
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Receive:30
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Reponse:31
+2021-06-04
+20:19:06
+client       127.0.0.1 : 59783
+ Q:api.msn.com
+
+Requsest:32
+2021-06-04
+20:19:06
+client       127.0.0.1 : 57569
+assets.msn.com
+
+Relay:33
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Receive:34
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Reponse:35
+2021-06-04
+20:19:06
+client       127.0.0.1 : 57569
+ Q:assets.msn.com
+
+Requsest:36
+2021-06-04
+20:19:06
+client       127.0.0.1 : 64595
+functional.events.data.microsoft.com
+
+Relay:37
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Requsest:38
+2021-06-04
+20:19:06
+client       127.0.0.1 : 65383
+assets.msn.com
+
+Relay:39
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Receive:40
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Reponse:41
+2021-06-04
+20:19:06
+client       127.0.0.1 : 65383
+ Q:functional.events.data.microsoft.com
+
+Requsest:42
+2021-06-04
+20:19:06
+client       127.0.0.1 : 63004
+functional.events.data.microsoft.com
+
+Relay:43
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Receive:44
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Reponse:45
+2021-06-04
+20:19:06
+client       127.0.0.1 : 63004
+ Q:assets.msn.com
+
+Requsest:46
+2021-06-04
+20:19:06
+client       127.0.0.1 : 65152
+client.wns.windows.com
+
+Relay:47
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Receive:48
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Reponse:49
+2021-06-04
+20:19:06
+client       127.0.0.1 : 65152
+ Q:functional.events.data.microsoft.com
+
+Requsest:50
+2021-06-04
+20:19:06
+client       127.0.0.1 : 59613
+img-s-msn-com.akamaized.net
+
+Relay:51
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Receive:52
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Reponse:53
+2021-06-04
+20:19:06
+client       127.0.0.1 : 59613
+ Q:client.wns.windows.com
+
+Requsest:54
+2021-06-04
+20:19:06
+client       127.0.0.1 : 54573
+c.msn.com
+
+Relay:55
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Receive:56
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Reponse:57
+2021-06-04
+20:19:06
+client       127.0.0.1 : 54573
+ Q:img-s-msn-com.akamaized.net
+
+Requsest:58
+2021-06-04
+20:19:06
+client       127.0.0.1 : 51572
+c.bing.com
+
+Relay:59
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Receive:60
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Reponse:61
+2021-06-04
+20:19:06
+client       127.0.0.1 : 51572
+ Q:c.msn.com
+
+Requsest:62
+2021-06-04
+20:19:06
+client       127.0.0.1 : 61423
+c.bing.com
+
+Relay:63
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Receive:64
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Reponse:65
+2021-06-04
+20:19:06
+client       127.0.0.1 : 61423
+ Q:c.bing.com
+
+Requsest:66
+2021-06-04
+20:19:06
+client       127.0.0.1 : 54357
+c.msn.com
+
+Relay:67
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Receive:68
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Reponse:69
+2021-06-04
+20:19:06
+client       127.0.0.1 : 54357
+ Q:c.bing.com
+
+Requsest:70
+2021-06-04
+20:19:06
+client       127.0.0.1 : 62375
+img-s-msn-com.akamaized.net
+
+Relay:71
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Receive:72
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Reponse:73
+2021-06-04
+20:19:06
+client       127.0.0.1 : 62375
+ Q:c.msn.com
+
+Requsest:74
+2021-06-04
+20:19:06
+client       127.0.0.1 : 51492
+dns.msftncsi.com
+
+Relay:75
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:dns.msftncsi.com
+
+Receive:76
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Reponse:77
+2021-06-04
+20:19:06
+client       127.0.0.1 : 51492
+ Q:img-s-msn-com.akamaized.net
+
+Requsest:78
+2021-06-04
+20:19:06
+client       127.0.0.1 : 61664
+dns.msftncsi.com
+
+Relay:79
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:dns.msftncsi.com
+
+Receive:80
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:dns.msftncsi.com
+
+Reponse:81
+2021-06-04
+20:19:06
+client       127.0.0.1 : 61664
+ Q:dns.msftncsi.com
+
+Requsest:82
+2021-06-04
+20:19:06
+client       127.0.0.1 : 57554
+sb.scorecardresearch.com
+
+Relay:83
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:sb.scorecardresearch.com
+
+Receive:84
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:dns.msftncsi.com
+
+Reponse:85
+2021-06-04
+20:19:06
+client       127.0.0.1 : 57554
+ Q:dns.msftncsi.com
+
+Requsest:86
+2021-06-04
+20:19:06
+client       127.0.0.1 : 58887
+sb.scorecardresearch.com
+
+Relay:87
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:sb.scorecardresearch.com
+
+Receive:88
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:sb.scorecardresearch.com
+
+Reponse:89
+2021-06-04
+20:19:06
+client       127.0.0.1 : 58887
+ Q:sb.scorecardresearch.com
+
+Requsest:90
+2021-06-04
+20:19:06
+client       127.0.0.1 : 58068
+www.bing.com
+
+Relay:91
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Receive:92
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:sb.scorecardresearch.com
+
+Reponse:93
+2021-06-04
+20:19:06
+client       127.0.0.1 : 58068
+ Q:sb.scorecardresearch.com
+
+Requsest:94
+2021-06-04
+20:19:06
+client       127.0.0.1 : 51547
+www.bing.com
+
+Relay:95
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Receive:96
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Reponse:97
+2021-06-04
+20:19:06
+client       127.0.0.1 : 51547
+ Q:www.bing.com
+
+Requsest:98
+2021-06-04
+20:19:06
+client       127.0.0.1 : 55795
+is2-ssl.mzstatic.com
+
+Relay:99
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:is2-ssl.mzstatic.com
+
+Receive:100
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Reponse:101
+2021-06-04
+20:19:06
+client       127.0.0.1 : 55795
+ Q:www.bing.com
+
+Requsest:102
+2021-06-04
+20:19:06
+client       127.0.0.1 : 64954
+is2-ssl.mzstatic.com
+
+Relay:103
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:is2-ssl.mzstatic.com
+
+Receive:104
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:is2-ssl.mzstatic.com
+
+Reponse:105
+2021-06-04
+20:19:06
+client       127.0.0.1 : 64954
+ Q:is2-ssl.mzstatic.com
+
+Receive:106
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:is2-ssl.mzstatic.com
+
+Reponse:107
+2021-06-04
+20:19:06
+client       127.0.0.1 : 64954
+ Q:is2-ssl.mzstatic.com
+
+Requsest:108
+2021-06-04
+20:19:06
+client       127.0.0.1 : 59983
+radio.itunes.apple.com
+
+Relay:109
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:radio.itunes.apple.com
+
+Requsest:110
+2021-06-04
+20:19:06
+client       127.0.0.1 : 51007
+radio.itunes.apple.com
+
+Relay:111
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:radio.itunes.apple.com
+
+Receive:112
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:radio.itunes.apple.com
+
+Reponse:113
+2021-06-04
+20:19:06
+client       127.0.0.1 : 51007
+ Q:radio.itunes.apple.com
+
+Requsest:114
+2021-06-04
+20:19:06
+client       127.0.0.1 : 61029
+licensing.mp.microsoft.com
+
+Relay:115
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:licensing.mp.microsoft.com
+
+Requsest:116
+2021-06-04
+20:19:06
+client       127.0.0.1 : 58452
+licensing.mp.microsoft.com
+
+Relay:117
+2021-06-04
+20:19:06
+server       10.3.9.44 : 53   
+ Q:licensing.mp.microsoft.com
+
+Requsest:118
+2021-06-04
+20:19:07
+client       127.0.0.1 : 59983
+radio.itunes.apple.com
+
+Relay:119
+2021-06-04
+20:19:07
+server       10.3.9.44 : 53   
+ Q:radio.itunes.apple.com
+
+Requsest:120
+2021-06-04
+20:19:07
+client       127.0.0.1 : 65052
+airsend.feeperfect.com
+
+Relay:121
+2021-06-04
+20:19:07
+server       10.3.9.44 : 53   
+ Q:airsend.feeperfect.com
+
+Requsest:122
+2021-06-04
+20:19:08
+client       127.0.0.1 : 59983
+radio.itunes.apple.com
+
+Relay:123
+2021-06-04
+20:19:08
+server       10.3.9.44 : 53   
+ Q:radio.itunes.apple.com
+
+Requsest:124
+2021-06-04
+20:19:10
+client       127.0.0.1 : 59983
+radio.itunes.apple.com
+
+Relay:125
+2021-06-04
+20:19:10
+server       10.3.9.44 : 53   
+ Q:radio.itunes.apple.com
+
+Requsest:126
+2021-06-04
+20:19:12
+client       127.0.0.1 : 65052
+airsend.feeperfect.com
+
+Relay:127
+2021-06-04
+20:19:12
+server       10.3.9.44 : 53   
+ Q:airsend.feeperfect.com
+
+Requsest:128
+2021-06-04
+20:19:14
+client       127.0.0.1 : 59983
+radio.itunes.apple.com
+
+Relay:129
+2021-06-04
+20:19:14
+server       10.3.9.44 : 53   
+ Q:radio.itunes.apple.com
+
+Requsest:130
+2021-06-04
+20:19:17
+client       127.0.0.1 : 65052
+airsend.feeperfect.com
+
+Relay:131
+2021-06-04
+20:19:17
+server       10.3.9.44 : 53   
+ Q:airsend.feeperfect.com
+
+Requsest:132
+2021-06-04
+20:19:50
+client       127.0.0.1 : 53644
+media.st.dl.pinyuncloud.com
+
+Relay:133
+2021-06-04
+20:19:50
+server       10.3.9.44 : 53   
+ Q:media.st.dl.pinyuncloud.com
+
+Receive:134
+2021-06-04
+20:19:50
+server       10.3.9.44 : 53   
+ Q:media.st.dl.pinyuncloud.com
+
+Reponse:135
+2021-06-04
+20:19:50
+client       127.0.0.1 : 53644
+ Q:media.st.dl.pinyuncloud.com
+
+Requsest:136
+2021-06-04
+20:19:51
+client       127.0.0.1 : 64322
+p32-ckdatabase.icloud.com.cn
+
+Relay:137
+2021-06-04
+20:19:51
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Requsest:138
+2021-06-04
+20:19:51
+client       127.0.0.1 : 64205
+p32-ckdatabase.icloud.com.cn
+
+Relay:139
+2021-06-04
+20:19:51
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Receive:140
+2021-06-04
+20:19:51
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Reponse:141
+2021-06-04
+20:19:51
+client       127.0.0.1 : 64205
+ Q:p32-ckdatabase.icloud.com.cn
+
+Receive:142
+2021-06-04
+20:19:51
+server       10.3.9.44 : 53   
+ Q:p32-ckdatabase.icloud.com.cn
+
+Reponse:143
+2021-06-04
+20:19:51
+client       127.0.0.1 : 64205
+ Q:p32-ckdatabase.icloud.com.cn
+
+Requsest:144
+2021-06-04
+20:19:51
+client       127.0.0.1 : 59516
+vortex.data.microsoft.com
+
+Relay:145
+2021-06-04
+20:19:51
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Requsest:146
+2021-06-04
+20:19:51
+client       127.0.0.1 : 57561
+vortex.data.microsoft.com
+
+Relay:147
+2021-06-04
+20:19:51
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Receive:148
+2021-06-04
+20:19:51
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Reponse:149
+2021-06-04
+20:19:51
+client       127.0.0.1 : 57561
+ Q:vortex.data.microsoft.com
+
+Receive:150
+2021-06-04
+20:19:51
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Reponse:151
+2021-06-04
+20:19:51
+client       127.0.0.1 : 57561
+ Q:vortex.data.microsoft.com
+
+Requsest:152
+2021-06-04
+20:19:52
+client       127.0.0.1 : 49184
+skydrive.wns.windows.com
+
+Relay:153
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:skydrive.wns.windows.com
+
+Receive:154
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:skydrive.wns.windows.com
+
+Reponse:155
+2021-06-04
+20:19:52
+client       127.0.0.1 : 49184
+ Q:skydrive.wns.windows.com
+
+Requsest:156
+2021-06-04
+20:19:52
+client       127.0.0.1 : 61492
+v10.events.data.microsoft.com
+
+Relay:157
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:v10.events.data.microsoft.com
+
+Receive:158
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:v10.events.data.microsoft.com
+
+Reponse:159
+2021-06-04
+20:19:52
+client       127.0.0.1 : 61492
+ Q:v10.events.data.microsoft.com
+
+Requsest:160
+2021-06-04
+20:19:52
+client       127.0.0.1 : 49922
+skydrive.wns.windows.com
+
+Relay:161
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:skydrive.wns.windows.com
+
+Receive:162
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:skydrive.wns.windows.com
+
+Reponse:163
+2021-06-04
+20:19:52
+client       127.0.0.1 : 49922
+ Q:skydrive.wns.windows.com
+
+Requsest:164
+2021-06-04
+20:19:52
+client       127.0.0.1 : 49909
+v10.events.data.microsoft.com
+
+Relay:165
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:v10.events.data.microsoft.com
+
+Receive:166
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:v10.events.data.microsoft.com
+
+Reponse:167
+2021-06-04
+20:19:52
+client       127.0.0.1 : 49909
+ Q:v10.events.data.microsoft.com
+
+Requsest:168
+2021-06-04
+20:19:52
+client       127.0.0.1 : 49912
+airsend.feeperfect.com
+
+Relay:169
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:airsend.feeperfect.com
+
+Receive:170
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:airsend.feeperfect.com
+
+Reponse:171
+2021-06-04
+20:19:52
+client       127.0.0.1 : 49912
+ Q:airsend.feeperfect.com
+
+Requsest:172
+2021-06-04
+20:19:52
+client       127.0.0.1 : 59269
+snz04pap002.storage.live.com
+
+Relay:173
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:snz04pap002.storage.live.com
+
+Receive:174
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:snz04pap002.storage.live.com
+
+Reponse:175
+2021-06-04
+20:19:52
+client       127.0.0.1 : 59269
+ Q:snz04pap002.storage.live.com
+
+Requsest:176
+2021-06-04
+20:19:52
+client       127.0.0.1 : 50738
+snz04pap002.storage.live.com
+
+Relay:177
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:snz04pap002.storage.live.com
+
+Receive:178
+2021-06-04
+20:19:52
+server       10.3.9.44 : 53   
+ Q:snz04pap002.storage.live.com
+
+Reponse:179
+2021-06-04
+20:19:52
+client       127.0.0.1 : 50738
+ Q:snz04pap002.storage.live.com
+
+Requsest:180
+2021-06-04
+20:19:53
+client       127.0.0.1 : 50594
+api.onedrive.com
+
+Relay:181
+2021-06-04
+20:19:53
+server       10.3.9.44 : 53   
+ Q:api.onedrive.com
+
+Receive:182
+2021-06-04
+20:19:53
+server       10.3.9.44 : 53   
+ Q:api.onedrive.com
+
+Reponse:183
+2021-06-04
+20:19:53
+client       127.0.0.1 : 50594
+ Q:api.onedrive.com
+
+Requsest:184
+2021-06-04
+20:19:53
+client       127.0.0.1 : 62856
+api.onedrive.com
+
+Relay:185
+2021-06-04
+20:19:53
+server       10.3.9.44 : 53   
+ Q:api.onedrive.com
+
+Receive:186
+2021-06-04
+20:19:53
+server       10.3.9.44 : 53   
+ Q:api.onedrive.com
+
+Reponse:187
+2021-06-04
+20:19:53
+client       127.0.0.1 : 62856
+ Q:api.onedrive.com
+
+Requsest:188
+2021-06-04
+20:19:54
+client       127.0.0.1 : 54044
+ntp.msn.cn
+
+Relay:189
+2021-06-04
+20:19:54
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Requsest:190
+2021-06-04
+20:19:54
+client       127.0.0.1 : 57608
+ntp.msn.cn
+
+Relay:191
+2021-06-04
+20:19:54
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Receive:192
+2021-06-04
+20:19:54
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Reponse:193
+2021-06-04
+20:19:54
+client       127.0.0.1 : 57608
+ Q:ntp.msn.cn
+
+Receive:194
+2021-06-04
+20:19:54
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Reponse:195
+2021-06-04
+20:19:54
+client       127.0.0.1 : 57608
+ Q:ntp.msn.cn
+
+Requsest:196
+2021-06-04
+20:19:55
+client       127.0.0.1 : 49688
+ts.qq.com
+
+Relay:197
+2021-06-04
+20:19:55
+server       10.3.9.44 : 53   
+ Q:ts.qq.com
+
+Receive:198
+2021-06-04
+20:19:55
+server       10.3.9.44 : 53   
+ Q:ts.qq.com
+
+Reponse:199
+2021-06-04
+20:19:55
+client       127.0.0.1 : 49688
+ Q:ts.qq.com
+
+Requsest:200
+2021-06-04
+20:19:55
+client       127.0.0.1 : 55903
+ts.qq.com
+
+Relay:201
+2021-06-04
+20:19:55
+server       10.3.9.44 : 53   
+ Q:ts.qq.com
+
+Receive:202
+2021-06-04
+20:19:55
+server       10.3.9.44 : 53   
+ Q:ts.qq.com
+
+Reponse:203
+2021-06-04
+20:19:55
+client       127.0.0.1 : 55903
+ Q:ts.qq.com
+
+Requsest:204
+2021-06-04
+20:19:55
+client       127.0.0.1 : 60986
+oth.eve.mdt.qq.com
+
+Relay:205
+2021-06-04
+20:19:55
+server       10.3.9.44 : 53   
+ Q:oth.eve.mdt.qq.com
+
+Receive:206
+2021-06-04
+20:19:55
+server       10.3.9.44 : 53   
+ Q:oth.eve.mdt.qq.com
+
+Reponse:207
+2021-06-04
+20:19:55
+client       127.0.0.1 : 60986
+ Q:oth.eve.mdt.qq.com
+
+Requsest:208
+2021-06-04
+20:19:56
+client       127.0.0.1 : 60157
+p.qlogo.cn
+
+Relay:209
+2021-06-04
+20:19:56
+server       10.3.9.44 : 53   
+ Q:p.qlogo.cn
+
+Receive:210
+2021-06-04
+20:19:56
+server       10.3.9.44 : 53   
+ Q:p.qlogo.cn
+
+Reponse:211
+2021-06-04
+20:19:56
+client       127.0.0.1 : 60157
+ Q:p.qlogo.cn
+
+Requsest:212
+2021-06-04
+20:19:56
+client       127.0.0.1 : 59886
+p.qlogo.cn
+
+Relay:213
+2021-06-04
+20:19:56
+server       10.3.9.44 : 53   
+ Q:p.qlogo.cn
+
+Receive:214
+2021-06-04
+20:19:56
+server       10.3.9.44 : 53   
+ Q:p.qlogo.cn
+
+Reponse:215
+2021-06-04
+20:19:56
+client       127.0.0.1 : 59886
+ Q:p.qlogo.cn
+
+Requsest:216
+2021-06-04
+20:19:57
+client       127.0.0.1 : 52407
+functional.events.data.microsoft.com
+
+Relay:217
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Requsest:218
+2021-06-04
+20:19:57
+client       127.0.0.1 : 57476
+functional.events.data.microsoft.com
+
+Relay:219
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Requsest:220
+2021-06-04
+20:19:57
+client       127.0.0.1 : 64646
+assets.msn.com
+
+Relay:221
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Receive:222
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Reponse:223
+2021-06-04
+20:19:57
+client       127.0.0.1 : 64646
+ Q:functional.events.data.microsoft.com
+
+Requsest:224
+2021-06-04
+20:19:57
+client       127.0.0.1 : 55381
+edge.activity.windows.com
+
+Relay:225
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:edge.activity.windows.com
+
+Receive:226
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Reponse:227
+2021-06-04
+20:19:57
+client       127.0.0.1 : 55381
+ Q:functional.events.data.microsoft.com
+
+Requsest:228
+2021-06-04
+20:19:57
+client       127.0.0.1 : 60200
+assets.msn.com
+
+Relay:229
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Receive:230
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Reponse:231
+2021-06-04
+20:19:57
+client       127.0.0.1 : 60200
+ Q:assets.msn.com
+
+Requsest:232
+2021-06-04
+20:19:57
+client       127.0.0.1 : 64810
+browser.events.data.msn.com
+
+Relay:233
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Receive:234
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:edge.activity.windows.com
+
+Reponse:235
+2021-06-04
+20:19:57
+client       127.0.0.1 : 64810
+ Q:edge.activity.windows.com
+
+Requsest:236
+2021-06-04
+20:19:57
+client       127.0.0.1 : 63956
+edge.activity.windows.com
+
+Relay:237
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:edge.activity.windows.com
+
+Receive:238
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Reponse:239
+2021-06-04
+20:19:57
+client       127.0.0.1 : 63956
+ Q:assets.msn.com
+
+Requsest:240
+2021-06-04
+20:19:57
+client       127.0.0.1 : 58044
+browser.events.data.msn.com
+
+Relay:241
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Receive:242
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Reponse:243
+2021-06-04
+20:19:57
+client       127.0.0.1 : 58044
+ Q:browser.events.data.msn.com
+
+Requsest:244
+2021-06-04
+20:19:57
+client       127.0.0.1 : 63443
+api.msn.com
+
+Relay:245
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Receive:246
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:edge.activity.windows.com
+
+Reponse:247
+2021-06-04
+20:19:57
+client       127.0.0.1 : 63443
+ Q:edge.activity.windows.com
+
+Requsest:248
+2021-06-04
+20:19:57
+client       127.0.0.1 : 54995
+api.msn.com
+
+Relay:249
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Receive:250
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Reponse:251
+2021-06-04
+20:19:57
+client       127.0.0.1 : 54995
+ Q:browser.events.data.msn.com
+
+Requsest:252
+2021-06-04
+20:19:57
+client       127.0.0.1 : 49719
+client.wns.windows.com
+
+Relay:253
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Receive:254
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Reponse:255
+2021-06-04
+20:19:57
+client       127.0.0.1 : 49719
+ Q:api.msn.com
+
+Requsest:256
+2021-06-04
+20:19:57
+client       127.0.0.1 : 60809
+client.wns.windows.com
+
+Relay:257
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Receive:258
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Reponse:259
+2021-06-04
+20:19:57
+client       127.0.0.1 : 60809
+ Q:api.msn.com
+
+Requsest:260
+2021-06-04
+20:19:57
+client       127.0.0.1 : 55915
+c.bing.com
+
+Relay:261
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Receive:262
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Reponse:263
+2021-06-04
+20:19:57
+client       127.0.0.1 : 55915
+ Q:client.wns.windows.com
+
+Requsest:264
+2021-06-04
+20:19:57
+client       127.0.0.1 : 62366
+c.bing.com
+
+Relay:265
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Receive:266
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Reponse:267
+2021-06-04
+20:19:57
+client       127.0.0.1 : 62366
+ Q:client.wns.windows.com
+
+Requsest:268
+2021-06-04
+20:19:57
+client       127.0.0.1 : 56282
+c.msn.com
+
+Relay:269
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Receive:270
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Reponse:271
+2021-06-04
+20:19:57
+client       127.0.0.1 : 56282
+ Q:c.bing.com
+
+Requsest:272
+2021-06-04
+20:19:57
+client       127.0.0.1 : 51228
+img-s-msn-com.akamaized.net
+
+Relay:273
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Receive:274
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Reponse:275
+2021-06-04
+20:19:57
+client       127.0.0.1 : 51228
+ Q:c.bing.com
+
+Requsest:276
+2021-06-04
+20:19:57
+client       127.0.0.1 : 52812
+c.msn.com
+
+Relay:277
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Receive:278
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Reponse:279
+2021-06-04
+20:19:57
+client       127.0.0.1 : 52812
+ Q:c.msn.com
+
+Requsest:280
+2021-06-04
+20:19:57
+client       127.0.0.1 : 52868
+img-s-msn-com.akamaized.net
+
+Relay:281
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Receive:282
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Reponse:283
+2021-06-04
+20:19:57
+client       127.0.0.1 : 52868
+ Q:img-s-msn-com.akamaized.net
+
+Requsest:284
+2021-06-04
+20:19:57
+client       127.0.0.1 : 49755
+sb.scorecardresearch.com
+
+Response:285
+2021-06-04
+20:19:57
+client       127.0.0.1 : 49755
+ Q:sb.scorecardresearch.com A:·]g˝˝˝˝¶|è
+
+Receive:286
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Reponse:287
+2021-06-04
+20:19:57
+client       127.0.0.1 : 49755
+ Q:c.msn.com
+
+Requsest:288
+2021-06-04
+20:19:57
+client       127.0.0.1 : 54725
+sb.scorecardresearch.com
+
+Relay:289
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:sb.scorecardresearch.com
+
+Receive:290
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Reponse:291
+2021-06-04
+20:19:57
+client       127.0.0.1 : 54725
+ Q:img-s-msn-com.akamaized.net
+
+Requsest:292
+2021-06-04
+20:19:57
+client       127.0.0.1 : 49492
+www.bing.com
+
+Relay:293
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Receive:294
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:sb.scorecardresearch.com
+
+Reponse:295
+2021-06-04
+20:19:57
+client       127.0.0.1 : 49492
+ Q:sb.scorecardresearch.com
+
+Requsest:296
+2021-06-04
+20:19:57
+client       127.0.0.1 : 51819
+www.bing.com
+
+Relay:297
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Receive:298
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Reponse:299
+2021-06-04
+20:19:57
+client       127.0.0.1 : 51819
+ Q:www.bing.com
+
+Receive:300
+2021-06-04
+20:19:57
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Reponse:301
+2021-06-04
+20:19:57
+client       127.0.0.1 : 51819
+ Q:www.bing.com
+
+Requsest:302
+2021-06-04
+20:19:59
+client       127.0.0.1 : 61542
+assets.msn.cn
+
+Relay:303
+2021-06-04
+20:19:59
+server       10.3.9.44 : 53   
+ Q:assets.msn.cn
+
+Requsest:304
+2021-06-04
+20:19:59
+client       127.0.0.1 : 59531
+assets.msn.cn
+
+Relay:305
+2021-06-04
+20:19:59
+server       10.3.9.44 : 53   
+ Q:assets.msn.cn
+
+Receive:306
+2021-06-04
+20:19:59
+server       10.3.9.44 : 53   
+ Q:assets.msn.cn
+
+Reponse:307
+2021-06-04
+20:19:59
+client       127.0.0.1 : 59531
+ Q:assets.msn.cn
+
+Receive:308
+2021-06-04
+20:19:59
+server       10.3.9.44 : 53   
+ Q:assets.msn.cn
+
+Reponse:309
+2021-06-04
+20:19:59
+client       127.0.0.1 : 59531
+ Q:assets.msn.cn
+
+Requsest:310
+2021-06-04
+20:20:02
+client       127.0.0.1 : 61702
+init.itunes.apple.com
+
+Relay:311
+2021-06-04
+20:20:02
+server       10.3.9.44 : 53   
+ Q:init.itunes.apple.com
+
+Requsest:312
+2021-06-04
+20:20:02
+client       127.0.0.1 : 61061
+init.itunes.apple.com
+
+Relay:313
+2021-06-04
+20:20:02
+server       10.3.9.44 : 53   
+ Q:init.itunes.apple.com
+
+Receive:314
+2021-06-04
+20:20:02
+server       10.3.9.44 : 53   
+ Q:init.itunes.apple.com
+
+Reponse:315
+2021-06-04
+20:20:02
+client       127.0.0.1 : 61061
+ Q:init.itunes.apple.com
+
+Receive:316
+2021-06-04
+20:20:02
+server       10.3.9.44 : 53   
+ Q:init.itunes.apple.com
+
+Reponse:317
+2021-06-04
+20:20:02
+client       127.0.0.1 : 61061
+ Q:init.itunes.apple.com
+
+Requsest:318
+2021-06-04
+20:20:02
+client       127.0.0.1 : 62057
+xp.apple.com
+
+Relay:319
+2021-06-04
+20:20:02
+server       10.3.9.44 : 53   
+ Q:xp.apple.com
+
+Receive:320
+2021-06-04
+20:20:02
+server       10.3.9.44 : 53   
+ Q:xp.apple.com
+
+Reponse:321
+2021-06-04
+20:20:02
+client       127.0.0.1 : 62057
+ Q:xp.apple.com
+
+Requsest:322
+2021-06-04
+20:20:02
+client       127.0.0.1 : 58650
+xp.apple.com
+
+Relay:323
+2021-06-04
+20:20:02
+server       10.3.9.44 : 53   
+ Q:xp.apple.com
+
+Receive:324
+2021-06-04
+20:20:02
+server       10.3.9.44 : 53   
+ Q:xp.apple.com
+
+Reponse:325
+2021-06-04
+20:20:02
+client       127.0.0.1 : 58650
+ Q:xp.apple.com
+
+Requsest:326
+2021-06-04
+20:20:06
+client       127.0.0.1 : 56778
+16-courier.push.apple.com
+
+Relay:327
+2021-06-04
+20:20:06
+server       10.3.9.44 : 53   
+ Q:16-courier.push.apple.com
+
+Receive:328
+2021-06-04
+20:20:06
+server       10.3.9.44 : 53   
+ Q:16-courier.push.apple.com
+
+Reponse:329
+2021-06-04
+20:20:06
+client       127.0.0.1 : 56778
+ Q:16-courier.push.apple.com
+
+Requsest:330
+2021-06-04
+20:20:06
+client       127.0.0.1 : 58553
+16-courier.push.apple.com
+
+Relay:331
+2021-06-04
+20:20:06
+server       10.3.9.44 : 53   
+ Q:16-courier.push.apple.com
+
+Receive:332
+2021-06-04
+20:20:06
+server       10.3.9.44 : 53   
+ Q:16-courier.push.apple.com
+
+Reponse:333
+2021-06-04
+20:20:06
+client       127.0.0.1 : 58553
+ Q:16-courier.push.apple.com
+
+Requsest:334
+2021-06-04
+20:20:06
+client       127.0.0.1 : 65342
+16-courier.push.apple.com
+
+Relay:335
+2021-06-04
+20:20:06
+server       10.3.9.44 : 53   
+ Q:16-courier.push.apple.com
+
+Receive:336
+2021-06-04
+20:20:06
+server       10.3.9.44 : 53   
+ Q:16-courier.push.apple.com
+
+Reponse:337
+2021-06-04
+20:20:06
+client       127.0.0.1 : 65342
+ Q:16-courier.push.apple.com
+
+Requsest:338
+2021-06-04
+20:20:07
+client       127.0.0.1 : 53381
+ld-1.itunes.apple.com
+
+Relay:339
+2021-06-04
+20:20:07
+server       10.3.9.44 : 53   
+ Q:ld-1.itunes.apple.com
+
+Requsest:340
+2021-06-04
+20:20:07
+client       127.0.0.1 : 50442
+ld-1.itunes.apple.com
+
+Relay:341
+2021-06-04
+20:20:07
+server       10.3.9.44 : 53   
+ Q:ld-1.itunes.apple.com
+
+Requsest:342
+2021-06-04
+20:20:07
+client       127.0.0.1 : 58929
+pd.itunes.apple.com
+
+Relay:343
+2021-06-04
+20:20:07
+server       10.3.9.44 : 53   
+ Q:pd.itunes.apple.com
+
+Receive:344
+2021-06-04
+20:20:07
+server       10.3.9.44 : 53   
+ Q:pd.itunes.apple.com
+
+Reponse:345
+2021-06-04
+20:20:07
+client       127.0.0.1 : 58929
+ Q:pd.itunes.apple.com
+
+Requsest:346
+2021-06-04
+20:20:07
+client       127.0.0.1 : 65371
+pd.itunes.apple.com
+
+Relay:347
+2021-06-04
+20:20:07
+server       10.3.9.44 : 53   
+ Q:pd.itunes.apple.com
+
+Receive:348
+2021-06-04
+20:20:07
+server       10.3.9.44 : 53   
+ Q:ld-1.itunes.apple.com
+
+Reponse:349
+2021-06-04
+20:20:07
+client       127.0.0.1 : 65371
+ Q:ld-1.itunes.apple.com
+
+Receive:350
+2021-06-04
+20:20:07
+server       10.3.9.44 : 53   
+ Q:pd.itunes.apple.com
+
+Reponse:351
+2021-06-04
+20:20:07
+client       127.0.0.1 : 65371
+ Q:pd.itunes.apple.com
+
+Receive:352
+2021-06-04
+20:20:07
+server       10.3.9.44 : 53   
+ Q:ld-1.itunes.apple.com
+
+Reponse:353
+2021-06-04
+20:20:07
+client       127.0.0.1 : 65371
+ Q:ld-1.itunes.apple.com
+
+Requsest:354
+2021-06-04
+20:20:07
+client       127.0.0.1 : 61957
+srtb.msn.com
+
+Relay:355
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Receive:356
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Reponse:357
+2021-06-04
+20:20:08
+client       127.0.0.1 : 61957
+ Q:srtb.msn.com
+
+Requsest:358
+2021-06-04
+20:20:08
+client       127.0.0.1 : 52806
+srtb.msn.com
+
+Relay:359
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Receive:360
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Reponse:361
+2021-06-04
+20:20:08
+client       127.0.0.1 : 52806
+ Q:srtb.msn.com
+
+Requsest:362
+2021-06-04
+20:20:08
+client       127.0.0.1 : 58693
+popin.baidu.com
+
+Relay:363
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:popin.baidu.com
+
+Receive:364
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:popin.baidu.com
+
+Reponse:365
+2021-06-04
+20:20:08
+client       127.0.0.1 : 58693
+ Q:popin.baidu.com
+
+Requsest:366
+2021-06-04
+20:20:08
+client       127.0.0.1 : 64133
+popin.baidu.com
+
+Relay:367
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:popin.baidu.com
+
+Receive:368
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:popin.baidu.com
+
+Reponse:369
+2021-06-04
+20:20:08
+client       127.0.0.1 : 64133
+ Q:popin.baidu.com
+
+Requsest:370
+2021-06-04
+20:20:08
+client       127.0.0.1 : 64653
+images-cn.popin.cc
+
+Relay:371
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Receive:372
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Reponse:373
+2021-06-04
+20:20:08
+client       127.0.0.1 : 64653
+ Q:images-cn.popin.cc
+
+Requsest:374
+2021-06-04
+20:20:08
+client       127.0.0.1 : 62086
+images-cn.popin.cc
+
+Relay:375
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Receive:376
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Reponse:377
+2021-06-04
+20:20:08
+client       127.0.0.1 : 62086
+ Q:images-cn.popin.cc
+
+Requsest:378
+2021-06-04
+20:20:08
+client       127.0.0.1 : 50595
+www.douyu.com
+
+Relay:379
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:www.douyu.com
+
+Receive:380
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:www.douyu.com
+
+Reponse:381
+2021-06-04
+20:20:08
+client       127.0.0.1 : 50595
+ Q:www.douyu.com
+
+Requsest:382
+2021-06-04
+20:20:08
+client       127.0.0.1 : 65188
+www.douyu.com
+
+Relay:383
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:www.douyu.com
+
+Receive:384
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:www.douyu.com
+
+Reponse:385
+2021-06-04
+20:20:08
+client       127.0.0.1 : 65188
+ Q:www.douyu.com
+
+Requsest:386
+2021-06-04
+20:20:08
+client       127.0.0.1 : 60579
+shark2.douyucdn.cn
+
+Relay:387
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:shark2.douyucdn.cn
+
+Receive:388
+2021-06-04
+20:20:08
+server       10.3.9.44 : 53   
+ Q:shark2.douyucdn.cn
+
+Reponse:389
+2021-06-04
+20:20:08
+client       127.0.0.1 : 60579
+ Q:shark2.douyucdn.cn
+
+Requsest:390
+2021-06-04
+20:20:09
+client       127.0.0.1 : 49323
+sta-op.douyucdn.cn
+
+Relay:391
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:sta-op.douyucdn.cn
+
+Receive:392
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:sta-op.douyucdn.cn
+
+Reponse:393
+2021-06-04
+20:20:09
+client       127.0.0.1 : 49323
+ Q:sta-op.douyucdn.cn
+
+Requsest:394
+2021-06-04
+20:20:09
+client       127.0.0.1 : 52281
+sta-op.douyucdn.cn
+
+Relay:395
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:sta-op.douyucdn.cn
+
+Receive:396
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:sta-op.douyucdn.cn
+
+Reponse:397
+2021-06-04
+20:20:09
+client       127.0.0.1 : 52281
+ Q:sta-op.douyucdn.cn
+
+Requsest:398
+2021-06-04
+20:20:09
+client       127.0.0.1 : 56021
+shark2.douyucdn.cn
+
+Relay:399
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:shark2.douyucdn.cn
+
+Receive:400
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:shark2.douyucdn.cn
+
+Reponse:401
+2021-06-04
+20:20:09
+client       127.0.0.1 : 56021
+ Q:shark2.douyucdn.cn
+
+Requsest:402
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61551
+h5tk.p2plive.8686c.com
+
+Relay:403
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:h5tk.p2plive.8686c.com
+
+Receive:404
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:h5tk.p2plive.8686c.com
+
+Reponse:405
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61551
+ Q:h5tk.p2plive.8686c.com
+
+Requsest:406
+2021-06-04
+20:20:09
+client       127.0.0.1 : 65282
+h5tk.p2plive.8686c.com
+
+Relay:407
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:h5tk.p2plive.8686c.com
+
+Requsest:408
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51645
+apmconfig.douyucdn.cn
+
+Relay:409
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apmconfig.douyucdn.cn
+
+Receive:410
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:h5tk.p2plive.8686c.com
+
+Reponse:411
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51645
+ Q:h5tk.p2plive.8686c.com
+
+Requsest:412
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61781
+apmconfig.douyucdn.cn
+
+Relay:413
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apmconfig.douyucdn.cn
+
+Receive:414
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apmconfig.douyucdn.cn
+
+Reponse:415
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61781
+ Q:apmconfig.douyucdn.cn
+
+Requsest:416
+2021-06-04
+20:20:09
+client       127.0.0.1 : 65282
+h5tk.p2plive.8686c.com
+
+Relay:417
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:h5tk.p2plive.8686c.com
+
+Receive:418
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apmconfig.douyucdn.cn
+
+Reponse:419
+2021-06-04
+20:20:09
+client       127.0.0.1 : 65282
+ Q:apmconfig.douyucdn.cn
+
+Requsest:420
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61551
+h5tk.p2plive.8686c.com
+
+Response:421
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61551
+ Q:h5tk.p2plive.8686c.com A:ÕÕÕÕ˝˝˝˝’gè
+
+Requsest:422
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51482
+webconf.douyucdn.cn
+
+Relay:423
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:webconf.douyucdn.cn
+
+Receive:424
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:webconf.douyucdn.cn
+
+Reponse:425
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51482
+ Q:webconf.douyucdn.cn
+
+Requsest:426
+2021-06-04
+20:20:09
+client       127.0.0.1 : 64644
+webconf.douyucdn.cn
+
+Relay:427
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:webconf.douyucdn.cn
+
+Requsest:428
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61481
+www.vod.lxdns.com
+
+Relay:429
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:www.vod.lxdns.com
+
+Receive:430
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:www.vod.lxdns.com
+
+Reponse:431
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61481
+ Q:www.vod.lxdns.com
+
+Requsest:432
+2021-06-04
+20:20:09
+client       127.0.0.1 : 57466
+www.vod.lxdns.com
+
+Relay:433
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:www.vod.lxdns.com
+
+Receive:434
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:www.vod.lxdns.com
+
+Reponse:435
+2021-06-04
+20:20:09
+client       127.0.0.1 : 57466
+ Q:www.vod.lxdns.com
+
+Requsest:436
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51645
+apmconfig.douyucdn.cn
+
+Response:437
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51645
+ Q:apmconfig.douyucdn.cn A:ÕÕÕÕ˝˝˝˝Âg~è
+
+Requsest:438
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61781
+apmconfig.douyucdn.cn
+
+Relay:439
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apmconfig.douyucdn.cn
+
+Receive:440
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apmconfig.douyucdn.cn
+
+Reponse:441
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61781
+ Q:apmconfig.douyucdn.cn
+
+Requsest:442
+2021-06-04
+20:20:09
+client       127.0.0.1 : 50962
+aliyun-pcdnts.douyucdn.cn
+
+Relay:443
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:aliyun-pcdnts.douyucdn.cn
+
+Receive:444
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:aliyun-pcdnts.douyucdn.cn
+
+Reponse:445
+2021-06-04
+20:20:09
+client       127.0.0.1 : 50962
+ Q:aliyun-pcdnts.douyucdn.cn
+
+Requsest:446
+2021-06-04
+20:20:09
+client       127.0.0.1 : 52196
+aliyun-pcdnts.douyucdn.cn
+
+Relay:447
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:aliyun-pcdnts.douyucdn.cn
+
+Receive:448
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:aliyun-pcdnts.douyucdn.cn
+
+Reponse:449
+2021-06-04
+20:20:09
+client       127.0.0.1 : 52196
+ Q:aliyun-pcdnts.douyucdn.cn
+
+Requsest:450
+2021-06-04
+20:20:09
+client       127.0.0.1 : 64644
+webconf.douyucdn.cn
+
+Relay:451
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:webconf.douyucdn.cn
+
+Requsest:452
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51482
+webconf.douyucdn.cn
+
+Response:453
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51482
+ Q:webconf.douyucdn.cn A:ÕÕÕÕ˝˝˝˝
+
+Requsest:454
+2021-06-04
+20:20:09
+client       127.0.0.1 : 57466
+www.vod.lxdns.com
+
+Relay:455
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:www.vod.lxdns.com
+
+Receive:456
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:www.vod.lxdns.com
+
+Reponse:457
+2021-06-04
+20:20:09
+client       127.0.0.1 : 57466
+ Q:www.vod.lxdns.com
+
+Requsest:458
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61481
+www.vod.lxdns.com
+
+Response:459
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61481
+ Q:www.vod.lxdns.com A::≠~˝˝˝˝ìgLè
+
+Requsest:460
+2021-06-04
+20:20:09
+client       127.0.0.1 : 50962
+aliyun-pcdnts.douyucdn.cn
+
+Response:461
+2021-06-04
+20:20:09
+client       127.0.0.1 : 50962
+ Q:aliyun-pcdnts.douyucdn.cn A:ÕÕÕÕ˝˝˝˝ág@è
+
+Requsest:462
+2021-06-04
+20:20:09
+client       127.0.0.1 : 52196
+aliyun-pcdnts.douyucdn.cn
+
+Relay:463
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:aliyun-pcdnts.douyucdn.cn
+
+Receive:464
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:aliyun-pcdnts.douyucdn.cn
+
+Reponse:465
+2021-06-04
+20:20:09
+client       127.0.0.1 : 52196
+ Q:aliyun-pcdnts.douyucdn.cn
+
+Requsest:466
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51743
+hm.baidu.com
+
+Relay:467
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:hm.baidu.com
+
+Receive:468
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:hm.baidu.com
+
+Reponse:469
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51743
+ Q:hm.baidu.com
+
+Requsest:470
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55731
+hm.baidu.com
+
+Relay:471
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:hm.baidu.com
+
+Receive:472
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:hm.baidu.com
+
+Reponse:473
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55731
+ Q:hm.baidu.com
+
+Requsest:474
+2021-06-04
+20:20:09
+client       127.0.0.1 : 59042
+dotserver.douyucdn.cn
+
+Relay:475
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:dotserver.douyucdn.cn
+
+Receive:476
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:dotserver.douyucdn.cn
+
+Reponse:477
+2021-06-04
+20:20:09
+client       127.0.0.1 : 59042
+ Q:dotserver.douyucdn.cn
+
+Requsest:478
+2021-06-04
+20:20:09
+client       127.0.0.1 : 58388
+dotserver.douyucdn.cn
+
+Relay:479
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:dotserver.douyucdn.cn
+
+Receive:480
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:dotserver.douyucdn.cn
+
+Reponse:481
+2021-06-04
+20:20:09
+client       127.0.0.1 : 58388
+ Q:dotserver.douyucdn.cn
+
+Requsest:482
+2021-06-04
+20:20:09
+client       127.0.0.1 : 49598
+otheve.beacon.qq.com
+
+Relay:483
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:otheve.beacon.qq.com
+
+Receive:484
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:otheve.beacon.qq.com
+
+Reponse:485
+2021-06-04
+20:20:09
+client       127.0.0.1 : 49598
+ Q:otheve.beacon.qq.com
+
+Requsest:486
+2021-06-04
+20:20:09
+client       127.0.0.1 : 53692
+otheve.beacon.qq.com
+
+Relay:487
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:otheve.beacon.qq.com
+
+Requsest:488
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62628
+apic.douyucdn.cn
+
+Relay:489
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apic.douyucdn.cn
+
+Receive:490
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:otheve.beacon.qq.com
+
+Reponse:491
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62628
+ Q:otheve.beacon.qq.com
+
+Requsest:492
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55731
+hm.baidu.com
+
+Relay:493
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:hm.baidu.com
+
+Receive:494
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apic.douyucdn.cn
+
+Reponse:495
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55731
+ Q:apic.douyucdn.cn
+
+Requsest:496
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51743
+hm.baidu.com
+
+Relay:497
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:hm.baidu.com
+
+Receive:498
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:hm.baidu.com
+
+Reponse:499
+2021-06-04
+20:20:09
+client       127.0.0.1 : 51743
+ Q:hm.baidu.com
+
+Requsest:500
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62300
+apic.douyucdn.cn
+
+Relay:501
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apic.douyucdn.cn
+
+Requsest:502
+2021-06-04
+20:20:09
+client       127.0.0.1 : 59042
+dotserver.douyucdn.cn
+
+Response:503
+2021-06-04
+20:20:09
+client       127.0.0.1 : 59042
+ Q:dotserver.douyucdn.cn A:ÕÕÕÕ˝˝˝˝Ôgxè
+
+Receive:504
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:hm.baidu.com
+
+Reponse:505
+2021-06-04
+20:20:09
+client       127.0.0.1 : 59042
+ Q:hm.baidu.com
+
+Requsest:506
+2021-06-04
+20:20:09
+client       127.0.0.1 : 58388
+dotserver.douyucdn.cn
+
+Relay:507
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:dotserver.douyucdn.cn
+
+Receive:508
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apic.douyucdn.cn
+
+Reponse:509
+2021-06-04
+20:20:09
+client       127.0.0.1 : 58388
+ Q:apic.douyucdn.cn
+
+Requsest:510
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55324
+conf.qvb.qcloud.com
+
+Relay:511
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:conf.qvb.qcloud.com
+
+Receive:512
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:dotserver.douyucdn.cn
+
+Reponse:513
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55324
+ Q:dotserver.douyucdn.cn
+
+Requsest:514
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61228
+conf.qvb.qcloud.com
+
+Relay:515
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:conf.qvb.qcloud.com
+
+Receive:516
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:conf.qvb.qcloud.com
+
+Reponse:517
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61228
+ Q:conf.qvb.qcloud.com
+
+Requsest:518
+2021-06-04
+20:20:09
+client       127.0.0.1 : 49598
+otheve.beacon.qq.com
+
+Relay:519
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:otheve.beacon.qq.com
+
+Receive:520
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:conf.qvb.qcloud.com
+
+Reponse:521
+2021-06-04
+20:20:09
+client       127.0.0.1 : 49598
+ Q:conf.qvb.qcloud.com
+
+Requsest:522
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62628
+apic.douyucdn.cn
+
+Response:523
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62628
+ Q:apic.douyucdn.cn A:ÕÕÕÕ˝˝˝˝Èjè
+
+Receive:524
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:otheve.beacon.qq.com
+
+Reponse:525
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62628
+ Q:otheve.beacon.qq.com
+
+Requsest:526
+2021-06-04
+20:20:09
+client       127.0.0.1 : 53692
+otheve.beacon.qq.com
+
+Relay:527
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:otheve.beacon.qq.com
+
+Receive:528
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:otheve.beacon.qq.com
+
+Reponse:529
+2021-06-04
+20:20:09
+client       127.0.0.1 : 53692
+ Q:otheve.beacon.qq.com
+
+Requsest:530
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62300
+apic.douyucdn.cn
+
+Relay:531
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apic.douyucdn.cn
+
+Receive:532
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:apic.douyucdn.cn
+
+Reponse:533
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62300
+ Q:apic.douyucdn.cn
+
+Requsest:534
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55324
+conf.qvb.qcloud.com
+
+Response:535
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55324
+ Q:conf.qvb.qcloud.com A:$õı"˝˝˝˝è
+
+Requsest:536
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61228
+conf.qvb.qcloud.com
+
+Relay:537
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:conf.qvb.qcloud.com
+
+Receive:538
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:conf.qvb.qcloud.com
+
+Reponse:539
+2021-06-04
+20:20:09
+client       127.0.0.1 : 61228
+ Q:conf.qvb.qcloud.com
+
+Requsest:540
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62763
+rpic.douyucdn.cn
+
+Relay:541
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:rpic.douyucdn.cn
+
+Receive:542
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:rpic.douyucdn.cn
+
+Reponse:543
+2021-06-04
+20:20:09
+client       127.0.0.1 : 62763
+ Q:rpic.douyucdn.cn
+
+Requsest:544
+2021-06-04
+20:20:09
+client       127.0.0.1 : 53569
+rpic.douyucdn.cn
+
+Relay:545
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:rpic.douyucdn.cn
+
+Receive:546
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:rpic.douyucdn.cn
+
+Reponse:547
+2021-06-04
+20:20:09
+client       127.0.0.1 : 53569
+ Q:rpic.douyucdn.cn
+
+Requsest:548
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55693
+rtbapi.douyucdn.cn
+
+Relay:549
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:rtbapi.douyucdn.cn
+
+Receive:550
+2021-06-04
+20:20:09
+server       10.3.9.44 : 53   
+ Q:rtbapi.douyucdn.cn
+
+Reponse:551
+2021-06-04
+20:20:09
+client       127.0.0.1 : 55693
+ Q:rtbapi.douyucdn.cn
+
+Requsest:552
+2021-06-04
+20:20:10
+client       127.0.0.1 : 49754
+rtbapi.douyucdn.cn
+
+Relay:553
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:rtbapi.douyucdn.cn
+
+Requsest:554
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50621
+hdl1a.douyucdn.cn
+
+Relay:555
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1a.douyucdn.cn
+
+Receive:556
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1a.douyucdn.cn
+
+Reponse:557
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50621
+ Q:hdl1a.douyucdn.cn
+
+Requsest:558
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58402
+hdl1a.douyucdn.cn
+
+Relay:559
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1a.douyucdn.cn
+
+Receive:560
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1a.douyucdn.cn
+
+Reponse:561
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58402
+ Q:hdl1a.douyucdn.cn
+
+Requsest:562
+2021-06-04
+20:20:10
+client       127.0.0.1 : 61290
+hdl1abak.douyucdn.cn
+
+Relay:563
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1abak.douyucdn.cn
+
+Receive:564
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1abak.douyucdn.cn
+
+Reponse:565
+2021-06-04
+20:20:10
+client       127.0.0.1 : 61290
+ Q:hdl1abak.douyucdn.cn
+
+Requsest:566
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59726
+hdl1abak.douyucdn.cn
+
+Relay:567
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1abak.douyucdn.cn
+
+Receive:568
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1abak.douyucdn.cn
+
+Reponse:569
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59726
+ Q:hdl1abak.douyucdn.cn
+
+Requsest:570
+2021-06-04
+20:20:10
+client       127.0.0.1 : 64210
+p2perrorlog.douyucdn.cn
+
+Relay:571
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2perrorlog.douyucdn.cn
+
+Receive:572
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2perrorlog.douyucdn.cn
+
+Reponse:573
+2021-06-04
+20:20:10
+client       127.0.0.1 : 64210
+ Q:p2perrorlog.douyucdn.cn
+
+Requsest:574
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54962
+p2perrorlog.douyucdn.cn
+
+Relay:575
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2perrorlog.douyucdn.cn
+
+Receive:576
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2perrorlog.douyucdn.cn
+
+Reponse:577
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54962
+ Q:p2perrorlog.douyucdn.cn
+
+Requsest:578
+2021-06-04
+20:20:10
+client       127.0.0.1 : 62763
+rpic.douyucdn.cn
+
+Response:579
+2021-06-04
+20:20:10
+client       127.0.0.1 : 62763
+ Q:rpic.douyucdn.cn A:ÕÕÕÕ˝˝˝˝yöè
+
+Requsest:580
+2021-06-04
+20:20:10
+client       127.0.0.1 : 53569
+rpic.douyucdn.cn
+
+Relay:581
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:rpic.douyucdn.cn
+
+Receive:582
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:rpic.douyucdn.cn
+
+Reponse:583
+2021-06-04
+20:20:10
+client       127.0.0.1 : 53569
+ Q:rpic.douyucdn.cn
+
+Requsest:584
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55714
+dyp2p-ali.douyucdn.cn
+
+Relay:585
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dyp2p-ali.douyucdn.cn
+
+Receive:586
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dyp2p-ali.douyucdn.cn
+
+Reponse:587
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55714
+ Q:dyp2p-ali.douyucdn.cn
+
+Requsest:588
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54265
+dyp2p-ali.douyucdn.cn
+
+Relay:589
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dyp2p-ali.douyucdn.cn
+
+Receive:590
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dyp2p-ali.douyucdn.cn
+
+Reponse:591
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54265
+ Q:dyp2p-ali.douyucdn.cn
+
+Requsest:592
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55693
+rtbapi.douyucdn.cn
+
+Response:593
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55693
+ Q:rtbapi.douyucdn.cn A:ÕÕÕÕ˝˝˝˝Ôè
+
+Requsest:594
+2021-06-04
+20:20:10
+client       127.0.0.1 : 49754
+rtbapi.douyucdn.cn
+
+Relay:595
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:rtbapi.douyucdn.cn
+
+Requsest:596
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58402
+hdl1a.douyucdn.cn
+
+Relay:597
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1a.douyucdn.cn
+
+Receive:598
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1a.douyucdn.cn
+
+Reponse:599
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58402
+ Q:hdl1a.douyucdn.cn
+
+Requsest:600
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50621
+hdl1a.douyucdn.cn
+
+Response:601
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50621
+ Q:hdl1a.douyucdn.cn A:ÕÕÕÕ˝˝˝˝=ﬁè
+
+Requsest:602
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59726
+hdl1abak.douyucdn.cn
+
+Relay:603
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1abak.douyucdn.cn
+
+Receive:604
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1abak.douyucdn.cn
+
+Reponse:605
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59726
+ Q:hdl1abak.douyucdn.cn
+
+Requsest:606
+2021-06-04
+20:20:10
+client       127.0.0.1 : 61290
+hdl1abak.douyucdn.cn
+
+Relay:607
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1abak.douyucdn.cn
+
+Receive:608
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl1abak.douyucdn.cn
+
+Reponse:609
+2021-06-04
+20:20:10
+client       127.0.0.1 : 61290
+ Q:hdl1abak.douyucdn.cn
+
+Requsest:610
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55714
+dyp2p-ali.douyucdn.cn
+
+Relay:611
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dyp2p-ali.douyucdn.cn
+
+Receive:612
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dyp2p-ali.douyucdn.cn
+
+Reponse:613
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55714
+ Q:dyp2p-ali.douyucdn.cn
+
+Requsest:614
+2021-06-04
+20:20:10
+client       127.0.0.1 : 64210
+p2perrorlog.douyucdn.cn
+
+Response:615
+2021-06-04
+20:20:10
+client       127.0.0.1 : 64210
+ Q:p2perrorlog.douyucdn.cn A:ﬂo©=˝˝˝˝ˆè
+
+Requsest:616
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54962
+p2perrorlog.douyucdn.cn
+
+Relay:617
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2perrorlog.douyucdn.cn
+
+Receive:618
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2perrorlog.douyucdn.cn
+
+Reponse:619
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54962
+ Q:p2perrorlog.douyucdn.cn
+
+Requsest:620
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54265
+dyp2p-ali.douyucdn.cn
+
+Relay:621
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dyp2p-ali.douyucdn.cn
+
+Receive:622
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dyp2p-ali.douyucdn.cn
+
+Reponse:623
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54265
+ Q:dyp2p-ali.douyucdn.cn
+
+Requsest:624
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58048
+clientnotification-userprodscus1-2.servicebus.windows.net
+
+Relay:625
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Requsest:626
+2021-06-04
+20:20:10
+client       127.0.0.1 : 63543
+clientnotification-userprodscus1-2.servicebus.windows.net
+
+Relay:627
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Requsest:628
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50850
+hdl3.douyucdn.cn
+
+Relay:629
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3.douyucdn.cn
+
+Receive:630
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3.douyucdn.cn
+
+Reponse:631
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50850
+ Q:hdl3.douyucdn.cn
+
+Requsest:632
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57895
+hdl3.douyucdn.cn
+
+Relay:633
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3.douyucdn.cn
+
+Receive:634
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3.douyucdn.cn
+
+Reponse:635
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57895
+ Q:hdl3.douyucdn.cn
+
+Requsest:636
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55242
+hdl3a.douyucdn.cn
+
+Relay:637
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3a.douyucdn.cn
+
+Requsest:638
+2021-06-04
+20:20:10
+client       127.0.0.1 : 62415
+hdl3a.douyucdn.cn
+
+Relay:639
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3a.douyucdn.cn
+
+Receive:640
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3a.douyucdn.cn
+
+Reponse:641
+2021-06-04
+20:20:10
+client       127.0.0.1 : 62415
+ Q:hdl3a.douyucdn.cn
+
+Requsest:642
+2021-06-04
+20:20:10
+client       127.0.0.1 : 63543
+clientnotification-userprodscus1-2.servicebus.windows.net
+
+Relay:643
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Requsest:644
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58048
+clientnotification-userprodscus1-2.servicebus.windows.net
+
+Relay:645
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Receive:646
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3a.douyucdn.cn
+
+Reponse:647
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58048
+ Q:hdl3a.douyucdn.cn
+
+Requsest:648
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54370
+sdkapi.douyucdn.cn
+
+Relay:649
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:sdkapi.douyucdn.cn
+
+Requsest:650
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56455
+ip1018367343.mobgslb.tbcache.com
+
+Relay:651
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Receive:652
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Reponse:653
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56455
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Requsest:654
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58721
+ip1018367343.mobgslb.tbcache.com
+
+Relay:655
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Receive:656
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:sdkapi.douyucdn.cn
+
+Reponse:657
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58721
+ Q:sdkapi.douyucdn.cn
+
+Requsest:658
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50792
+sdkapi.douyucdn.cn
+
+Relay:659
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:sdkapi.douyucdn.cn
+
+Receive:660
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Reponse:661
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50792
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Requsest:662
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50850
+hdl3.douyucdn.cn
+
+Response:663
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50850
+ Q:hdl3.douyucdn.cn A:ÕÕÕÕ˝˝˝˝S§è
+
+Receive:664
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Reponse:665
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50850
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Requsest:666
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57895
+hdl3.douyucdn.cn
+
+Relay:667
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3.douyucdn.cn
+
+Receive:668
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:sdkapi.douyucdn.cn
+
+Reponse:669
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57895
+ Q:sdkapi.douyucdn.cn
+
+Requsest:670
+2021-06-04
+20:20:10
+client       127.0.0.1 : 62415
+hdl3a.douyucdn.cn
+
+Relay:671
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3a.douyucdn.cn
+
+Receive:672
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3.douyucdn.cn
+
+Reponse:673
+2021-06-04
+20:20:10
+client       127.0.0.1 : 62415
+ Q:hdl3.douyucdn.cn
+
+Requsest:674
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55242
+hdl3a.douyucdn.cn
+
+Response:675
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55242
+ Q:hdl3a.douyucdn.cn A:ÕÕÕÕ˝˝˝˝]æè
+
+Receive:676
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3a.douyucdn.cn
+
+Reponse:677
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55242
+ Q:hdl3a.douyucdn.cn
+
+Requsest:678
+2021-06-04
+20:20:10
+client       127.0.0.1 : 64644
+webconf.douyucdn.cn
+
+Relay:679
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:webconf.douyucdn.cn
+
+Requsest:680
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58681
+hdl3abak.douyucdn.cn
+
+Relay:681
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3abak.douyucdn.cn
+
+Requsest:682
+2021-06-04
+20:20:10
+client       127.0.0.1 : 64212
+hdl3abak.douyucdn.cn
+
+Relay:683
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3abak.douyucdn.cn
+
+Receive:684
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3abak.douyucdn.cn
+
+Reponse:685
+2021-06-04
+20:20:10
+client       127.0.0.1 : 64212
+ Q:hdl3abak.douyucdn.cn
+
+Requsest:686
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58721
+ip1018367343.mobgslb.tbcache.com
+
+Relay:687
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Receive:688
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3abak.douyucdn.cn
+
+Reponse:689
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58721
+ Q:hdl3abak.douyucdn.cn
+
+Requsest:690
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54370
+sdkapi.douyucdn.cn
+
+Response:691
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54370
+ Q:sdkapi.douyucdn.cn A:oÂl˝˝˝˝ﬂ è
+
+Receive:692
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Reponse:693
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54370
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Requsest:694
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50792
+sdkapi.douyucdn.cn
+
+Relay:695
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:sdkapi.douyucdn.cn
+
+Receive:696
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:sdkapi.douyucdn.cn
+
+Reponse:697
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50792
+ Q:sdkapi.douyucdn.cn
+
+Requsest:698
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56455
+ip1018367343.mobgslb.tbcache.com
+
+Response:699
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56455
+ Q:ip1018367343.mobgslb.tbcache.com A:o≥<˝˝˝˝Ÿ:è
+
+Requsest:700
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56634
+hdl3bak.douyucdn.cn
+
+Relay:701
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3bak.douyucdn.cn
+
+Receive:702
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3bak.douyucdn.cn
+
+Reponse:703
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56634
+ Q:hdl3bak.douyucdn.cn
+
+Requsest:704
+2021-06-04
+20:20:10
+client       127.0.0.1 : 63695
+hdl3bak.douyucdn.cn
+
+Relay:705
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3bak.douyucdn.cn
+
+Receive:706
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3bak.douyucdn.cn
+
+Reponse:707
+2021-06-04
+20:20:10
+client       127.0.0.1 : 63695
+ Q:hdl3bak.douyucdn.cn
+
+Requsest:708
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58681
+hdl3abak.douyucdn.cn
+
+Relay:709
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3abak.douyucdn.cn
+
+Receive:710
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3abak.douyucdn.cn
+
+Reponse:711
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58681
+ Q:hdl3abak.douyucdn.cn
+
+Requsest:712
+2021-06-04
+20:20:10
+client       127.0.0.1 : 64212
+hdl3abak.douyucdn.cn
+
+Relay:713
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3abak.douyucdn.cn
+
+Receive:714
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Reponse:715
+2021-06-04
+20:20:10
+client       127.0.0.1 : 64212
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Requsest:716
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56634
+hdl3bak.douyucdn.cn
+
+Relay:717
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3bak.douyucdn.cn
+
+Receive:718
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Reponse:719
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56634
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Requsest:720
+2021-06-04
+20:20:10
+client       127.0.0.1 : 63695
+hdl3bak.douyucdn.cn
+
+Relay:721
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3bak.douyucdn.cn
+
+Receive:722
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3abak.douyucdn.cn
+
+Reponse:723
+2021-06-04
+20:20:10
+client       127.0.0.1 : 63695
+ Q:hdl3abak.douyucdn.cn
+
+Requsest:724
+2021-06-04
+20:20:10
+client       127.0.0.1 : 53620
+hdl5.douyucdn.cn
+
+Relay:725
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl5.douyucdn.cn
+
+Receive:726
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3bak.douyucdn.cn
+
+Reponse:727
+2021-06-04
+20:20:10
+client       127.0.0.1 : 53620
+ Q:hdl3bak.douyucdn.cn
+
+Requsest:728
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54368
+hdl5.douyucdn.cn
+
+Relay:729
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl5.douyucdn.cn
+
+Receive:730
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl3bak.douyucdn.cn
+
+Reponse:731
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54368
+ Q:hdl3bak.douyucdn.cn
+
+Requsest:732
+2021-06-04
+20:20:10
+client       127.0.0.1 : 65282
+hdla.douyucdn.cn
+
+Relay:733
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdla.douyucdn.cn
+
+Receive:734
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl5.douyucdn.cn
+
+Reponse:735
+2021-06-04
+20:20:10
+client       127.0.0.1 : 65282
+ Q:hdl5.douyucdn.cn
+
+Requsest:736
+2021-06-04
+20:20:10
+client       127.0.0.1 : 63379
+hdla.douyucdn.cn
+
+Relay:737
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdla.douyucdn.cn
+
+Receive:738
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdl5.douyucdn.cn
+
+Reponse:739
+2021-06-04
+20:20:10
+client       127.0.0.1 : 63379
+ Q:hdl5.douyucdn.cn
+
+Receive:740
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdla.douyucdn.cn
+
+Reponse:741
+2021-06-04
+20:20:10
+client       127.0.0.1 : 63379
+ Q:hdla.douyucdn.cn
+
+Requsest:742
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56843
+hdlabak.douyucdn.cn
+
+Relay:743
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdlabak.douyucdn.cn
+
+Receive:744
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdla.douyucdn.cn
+
+Reponse:745
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56843
+ Q:hdla.douyucdn.cn
+
+Requsest:746
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56073
+hdlabak.douyucdn.cn
+
+Relay:747
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdlabak.douyucdn.cn
+
+Receive:748
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdlabak.douyucdn.cn
+
+Reponse:749
+2021-06-04
+20:20:10
+client       127.0.0.1 : 56073
+ Q:hdlabak.douyucdn.cn
+
+Requsest:750
+2021-06-04
+20:20:10
+client       127.0.0.1 : 52417
+hdls3.douyucdn.cn
+
+Relay:751
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdls3.douyucdn.cn
+
+Receive:752
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdlabak.douyucdn.cn
+
+Reponse:753
+2021-06-04
+20:20:10
+client       127.0.0.1 : 52417
+ Q:hdlabak.douyucdn.cn
+
+Requsest:754
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55746
+hdls3.douyucdn.cn
+
+Relay:755
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdls3.douyucdn.cn
+
+Receive:756
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Reponse:757
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55746
+ Q:clientnotification-userprodscus1-2.servicebus.windows.net
+
+Requsest:758
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55760
+mobilep1.douyucdn2.cn
+
+Relay:759
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep1.douyucdn2.cn
+
+Receive:760
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdls3.douyucdn.cn
+
+Reponse:761
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55760
+ Q:hdls3.douyucdn.cn
+
+Requsest:762
+2021-06-04
+20:20:10
+client       127.0.0.1 : 53874
+mobilep1.douyucdn2.cn
+
+Relay:763
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep1.douyucdn2.cn
+
+Receive:764
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:hdls3.douyucdn.cn
+
+Reponse:765
+2021-06-04
+20:20:10
+client       127.0.0.1 : 53874
+ Q:hdls3.douyucdn.cn
+
+Requsest:766
+2021-06-04
+20:20:10
+client       127.0.0.1 : 65259
+stun.douyucdn.cn
+
+Relay:767
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun.douyucdn.cn
+
+Receive:768
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep1.douyucdn2.cn
+
+Reponse:769
+2021-06-04
+20:20:10
+client       127.0.0.1 : 65259
+ Q:mobilep1.douyucdn2.cn
+
+Requsest:770
+2021-06-04
+20:20:10
+client       127.0.0.1 : 60172
+stun1.douyucdn.cn
+
+Relay:771
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun1.douyucdn.cn
+
+Receive:772
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep1.douyucdn2.cn
+
+Reponse:773
+2021-06-04
+20:20:10
+client       127.0.0.1 : 60172
+ Q:mobilep1.douyucdn2.cn
+
+Requsest:774
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54864
+stun.douyucdn.cn
+
+Relay:775
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun.douyucdn.cn
+
+Receive:776
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun.douyucdn.cn
+
+Reponse:777
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54864
+ Q:stun.douyucdn.cn
+
+Requsest:778
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57213
+stun1.douyucdn.cn
+
+Relay:779
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun1.douyucdn.cn
+
+Receive:780
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun1.douyucdn.cn
+
+Reponse:781
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57213
+ Q:stun1.douyucdn.cn
+
+Requsest:782
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59405
+mobilep2.douyucdn2.cn
+
+Relay:783
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep2.douyucdn2.cn
+
+Receive:784
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun.douyucdn.cn
+
+Reponse:785
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59405
+ Q:stun.douyucdn.cn
+
+Requsest:786
+2021-06-04
+20:20:10
+client       127.0.0.1 : 60615
+mobilep2.douyucdn2.cn
+
+Relay:787
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep2.douyucdn2.cn
+
+Receive:788
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun1.douyucdn.cn
+
+Reponse:789
+2021-06-04
+20:20:10
+client       127.0.0.1 : 60615
+ Q:stun1.douyucdn.cn
+
+Requsest:790
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54385
+p2pchunk-ws.douyucdn.cn
+
+Relay:791
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2pchunk-ws.douyucdn.cn
+
+Receive:792
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep2.douyucdn2.cn
+
+Reponse:793
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54385
+ Q:mobilep2.douyucdn2.cn
+
+Requsest:794
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57066
+p2pchunk-ws.douyucdn.cn
+
+Relay:795
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2pchunk-ws.douyucdn.cn
+
+Receive:796
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep2.douyucdn2.cn
+
+Reponse:797
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57066
+ Q:mobilep2.douyucdn2.cn
+
+Requsest:798
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57213
+stun1.douyucdn.cn
+
+Relay:799
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun1.douyucdn.cn
+
+Receive:800
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2pchunk-ws.douyucdn.cn
+
+Reponse:801
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57213
+ Q:p2pchunk-ws.douyucdn.cn
+
+Requsest:802
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54864
+stun.douyucdn.cn
+
+Relay:803
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun.douyucdn.cn
+
+Receive:804
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2pchunk-ws.douyucdn.cn
+
+Reponse:805
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54864
+ Q:p2pchunk-ws.douyucdn.cn
+
+Requsest:806
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59405
+mobilep2.douyucdn2.cn
+
+Relay:807
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep2.douyucdn2.cn
+
+Receive:808
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun1.douyucdn.cn
+
+Reponse:809
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59405
+ Q:stun1.douyucdn.cn
+
+Requsest:810
+2021-06-04
+20:20:10
+client       127.0.0.1 : 60615
+mobilep2.douyucdn2.cn
+
+Relay:811
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep2.douyucdn2.cn
+
+Receive:812
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:stun.douyucdn.cn
+
+Reponse:813
+2021-06-04
+20:20:10
+client       127.0.0.1 : 60615
+ Q:stun.douyucdn.cn
+
+Requsest:814
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54385
+p2pchunk-ws.douyucdn.cn
+
+Response:815
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54385
+ Q:p2pchunk-ws.douyucdn.cn A:ÕÕÕÕ˝˝˝˝	 è
+
+Receive:816
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep2.douyucdn2.cn
+
+Reponse:817
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54385
+ Q:mobilep2.douyucdn2.cn
+
+Requsest:818
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57066
+p2pchunk-ws.douyucdn.cn
+
+Relay:819
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2pchunk-ws.douyucdn.cn
+
+Receive:820
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:mobilep2.douyucdn2.cn
+
+Reponse:821
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57066
+ Q:mobilep2.douyucdn2.cn
+
+Requsest:822
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59946
+p2psdk.wscdns.com
+
+Relay:823
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2psdk.wscdns.com
+
+Receive:824
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2pchunk-ws.douyucdn.cn
+
+Reponse:825
+2021-06-04
+20:20:10
+client       127.0.0.1 : 59946
+ Q:p2pchunk-ws.douyucdn.cn
+
+Requsest:826
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50429
+p2psdk.wscdns.com
+
+Relay:827
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2psdk.wscdns.com
+
+Receive:828
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2psdk.wscdns.com
+
+Reponse:829
+2021-06-04
+20:20:10
+client       127.0.0.1 : 50429
+ Q:p2psdk.wscdns.com
+
+Requsest:830
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55606
+pcdnlive-slicerd-s.alicdn.com
+
+Relay:831
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:pcdnlive-slicerd-s.alicdn.com
+
+Receive:832
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:p2psdk.wscdns.com
+
+Reponse:833
+2021-06-04
+20:20:10
+client       127.0.0.1 : 55606
+ Q:p2psdk.wscdns.com
+
+Requsest:834
+2021-06-04
+20:20:10
+client       127.0.0.1 : 52279
+pcdnlive-slicerd-s.alicdn.com
+
+Relay:835
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:pcdnlive-slicerd-s.alicdn.com
+
+Receive:836
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:pcdnlive-slicerd-s.alicdn.com
+
+Reponse:837
+2021-06-04
+20:20:10
+client       127.0.0.1 : 52279
+ Q:pcdnlive-slicerd-s.alicdn.com
+
+Requsest:838
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57996
+pis-s.alicdn.com
+
+Relay:839
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:pis-s.alicdn.com
+
+Receive:840
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:pcdnlive-slicerd-s.alicdn.com
+
+Reponse:841
+2021-06-04
+20:20:10
+client       127.0.0.1 : 57996
+ Q:pcdnlive-slicerd-s.alicdn.com
+
+Requsest:842
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58061
+pis-s.alicdn.com
+
+Relay:843
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:pis-s.alicdn.com
+
+Receive:844
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:pis-s.alicdn.com
+
+Reponse:845
+2021-06-04
+20:20:10
+client       127.0.0.1 : 58061
+ Q:pis-s.alicdn.com
+
+Requsest:846
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54478
+dotbeats.douyucdn.cn
+
+Relay:847
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dotbeats.douyucdn.cn
+
+Receive:848
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:pis-s.alicdn.com
+
+Reponse:849
+2021-06-04
+20:20:10
+client       127.0.0.1 : 54478
+ Q:pis-s.alicdn.com
+
+Requsest:850
+2021-06-04
+20:20:10
+client       127.0.0.1 : 61730
+dotbeats.douyucdn.cn
+
+Relay:851
+2021-06-04
+20:20:10
+server       10.3.9.44 : 53   
+ Q:dotbeats.douyucdn.cn
+
+Receive:852
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:dotbeats.douyucdn.cn
+
+Reponse:853
+2021-06-04
+20:20:11
+client       127.0.0.1 : 61730
+ Q:dotbeats.douyucdn.cn
+
+Requsest:854
+2021-06-04
+20:20:11
+client       127.0.0.1 : 59493
+play4.douyuscdn.com
+
+Relay:855
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:play4.douyuscdn.com
+
+Receive:856
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:dotbeats.douyucdn.cn
+
+Reponse:857
+2021-06-04
+20:20:11
+client       127.0.0.1 : 59493
+ Q:dotbeats.douyucdn.cn
+
+Requsest:858
+2021-06-04
+20:20:11
+client       127.0.0.1 : 61459
+play4.douyuscdn.com
+
+Relay:859
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:play4.douyuscdn.com
+
+Receive:860
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:play4.douyuscdn.com
+
+Reponse:861
+2021-06-04
+20:20:11
+client       127.0.0.1 : 61459
+ Q:play4.douyuscdn.com
+
+Requsest:862
+2021-06-04
+20:20:11
+client       127.0.0.1 : 49754
+rtbapi.douyucdn.cn
+
+Relay:863
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:rtbapi.douyucdn.cn
+
+Receive:864
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:play4.douyuscdn.com
+
+Reponse:865
+2021-06-04
+20:20:11
+client       127.0.0.1 : 49754
+ Q:play4.douyuscdn.com
+
+Requsest:866
+2021-06-04
+20:20:11
+client       127.0.0.1 : 58061
+pis-s.alicdn.com
+
+Relay:867
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:pis-s.alicdn.com
+
+Requsest:868
+2021-06-04
+20:20:11
+client       127.0.0.1 : 61459
+play4.douyuscdn.com
+
+Relay:869
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:play4.douyuscdn.com
+
+Receive:870
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:pis-s.alicdn.com
+
+Reponse:871
+2021-06-04
+20:20:11
+client       127.0.0.1 : 61459
+ Q:pis-s.alicdn.com
+
+Requsest:872
+2021-06-04
+20:20:11
+client       127.0.0.1 : 54478
+dotbeats.douyucdn.cn
+
+Response:873
+2021-06-04
+20:20:11
+client       127.0.0.1 : 54478
+ Q:dotbeats.douyucdn.cn A:ÕÕÕÕ˝˝˝˝â0åè
+
+Receive:874
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:play4.douyuscdn.com
+
+Reponse:875
+2021-06-04
+20:20:11
+client       127.0.0.1 : 54478
+ Q:play4.douyuscdn.com
+
+Requsest:876
+2021-06-04
+20:20:11
+client       127.0.0.1 : 59493
+play4.douyuscdn.com
+
+Relay:877
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:play4.douyuscdn.com
+
+Receive:878
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:play4.douyuscdn.com
+
+Reponse:879
+2021-06-04
+20:20:11
+client       127.0.0.1 : 59493
+ Q:play4.douyuscdn.com
+
+Requsest:880
+2021-06-04
+20:20:11
+client       127.0.0.1 : 61730
+dotbeats.douyucdn.cn
+
+Relay:881
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:dotbeats.douyucdn.cn
+
+Receive:882
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:dotbeats.douyucdn.cn
+
+Reponse:883
+2021-06-04
+20:20:11
+client       127.0.0.1 : 61730
+ Q:dotbeats.douyucdn.cn
+
+Requsest:884
+2021-06-04
+20:20:11
+client       127.0.0.1 : 50574
+playweb.douyu.com
+
+Relay:885
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:playweb.douyu.com
+
+Receive:886
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:playweb.douyu.com
+
+Reponse:887
+2021-06-04
+20:20:11
+client       127.0.0.1 : 50574
+ Q:playweb.douyu.com
+
+Requsest:888
+2021-06-04
+20:20:11
+client       127.0.0.1 : 65108
+playweb.douyu.com
+
+Relay:889
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:playweb.douyu.com
+
+Receive:890
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:playweb.douyu.com
+
+Reponse:891
+2021-06-04
+20:20:11
+client       127.0.0.1 : 65108
+ Q:playweb.douyu.com
+
+Requsest:892
+2021-06-04
+20:20:11
+client       127.0.0.1 : 55611
+pss-s.alicdn.com
+
+Relay:893
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:pss-s.alicdn.com
+
+Receive:894
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:pss-s.alicdn.com
+
+Reponse:895
+2021-06-04
+20:20:11
+client       127.0.0.1 : 55611
+ Q:pss-s.alicdn.com
+
+Requsest:896
+2021-06-04
+20:20:11
+client       127.0.0.1 : 62594
+pss-s.alicdn.com
+
+Relay:897
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:pss-s.alicdn.com
+
+Receive:898
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:pss-s.alicdn.com
+
+Reponse:899
+2021-06-04
+20:20:11
+client       127.0.0.1 : 62594
+ Q:pss-s.alicdn.com
+
+Requsest:900
+2021-06-04
+20:20:11
+client       127.0.0.1 : 55831
+res.douyucdn.cn
+
+Relay:901
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:res.douyucdn.cn
+
+Receive:902
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:res.douyucdn.cn
+
+Reponse:903
+2021-06-04
+20:20:11
+client       127.0.0.1 : 55831
+ Q:res.douyucdn.cn
+
+Requsest:904
+2021-06-04
+20:20:11
+client       127.0.0.1 : 62302
+res.douyucdn.cn
+
+Relay:905
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:res.douyucdn.cn
+
+Receive:906
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:res.douyucdn.cn
+
+Reponse:907
+2021-06-04
+20:20:11
+client       127.0.0.1 : 62302
+ Q:res.douyucdn.cn
+
+Requsest:908
+2021-06-04
+20:20:11
+client       127.0.0.1 : 62594
+pss-s.alicdn.com
+
+Relay:909
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:pss-s.alicdn.com
+
+Requsest:910
+2021-06-04
+20:20:11
+client       127.0.0.1 : 58496
+sdk.congyicn.com
+
+Relay:911
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:sdk.congyicn.com
+
+Receive:912
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:pss-s.alicdn.com
+
+Reponse:913
+2021-06-04
+20:20:11
+client       127.0.0.1 : 58496
+ Q:pss-s.alicdn.com
+
+Requsest:914
+2021-06-04
+20:20:11
+client       127.0.0.1 : 58716
+sdk.congyicn.com
+
+Relay:915
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:sdk.congyicn.com
+
+Receive:916
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:sdk.congyicn.com
+
+Reponse:917
+2021-06-04
+20:20:11
+client       127.0.0.1 : 58716
+ Q:sdk.congyicn.com
+
+Requsest:918
+2021-06-04
+20:20:11
+client       127.0.0.1 : 62302
+res.douyucdn.cn
+
+Relay:919
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:res.douyucdn.cn
+
+Receive:920
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:sdk.congyicn.com
+
+Reponse:921
+2021-06-04
+20:20:11
+client       127.0.0.1 : 62302
+ Q:sdk.congyicn.com
+
+Requsest:922
+2021-06-04
+20:20:11
+client       127.0.0.1 : 54620
+shark.douyucdn.cn
+
+Relay:923
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:shark.douyucdn.cn
+
+Receive:924
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:res.douyucdn.cn
+
+Reponse:925
+2021-06-04
+20:20:11
+client       127.0.0.1 : 54620
+ Q:res.douyucdn.cn
+
+Requsest:926
+2021-06-04
+20:20:11
+client       127.0.0.1 : 55348
+shark.douyucdn.cn
+
+Relay:927
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:shark.douyucdn.cn
+
+Receive:928
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:shark.douyucdn.cn
+
+Reponse:929
+2021-06-04
+20:20:11
+client       127.0.0.1 : 55348
+ Q:shark.douyucdn.cn
+
+Requsest:930
+2021-06-04
+20:20:11
+client       127.0.0.1 : 61926
+static.galaxyclouds.cn
+
+Relay:931
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:static.galaxyclouds.cn
+
+Receive:932
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:shark.douyucdn.cn
+
+Reponse:933
+2021-06-04
+20:20:11
+client       127.0.0.1 : 61926
+ Q:shark.douyucdn.cn
+
+Requsest:934
+2021-06-04
+20:20:11
+client       127.0.0.1 : 58107
+static.galaxyclouds.cn
+
+Relay:935
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:static.galaxyclouds.cn
+
+Receive:936
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:static.galaxyclouds.cn
+
+Reponse:937
+2021-06-04
+20:20:11
+client       127.0.0.1 : 58107
+ Q:static.galaxyclouds.cn
+
+Requsest:938
+2021-06-04
+20:20:11
+client       127.0.0.1 : 52971
+staticlive.douyucdn.cn
+
+Relay:939
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:staticlive.douyucdn.cn
+
+Receive:940
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:static.galaxyclouds.cn
+
+Reponse:941
+2021-06-04
+20:20:11
+client       127.0.0.1 : 52971
+ Q:static.galaxyclouds.cn
+
+Requsest:942
+2021-06-04
+20:20:11
+client       127.0.0.1 : 49873
+staticlive.douyucdn.cn
+
+Relay:943
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:staticlive.douyucdn.cn
+
+Receive:944
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:staticlive.douyucdn.cn
+
+Reponse:945
+2021-06-04
+20:20:11
+client       127.0.0.1 : 49873
+ Q:staticlive.douyucdn.cn
+
+Requsest:946
+2021-06-04
+20:20:11
+client       127.0.0.1 : 53412
+tc-tct.douyucdn2.cn
+
+Relay:947
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:tc-tct.douyucdn2.cn
+
+Receive:948
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:tc-tct.douyucdn2.cn
+
+Reponse:949
+2021-06-04
+20:20:11
+client       127.0.0.1 : 53412
+ Q:tc-tct.douyucdn2.cn
+
+Requsest:950
+2021-06-04
+20:20:11
+client       127.0.0.1 : 65351
+tc-tct.douyucdn2.cn
+
+Relay:951
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:tc-tct.douyucdn2.cn
+
+Receive:952
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:staticlive.douyucdn.cn
+
+Reponse:953
+2021-06-04
+20:20:11
+client       127.0.0.1 : 65351
+ Q:staticlive.douyucdn.cn
+
+Receive:954
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:tc-tct.douyucdn2.cn
+
+Reponse:955
+2021-06-04
+20:20:11
+client       127.0.0.1 : 65351
+ Q:tc-tct.douyucdn2.cn
+
+Requsest:956
+2021-06-04
+20:20:11
+client       127.0.0.1 : 54501
+yccdn3.douyucdn2.cn
+
+Relay:957
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:yccdn3.douyucdn2.cn
+
+Receive:958
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:yccdn3.douyucdn2.cn
+
+Reponse:959
+2021-06-04
+20:20:11
+client       127.0.0.1 : 54501
+ Q:yccdn3.douyucdn2.cn
+
+Requsest:960
+2021-06-04
+20:20:11
+client       127.0.0.1 : 57834
+yccdn3.douyucdn2.cn
+
+Relay:961
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:yccdn3.douyucdn2.cn
+
+Receive:962
+2021-06-04
+20:20:11
+server       10.3.9.44 : 53   
+ Q:yccdn3.douyucdn2.cn
+
+Reponse:963
+2021-06-04
+20:20:11
+client       127.0.0.1 : 57834
+ Q:yccdn3.douyucdn2.cn
+
+Requsest:964
+2021-06-04
+20:20:12
+client       127.0.0.1 : 64644
+webconf.douyucdn.cn
+
+Relay:965
+2021-06-04
+20:20:12
+server       10.3.9.44 : 53   
+ Q:webconf.douyucdn.cn
+
+Requsest:966
+2021-06-04
+20:20:12
+client       127.0.0.1 : 49754
+rtbapi.douyucdn.cn
+
+Relay:967
+2021-06-04
+20:20:12
+server       10.3.9.44 : 53   
+ Q:rtbapi.douyucdn.cn
+
+Requsest:968
+2021-06-04
+20:20:15
+client       127.0.0.1 : 57948
+webconf.douyucdn.cn
+
+Response:969
+2021-06-04
+20:20:15
+client       127.0.0.1 : 57948
+ Q:webconf.douyucdn.cn A:ÕÕÕÕ˝˝˝˝^;Ëè
+
+Requsest:970
+2021-06-04
+20:20:15
+client       127.0.0.1 : 50402
+q.i.gdt.qq.com
+
+Relay:971
+2021-06-04
+20:20:15
+server       10.3.9.44 : 53   
+ Q:q.i.gdt.qq.com
+
+Receive:972
+2021-06-04
+20:20:15
+server       10.3.9.44 : 53   
+ Q:q.i.gdt.qq.com
+
+Reponse:973
+2021-06-04
+20:20:15
+client       127.0.0.1 : 50402
+ Q:q.i.gdt.qq.com
+
+Requsest:974
+2021-06-04
+20:20:15
+client       127.0.0.1 : 51683
+q.i.gdt.qq.com
+
+Relay:975
+2021-06-04
+20:20:15
+server       10.3.9.44 : 53   
+ Q:q.i.gdt.qq.com
+
+Receive:976
+2021-06-04
+20:20:15
+server       10.3.9.44 : 53   
+ Q:q.i.gdt.qq.com
+
+Reponse:977
+2021-06-04
+20:20:15
+client       127.0.0.1 : 51683
+ Q:q.i.gdt.qq.com
+
+Requsest:978
+2021-06-04
+20:20:15
+client       127.0.0.1 : 49523
+rtbapi.douyucdn.cn
+
+Response:979
+2021-06-04
+20:20:15
+client       127.0.0.1 : 49523
+ Q:rtbapi.douyucdn.cn A:ÕÕÕÕ˝˝˝˝º8Üè
+
+Requsest:980
+2021-06-04
+20:20:16
+client       127.0.0.1 : 64644
+webconf.douyucdn.cn
+
+Relay:981
+2021-06-04
+20:20:16
+server       10.3.9.44 : 53   
+ Q:webconf.douyucdn.cn
+
+Requsest:982
+2021-06-04
+20:20:16
+client       127.0.0.1 : 49754
+rtbapi.douyucdn.cn
+
+Relay:983
+2021-06-04
+20:20:16
+server       10.3.9.44 : 53   
+ Q:rtbapi.douyucdn.cn
+
+Requsest:984
+2021-06-04
+20:20:16
+client       127.0.0.1 : 61768
+showxml.qq.com
+
+Relay:985
+2021-06-04
+20:20:16
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Requsest:986
+2021-06-04
+20:20:16
+client       127.0.0.1 : 55464
+showxml.qq.com
+
+Relay:987
+2021-06-04
+20:20:16
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Receive:988
+2021-06-04
+20:20:16
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Reponse:989
+2021-06-04
+20:20:16
+client       127.0.0.1 : 55464
+ Q:showxml.qq.com
+
+Requsest:990
+2021-06-04
+20:20:16
+client       127.0.0.1 : 55464
+showxml.qq.com
+
+Relay:991
+2021-06-04
+20:20:16
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Receive:992
+2021-06-04
+20:20:17
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Reponse:993
+2021-06-04
+20:20:17
+client       127.0.0.1 : 55464
+ Q:showxml.qq.com
+
+Receive:994
+2021-06-04
+20:20:18
+server       10.3.9.44 : 53   
+ Q:showxml.qq.com
+
+Reponse:995
+2021-06-04
+20:20:18
+client       127.0.0.1 : 55464
+ Q:showxml.qq.com
+
+Requsest:996
+2021-06-04
+20:20:20
+client       127.0.0.1 : 59603
+trk-183-136-234-132.douyucdn.cn
+
+Relay:997
+2021-06-04
+20:20:20
+server       10.3.9.44 : 53   
+ Q:trk-183-136-234-132.douyucdn.cn
+
+Receive:998
+2021-06-04
+20:20:20
+server       10.3.9.44 : 53   
+ Q:trk-183-136-234-132.douyucdn.cn
+
+Reponse:999
+2021-06-04
+20:20:20
+client       127.0.0.1 : 59603
+ Q:trk-183-136-234-132.douyucdn.cn
+
+Requsest:1000
+2021-06-04
+20:20:20
+client       127.0.0.1 : 56160
+trk-183-136-234-132.douyucdn.cn
+
+Relay:1001
+2021-06-04
+20:20:20
+server       10.3.9.44 : 53   
+ Q:trk-183-136-234-132.douyucdn.cn
+
+Receive:1002
+2021-06-04
+20:20:20
+server       10.3.9.44 : 53   
+ Q:trk-183-136-234-132.douyucdn.cn
+
+Reponse:1003
+2021-06-04
+20:20:20
+client       127.0.0.1 : 56160
+ Q:trk-183-136-234-132.douyucdn.cn
+
+Requsest:1004
+2021-06-04
+20:20:21
+client       127.0.0.1 : 60973
+msg.douyu.com
+
+Relay:1005
+2021-06-04
+20:20:21
+server       10.3.9.44 : 53   
+ Q:msg.douyu.com
+
+Receive:1006
+2021-06-04
+20:20:21
+server       10.3.9.44 : 53   
+ Q:msg.douyu.com
+
+Reponse:1007
+2021-06-04
+20:20:21
+client       127.0.0.1 : 60973
+ Q:msg.douyu.com
+
+Requsest:1008
+2021-06-04
+20:20:22
+client       127.0.0.1 : 65400
+msg.douyu.com
+
+Relay:1009
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msg.douyu.com
+
+Receive:1010
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msg.douyu.com
+
+Reponse:1011
+2021-06-04
+20:20:22
+client       127.0.0.1 : 65400
+ Q:msg.douyu.com
+
+Requsest:1012
+2021-06-04
+20:20:22
+client       127.0.0.1 : 52827
+img.douyucdn.cn
+
+Relay:1013
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:img.douyucdn.cn
+
+Receive:1014
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:img.douyucdn.cn
+
+Reponse:1015
+2021-06-04
+20:20:22
+client       127.0.0.1 : 52827
+ Q:img.douyucdn.cn
+
+Requsest:1016
+2021-06-04
+20:20:22
+client       127.0.0.1 : 60539
+msgstatic.douyucdn.cn
+
+Relay:1017
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyucdn.cn
+
+Receive:1018
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyucdn.cn
+
+Reponse:1019
+2021-06-04
+20:20:22
+client       127.0.0.1 : 60539
+ Q:msgstatic.douyucdn.cn
+
+Requsest:1020
+2021-06-04
+20:20:22
+client       127.0.0.1 : 50272
+msgstatic.douyu.com
+
+Relay:1021
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyu.com
+
+Receive:1022
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyu.com
+
+Reponse:1023
+2021-06-04
+20:20:22
+client       127.0.0.1 : 50272
+ Q:msgstatic.douyu.com
+
+Requsest:1024
+2021-06-04
+20:20:22
+client       127.0.0.1 : 60941
+msgstatic.douyu.com
+
+Relay:1025
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyu.com
+
+Requsest:1026
+2021-06-04
+20:20:22
+client       127.0.0.1 : 56173
+img.douyucdn.cn
+
+Relay:1027
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:img.douyucdn.cn
+
+Receive:1028
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyu.com
+
+Reponse:1029
+2021-06-04
+20:20:22
+client       127.0.0.1 : 56173
+ Q:msgstatic.douyu.com
+
+Requsest:1030
+2021-06-04
+20:20:22
+client       127.0.0.1 : 54104
+msgstatic.douyucdn.cn
+
+Relay:1031
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyucdn.cn
+
+Receive:1032
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:img.douyucdn.cn
+
+Reponse:1033
+2021-06-04
+20:20:22
+client       127.0.0.1 : 54104
+ Q:img.douyucdn.cn
+
+Requsest:1034
+2021-06-04
+20:20:22
+client       127.0.0.1 : 60941
+msgstatic.douyu.com
+
+Relay:1035
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyu.com
+
+Receive:1036
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyucdn.cn
+
+Reponse:1037
+2021-06-04
+20:20:22
+client       127.0.0.1 : 60941
+ Q:msgstatic.douyucdn.cn
+
+Requsest:1038
+2021-06-04
+20:20:22
+client       127.0.0.1 : 54104
+msgstatic.douyucdn.cn
+
+Relay:1039
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyucdn.cn
+
+Receive:1040
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyu.com
+
+Reponse:1041
+2021-06-04
+20:20:22
+client       127.0.0.1 : 54104
+ Q:msgstatic.douyu.com
+
+Requsest:1042
+2021-06-04
+20:20:22
+client       127.0.0.1 : 56173
+img.douyucdn.cn
+
+Relay:1043
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:img.douyucdn.cn
+
+Receive:1044
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:msgstatic.douyucdn.cn
+
+Reponse:1045
+2021-06-04
+20:20:22
+client       127.0.0.1 : 56173
+ Q:msgstatic.douyucdn.cn
+
+Receive:1046
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:img.douyucdn.cn
+
+Reponse:1047
+2021-06-04
+20:20:22
+client       127.0.0.1 : 56173
+ Q:img.douyucdn.cn
+
+Requsest:1048
+2021-06-04
+20:20:22
+client       127.0.0.1 : 62315
+webim.tim.qq.com
+
+Relay:1049
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:webim.tim.qq.com
+
+Receive:1050
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:webim.tim.qq.com
+
+Reponse:1051
+2021-06-04
+20:20:22
+client       127.0.0.1 : 62315
+ Q:webim.tim.qq.com
+
+Requsest:1052
+2021-06-04
+20:20:22
+client       127.0.0.1 : 64610
+webim.tim.qq.com
+
+Relay:1053
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:webim.tim.qq.com
+
+Receive:1054
+2021-06-04
+20:20:22
+server       10.3.9.44 : 53   
+ Q:webim.tim.qq.com
+
+Reponse:1055
+2021-06-04
+20:20:22
+client       127.0.0.1 : 64610
+ Q:webim.tim.qq.com
+
+Requsest:1056
+2021-06-04
+20:20:55
+client       127.0.0.1 : 62849
+cgi.qqweb.qq.com
+
+Relay:1057
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:cgi.qqweb.qq.com
+
+Receive:1058
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:cgi.qqweb.qq.com
+
+Reponse:1059
+2021-06-04
+20:20:55
+client       127.0.0.1 : 62849
+ Q:cgi.qqweb.qq.com
+
+Requsest:1060
+2021-06-04
+20:20:55
+client       127.0.0.1 : 56890
+cgi.find.qq.com
+
+Relay:1061
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:cgi.find.qq.com
+
+Receive:1062
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:cgi.find.qq.com
+
+Reponse:1063
+2021-06-04
+20:20:55
+client       127.0.0.1 : 56890
+ Q:cgi.find.qq.com
+
+Requsest:1064
+2021-06-04
+20:20:55
+client       127.0.0.1 : 62739
+cgi.qqweb.qq.com
+
+Relay:1065
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:cgi.qqweb.qq.com
+
+Requsest:1066
+2021-06-04
+20:20:55
+client       127.0.0.1 : 54919
+cgi.find.qq.com
+
+Relay:1067
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:cgi.find.qq.com
+
+Receive:1068
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:cgi.qqweb.qq.com
+
+Reponse:1069
+2021-06-04
+20:20:55
+client       127.0.0.1 : 54919
+ Q:cgi.qqweb.qq.com
+
+Requsest:1070
+2021-06-04
+20:20:55
+client       127.0.0.1 : 61398
+find.qq.com
+
+Relay:1071
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:find.qq.com
+
+Receive:1072
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:cgi.find.qq.com
+
+Reponse:1073
+2021-06-04
+20:20:55
+client       127.0.0.1 : 61398
+ Q:cgi.find.qq.com
+
+Receive:1074
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:find.qq.com
+
+Reponse:1075
+2021-06-04
+20:20:55
+client       127.0.0.1 : 61398
+ Q:find.qq.com
+
+Requsest:1076
+2021-06-04
+20:20:55
+client       127.0.0.1 : 57577
+appbox.qq.com
+
+Relay:1077
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:appbox.qq.com
+
+Receive:1078
+2021-06-04
+20:20:55
+server       10.3.9.44 : 53   
+ Q:appbox.qq.com
+
+Reponse:1079
+2021-06-04
+20:20:55
+client       127.0.0.1 : 57577
+ Q:appbox.qq.com
+
+Requsest:1080
+2021-06-04
+20:21:02
+client       127.0.0.1 : 53689
+stun.douyucdn.cn
+
+Response:1081
+2021-06-04
+20:21:02
+client       127.0.0.1 : 53689
+ Q:stun.douyucdn.cn A:$õ√˝˝˝˝»;rè
+
+Requsest:1082
+2021-06-04
+20:21:02
+client       127.0.0.1 : 56812
+stun.douyucdn.cn
+
+Relay:1083
+2021-06-04
+20:21:02
+server       10.3.9.44 : 53   
+ Q:stun.douyucdn.cn
+
+Receive:1084
+2021-06-04
+20:21:02
+server       10.3.9.44 : 53   
+ Q:stun.douyucdn.cn
+
+Reponse:1085
+2021-06-04
+20:21:02
+client       127.0.0.1 : 56812
+ Q:stun.douyucdn.cn
+
+Requsest:1086
+2021-06-04
+20:21:02
+client       127.0.0.1 : 54024
+vortex.data.microsoft.com
+
+Relay:1087
+2021-06-04
+20:21:02
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Receive:1088
+2021-06-04
+20:21:02
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Reponse:1089
+2021-06-04
+20:21:02
+client       127.0.0.1 : 54024
+ Q:vortex.data.microsoft.com
+
+Requsest:1090
+2021-06-04
+20:21:02
+client       127.0.0.1 : 49585
+vortex.data.microsoft.com
+
+Relay:1091
+2021-06-04
+20:21:02
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Receive:1092
+2021-06-04
+20:21:02
+server       10.3.9.44 : 53   
+ Q:vortex.data.microsoft.com
+
+Reponse:1093
+2021-06-04
+20:21:02
+client       127.0.0.1 : 49585
+ Q:vortex.data.microsoft.com
+
+Requsest:1094
+2021-06-04
+20:21:06
+client       127.0.0.1 : 50943
+ip1018367343.mobgslb.tbcache.com
+
+Relay:1095
+2021-06-04
+20:21:06
+server       10.3.9.44 : 53   
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Receive:1096
+2021-06-04
+20:21:06
+server       10.3.9.44 : 53   
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Reponse:1097
+2021-06-04
+20:21:06
+client       127.0.0.1 : 50943
+ Q:ip1018367343.mobgslb.tbcache.com
+
+Requsest:1098
+2021-06-04
+20:21:08
+client       127.0.0.1 : 55669
+webim.tim.qq.com
+
+Relay:1099
+2021-06-04
+20:21:08
+server       10.3.9.44 : 53   
+ Q:webim.tim.qq.com
+
+Receive:1100
+2021-06-04
+20:21:08
+server       10.3.9.44 : 53   
+ Q:webim.tim.qq.com
+
+Reponse:1101
+2021-06-04
+20:21:08
+client       127.0.0.1 : 55669
+ Q:webim.tim.qq.com
+
+Requsest:1102
+2021-06-04
+20:21:08
+client       127.0.0.1 : 57232
+webim.tim.qq.com
+
+Relay:1103
+2021-06-04
+20:21:08
+server       10.3.9.44 : 53   
+ Q:webim.tim.qq.com
+
+Receive:1104
+2021-06-04
+20:21:08
+server       10.3.9.44 : 53   
+ Q:webim.tim.qq.com
+
+Reponse:1105
+2021-06-04
+20:21:08
+client       127.0.0.1 : 57232
+ Q:webim.tim.qq.com
+
+Requsest:1106
+2021-06-04
+20:21:09
+client       127.0.0.1 : 61580
+p2plog.douyucdn.cn
+
+Relay:1107
+2021-06-04
+20:21:09
+server       10.3.9.44 : 53   
+ Q:p2plog.douyucdn.cn
+
+Requsest:1108
+2021-06-04
+20:21:09
+client       127.0.0.1 : 63978
+p2plog.douyucdn.cn
+
+Relay:1109
+2021-06-04
+20:21:09
+server       10.3.9.44 : 53   
+ Q:p2plog.douyucdn.cn
+
+Receive:1110
+2021-06-04
+20:21:09
+server       10.3.9.44 : 53   
+ Q:p2plog.douyucdn.cn
+
+Reponse:1111
+2021-06-04
+20:21:09
+client       127.0.0.1 : 63978
+ Q:p2plog.douyucdn.cn
+
+Receive:1112
+2021-06-04
+20:21:09
+server       10.3.9.44 : 53   
+ Q:p2plog.douyucdn.cn
+
+Reponse:1113
+2021-06-04
+20:21:09
+client       127.0.0.1 : 63978
+ Q:p2plog.douyucdn.cn
+
+Requsest:1114
+2021-06-04
+20:21:11
+client       127.0.0.1 : 64347
+dotbeats.douyucdn.cn
+
+Response:1115
+2021-06-04
+20:21:11
+client       127.0.0.1 : 64347
+ Q:dotbeats.douyucdn.cn A:ÕÕÕÕ˝˝˝˝"&è
+
+Requsest:1116
+2021-06-04
+20:21:11
+client       127.0.0.1 : 61735
+dotbeats.douyucdn.cn
+
+Relay:1117
+2021-06-04
+20:21:11
+server       10.3.9.44 : 53   
+ Q:dotbeats.douyucdn.cn
+
+Receive:1118
+2021-06-04
+20:21:11
+server       10.3.9.44 : 53   
+ Q:dotbeats.douyucdn.cn
+
+Reponse:1119
+2021-06-04
+20:21:11
+client       127.0.0.1 : 61735
+ Q:dotbeats.douyucdn.cn
+
+Requsest:1120
+2021-06-04
+20:21:12
+client       127.0.0.1 : 53574
+ntp.msn.cn
+
+Relay:1121
+2021-06-04
+20:21:12
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Receive:1122
+2021-06-04
+20:21:12
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Reponse:1123
+2021-06-04
+20:21:12
+client       127.0.0.1 : 53574
+ Q:ntp.msn.cn
+
+Requsest:1124
+2021-06-04
+20:21:12
+client       127.0.0.1 : 49455
+api.msn.com
+
+Relay:1125
+2021-06-04
+20:21:12
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Receive:1126
+2021-06-04
+20:21:12
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Reponse:1127
+2021-06-04
+20:21:12
+client       127.0.0.1 : 49455
+ Q:api.msn.com
+
+Requsest:1128
+2021-06-04
+20:21:12
+client       127.0.0.1 : 65083
+assets.msn.com
+
+Relay:1129
+2021-06-04
+20:21:12
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Receive:1130
+2021-06-04
+20:21:12
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Reponse:1131
+2021-06-04
+20:21:12
+client       127.0.0.1 : 65083
+ Q:assets.msn.com
+
+Requsest:1132
+2021-06-04
+20:21:12
+client       127.0.0.1 : 58765
+assets.msn.com
+
+Relay:1133
+2021-06-04
+20:21:12
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Requsest:1134
+2021-06-04
+20:21:12
+client       127.0.0.1 : 53459
+aRequsest:0
+2021-06-04
+20:21:22
+client       127.0.0.1 : 52039
+shark2.douyucdn.cn
+
+Relay:1
+2021-06-04
+20:21:22
+server       10.3.9.44 : 53   
+ Q:shark2.douyucdn.cn
+
+Receive:2
+2021-06-04
+20:21:22
+server       10.3.9.44 : 53   
+ Q:shark2.douyucdn.cn
+
+Reponse:3
+2021-06-04
+20:21:22
+client       127.0.0.1 : 52039
+ Q:shark2.douyucdn.cn
+
+Requsest:4
+2021-06-04
+20:21:22
+client       127.0.0.1 : 49949
+dotserver.douyucdn.cn
+
+Relay:5
+2021-06-04
+20:21:22
+server       10.3.9.44 : 53   
+ Q:dotserver.douyucdn.cn
+
+Receive:6
+2021-06-04
+20:21:22
+server       10.3.9.44 : 53   
+ Q:dotserver.douyucdn.cn
+
+Reponse:7
+2021-06-04
+20:21:22
+client       127.0.0.1 : 49949
+ Q:dotserver.douyucdn.cn
+
+Requsest:8
+2021-06-04
+20:21:24
+client       127.0.0.1 : 55160
+srtb.msn.com
+
+Relay:9
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Requsest:10
+2021-06-04
+20:21:24
+client       127.0.0.1 : 62547
+srtb.msn.com
+
+Relay:11
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Requsest:12
+2021-06-04
+20:21:24
+client       127.0.0.1 : 55160
+srtb.msn.com
+
+Relay:13
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Receive:14
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Reponse:15
+2021-06-04
+20:21:24
+client       127.0.0.1 : 55160
+ Q:srtb.msn.com
+
+Requsest:16
+2021-06-04
+20:21:24
+client       127.0.0.1 : 62547
+srtb.msn.com
+
+Relay:17
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Receive:18
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Reponse:19
+2021-06-04
+20:21:24
+client       127.0.0.1 : 62547
+ Q:srtb.msn.com
+
+Receive:20
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Reponse:21
+2021-06-04
+20:21:24
+client       127.0.0.1 : 62547
+ Q:srtb.msn.com
+
+Receive:22
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Reponse:23
+2021-06-04
+20:21:24
+client       127.0.0.1 : 55160
+ Q:srtb.msn.com
+
+Requsest:24
+2021-06-04
+20:21:24
+client       127.0.0.1 : 56160
+browser.events.data.msn.com
+
+Relay:25
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Receive:26
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Reponse:27
+2021-06-04
+20:21:24
+client       127.0.0.1 : 56160
+ Q:browser.events.data.msn.com
+
+Requsest:28
+2021-06-04
+20:21:24
+client       127.0.0.1 : 60272
+popin.baidu.com
+
+Relay:29
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:popin.baidu.com
+
+Receive:30
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:popin.baidu.com
+
+Reponse:31
+2021-06-04
+20:21:24
+client       127.0.0.1 : 60272
+ Q:popin.baidu.com
+
+Requsest:32
+2021-06-04
+20:21:24
+client       127.0.0.1 : 56274
+images-cn.popin.cc
+
+Relay:33
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Requsest:34
+2021-06-04
+20:21:24
+client       127.0.0.1 : 61287
+images-cn.popin.cc
+
+Relay:35
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Requsest:36
+2021-06-04
+20:21:24
+client       127.0.0.1 : 56274
+images-cn.popin.cc
+
+Relay:37
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Requsest:38
+2021-06-04
+20:21:24
+client       127.0.0.1 : 61287
+images-cn.popin.cc
+
+Relay:39
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Receive:40
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Reponse:41
+2021-06-04
+20:21:24
+client       127.0.0.1 : 61287
+ Q:images-cn.popin.cc
+
+Receive:42
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Reponse:43
+2021-06-04
+20:21:24
+client       127.0.0.1 : 61287
+ Q:images-cn.popin.cc
+
+Receive:44
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Reponse:45
+2021-06-04
+20:21:24
+client       127.0.0.1 : 61287
+ Q:images-cn.popin.cc
+
+Receive:46
+2021-06-04
+20:21:24
+server       10.3.9.44 : 53   
+ Q:images-cn.popin.cc
+
+Reponse:47
+2021-06-04
+20:21:24
+client       127.0.0.1 : 56274
+ Q:images-cn.popin.cc
+
+Requsest:48
+2021-06-04
+20:21:29
+client       127.0.0.1 : 62661
+www.bilibili.com
+
+Relay:49
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:www.bilibili.com
+
+Receive:50
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:www.bilibili.com
+
+Reponse:51
+2021-06-04
+20:21:29
+client       127.0.0.1 : 62661
+ Q:www.bilibili.com
+
+Requsest:52
+2021-06-04
+20:21:29
+client       127.0.0.1 : 60846
+www.bilibili.com
+
+Relay:53
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:www.bilibili.com
+
+Receive:54
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:www.bilibili.com
+
+Reponse:55
+2021-06-04
+20:21:29
+client       127.0.0.1 : 60846
+ Q:www.bilibili.com
+
+Requsest:56
+2021-06-04
+20:21:29
+client       127.0.0.1 : 56925
+s1.hdslb.com
+
+Relay:57
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:s1.hdslb.com
+
+Receive:58
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:s1.hdslb.com
+
+Reponse:59
+2021-06-04
+20:21:29
+client       127.0.0.1 : 56925
+ Q:s1.hdslb.com
+
+Requsest:60
+2021-06-04
+20:21:29
+client       127.0.0.1 : 65129
+s1.hdslb.com
+
+Relay:61
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:s1.hdslb.com
+
+Receive:62
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:s1.hdslb.com
+
+Reponse:63
+2021-06-04
+20:21:29
+client       127.0.0.1 : 65129
+ Q:s1.hdslb.com
+
+Requsest:64
+2021-06-04
+20:21:29
+client       127.0.0.1 : 52419
+data.bilibili.com
+
+Relay:65
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:data.bilibili.com
+
+Receive:66
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:data.bilibili.com
+
+Reponse:67
+2021-06-04
+20:21:29
+client       127.0.0.1 : 52419
+ Q:data.bilibili.com
+
+Requsest:68
+2021-06-04
+20:21:29
+client       127.0.0.1 : 58899
+data.bilibili.com
+
+Relay:69
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:data.bilibili.com
+
+Receive:70
+2021-06-04
+20:21:29
+server       10.3.9.44 : 53   
+ Q:data.bilibili.com
+
+Reponse:71
+2021-06-04
+20:21:29
+client       127.0.0.1 : 58899
+ Q:data.bilibili.com
+
+Requsest:72
+2021-06-04
+20:21:30
+client       127.0.0.1 : 62136
+i0.hdslb.com
+
+Relay:73
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i0.hdslb.com
+
+Receive:74
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i0.hdslb.com
+
+Reponse:75
+2021-06-04
+20:21:30
+client       127.0.0.1 : 62136
+ Q:i0.hdslb.com
+
+Requsest:76
+2021-06-04
+20:21:30
+client       127.0.0.1 : 58465
+i0.hdslb.com
+
+Relay:77
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i0.hdslb.com
+
+Receive:78
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i0.hdslb.com
+
+Reponse:79
+2021-06-04
+20:21:30
+client       127.0.0.1 : 58465
+ Q:i0.hdslb.com
+
+Requsest:80
+2021-06-04
+20:21:30
+client       127.0.0.1 : 59421
+i2.hdslb.com
+
+Relay:81
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i2.hdslb.com
+
+Receive:82
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i2.hdslb.com
+
+Reponse:83
+2021-06-04
+20:21:30
+client       127.0.0.1 : 59421
+ Q:i2.hdslb.com
+
+Requsest:84
+2021-06-04
+20:21:30
+client       127.0.0.1 : 61085
+i1.hdslb.com
+
+Relay:85
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i1.hdslb.com
+
+Requsest:86
+2021-06-04
+20:21:30
+client       127.0.0.1 : 58180
+i2.hdslb.com
+
+Relay:87
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i2.hdslb.com
+
+Receive:88
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i1.hdslb.com
+
+Reponse:89
+2021-06-04
+20:21:30
+client       127.0.0.1 : 58180
+ Q:i1.hdslb.com
+
+Requsest:90
+2021-06-04
+20:21:30
+client       127.0.0.1 : 54931
+i1.hdslb.com
+
+Relay:91
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i1.hdslb.com
+
+Receive:92
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i2.hdslb.com
+
+Reponse:93
+2021-06-04
+20:21:30
+client       127.0.0.1 : 54931
+ Q:i2.hdslb.com
+
+Requsest:94
+2021-06-04
+20:21:30
+client       127.0.0.1 : 51554
+api.bilibili.com
+
+Relay:95
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.bilibili.com
+
+Receive:96
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:i1.hdslb.com
+
+Reponse:97
+2021-06-04
+20:21:30
+client       127.0.0.1 : 51554
+ Q:i1.hdslb.com
+
+Requsest:98
+2021-06-04
+20:21:30
+client       127.0.0.1 : 58344
+api.bilibili.com
+
+Relay:99
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.bilibili.com
+
+Receive:100
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.bilibili.com
+
+Reponse:101
+2021-06-04
+20:21:30
+client       127.0.0.1 : 58344
+ Q:api.bilibili.com
+
+Receive:102
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.bilibili.com
+
+Reponse:103
+2021-06-04
+20:21:30
+client       127.0.0.1 : 58344
+ Q:api.bilibili.com
+
+Requsest:104
+2021-06-04
+20:21:30
+client       127.0.0.1 : 56129
+cm.bilibili.com
+
+Relay:105
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:cm.bilibili.com
+
+Receive:106
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:cm.bilibili.com
+
+Reponse:107
+2021-06-04
+20:21:30
+client       127.0.0.1 : 56129
+ Q:cm.bilibili.com
+
+Requsest:108
+2021-06-04
+20:21:30
+client       127.0.0.1 : 64516
+cm.bilibili.com
+
+Relay:109
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:cm.bilibili.com
+
+Receive:110
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:cm.bilibili.com
+
+Reponse:111
+2021-06-04
+20:21:30
+client       127.0.0.1 : 64516
+ Q:cm.bilibili.com
+
+Requsest:112
+2021-06-04
+20:21:30
+client       127.0.0.1 : 58993
+message.bilibili.com
+
+Relay:113
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:message.bilibili.com
+
+Receive:114
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:message.bilibili.com
+
+Reponse:115
+2021-06-04
+20:21:30
+client       127.0.0.1 : 58993
+ Q:message.bilibili.com
+
+Requsest:116
+2021-06-04
+20:21:30
+client       127.0.0.1 : 61031
+message.bilibili.com
+
+Relay:117
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:message.bilibili.com
+
+Receive:118
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:message.bilibili.com
+
+Reponse:119
+2021-06-04
+20:21:30
+client       127.0.0.1 : 61031
+ Q:message.bilibili.com
+
+Requsest:120
+2021-06-04
+20:21:30
+client       127.0.0.1 : 55334
+api.live.bilibili.com
+
+Relay:121
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.live.bilibili.com
+
+Receive:122
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.live.bilibili.com
+
+Reponse:123
+2021-06-04
+20:21:30
+client       127.0.0.1 : 55334
+ Q:api.live.bilibili.com
+
+Requsest:124
+2021-06-04
+20:21:30
+client       127.0.0.1 : 55513
+api.live.bilibili.com
+
+Relay:125
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.live.bilibili.com
+
+Receive:126
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.live.bilibili.com
+
+Reponse:127
+2021-06-04
+20:21:30
+client       127.0.0.1 : 55513
+ Q:api.live.bilibili.com
+
+Requsest:128
+2021-06-04
+20:21:30
+client       127.0.0.1 : 55201
+api.vc.bilibili.com
+
+Relay:129
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.vc.bilibili.com
+
+Receive:130
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.vc.bilibili.com
+
+Reponse:131
+2021-06-04
+20:21:30
+client       127.0.0.1 : 55201
+ Q:api.vc.bilibili.com
+
+Requsest:132
+2021-06-04
+20:21:30
+client       127.0.0.1 : 49478
+api.vc.bilibili.com
+
+Relay:133
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.vc.bilibili.com
+
+Receive:134
+2021-06-04
+20:21:30
+server       10.3.9.44 : 53   
+ Q:api.vc.bilibili.com
+
+Reponse:135
+2021-06-04
+20:21:30
+client       127.0.0.1 : 49478
+ Q:api.vc.bilibili.com
+
+Requsest:136
+2021-06-04
+20:21:31
+client       127.0.0.1 : 53567
+live-trace.bilibili.com
+
+Relay:137
+2021-06-04
+20:21:31
+server       10.3.9.44 : 53   
+ Q:live-trace.bilibili.com
+
+Receive:138
+2021-06-04
+20:21:31
+server       10.3.9.44 : 53   
+ Q:live-trace.bilibili.com
+
+Reponse:139
+2021-06-04
+20:21:31
+client       127.0.0.1 : 53567
+ Q:live-trace.bilibili.com
+
+Requsest:140
+2021-06-04
+20:21:31
+client       127.0.0.1 : 64283
+live-trace.bilibili.com
+
+Relay:141
+2021-06-04
+20:21:31
+server       10.3.9.44 : 53   
+ Q:live-trace.bilibili.com
+
+Receive:142
+2021-06-04
+20:21:31
+server       10.3.9.44 : 53   
+ Q:live-trace.bilibili.com
+
+Reponse:143
+2021-06-04
+20:21:31
+client       127.0.0.1 : 64283
+ Q:live-trace.bilibili.com
+
+Requsest:144
+2021-06-04
+20:21:35
+client       127.0.0.1 : 60437
+t.bilibili.com
+
+Relay:145
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:t.bilibili.com
+
+Receive:146
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:t.bilibili.com
+
+Reponse:147
+2021-06-04
+20:21:35
+client       127.0.0.1 : 60437
+ Q:t.bilibili.com
+
+Requsest:148
+2021-06-04
+20:21:35
+client       127.0.0.1 : 62679
+t.bilibili.com
+
+Relay:149
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:t.bilibili.com
+
+Receive:150
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:t.bilibili.com
+
+Reponse:151
+2021-06-04
+20:21:35
+client       127.0.0.1 : 62679
+ Q:t.bilibili.com
+
+Requsest:152
+2021-06-04
+20:21:35
+client       127.0.0.1 : 62866
+s2.hdslb.com
+
+Relay:153
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:s2.hdslb.com
+
+Receive:154
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:s2.hdslb.com
+
+Reponse:155
+2021-06-04
+20:21:35
+client       127.0.0.1 : 62866
+ Q:s2.hdslb.com
+
+Requsest:156
+2021-06-04
+20:21:35
+client       127.0.0.1 : 57752
+s2.hdslb.com
+
+Relay:157
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:s2.hdslb.com
+
+Receive:158
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:s2.hdslb.com
+
+Reponse:159
+2021-06-04
+20:21:35
+client       127.0.0.1 : 57752
+ Q:s2.hdslb.com
+
+Requsest:160
+2021-06-04
+20:21:35
+client       127.0.0.1 : 50599
+static.hdslb.com
+
+Relay:161
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:static.hdslb.com
+
+Receive:162
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:static.hdslb.com
+
+Reponse:163
+2021-06-04
+20:21:35
+client       127.0.0.1 : 50599
+ Q:static.hdslb.com
+
+Requsest:164
+2021-06-04
+20:21:35
+client       127.0.0.1 : 63879
+static.hdslb.com
+
+Relay:165
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:static.hdslb.com
+
+Receive:166
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:static.hdslb.com
+
+Reponse:167
+2021-06-04
+20:21:35
+client       127.0.0.1 : 63879
+ Q:static.hdslb.com
+
+Requsest:168
+2021-06-04
+20:21:35
+client       127.0.0.1 : 62995
+dc.services.visualstudio.com
+
+Relay:169
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:dc.services.visualstudio.com
+
+Receive:170
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:dc.services.visualstudio.com
+
+Reponse:171
+2021-06-04
+20:21:35
+client       127.0.0.1 : 62995
+ Q:dc.services.visualstudio.com
+
+Requsest:172
+2021-06-04
+20:21:35
+client       127.0.0.1 : 51226
+dc.services.visualstudio.com
+
+Relay:173
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:dc.services.visualstudio.com
+
+Receive:174
+2021-06-04
+20:21:35
+server       10.3.9.44 : 53   
+ Q:dc.services.visualstudio.com
+
+Reponse:175
+2021-06-04
+20:21:35
+client       127.0.0.1 : 51226
+ Q:dc.services.visualstudio.com
+
+Requsest:176
+2021-06-04
+20:21:36
+client       127.0.0.1 : 65370
+edge.microsoft.com
+
+Relay:177
+2021-06-04
+20:21:36
+server       10.3.9.44 : 53   
+ Q:edge.microsoft.com
+
+Receive:178
+2021-06-04
+20:21:36
+server       10.3.9.44 : 53   
+ Q:edge.microsoft.com
+
+Reponse:179
+2021-06-04
+20:21:36
+client       127.0.0.1 : 65370
+ Q:edge.microsoft.com
+
+Requsest:180
+2021-06-04
+20:21:36
+client       127.0.0.1 : 62270
+edge.microsoft.com
+
+Relay:181
+2021-06-04
+20:21:36
+server       10.3.9.44 : 53   
+ Q:edge.microsoft.com
+
+Receive:182
+2021-06-04
+20:21:36
+server       10.3.9.44 : 53   
+ Q:edge.microsoft.com
+
+Reponse:183
+2021-06-04
+20:21:36
+client       127.0.0.1 : 62270
+ Q:edge.microsoft.com
+
+Requsest:184
+2021-06-04
+20:21:46
+client       127.0.0.1 : 52470
+cn-lnsy-cmcc-v-02.bilivideo.com
+
+Relay:185
+2021-06-04
+20:21:46
+server       10.3.9.44 : 53   
+ Q:cn-lnsy-cmcc-v-02.bilivideo.com
+
+Receive:186
+2021-06-04
+20:21:46
+server       10.3.9.44 : 53   
+ Q:cn-lnsy-cmcc-v-02.bilivideo.com
+
+Reponse:187
+2021-06-04
+20:21:46
+client       127.0.0.1 : 52470
+ Q:cn-lnsy-cmcc-v-02.bilivideo.com
+
+Requsest:188
+2021-06-04
+20:21:46
+client       127.0.0.1 : 55569
+cn-lnsy-cmcc-v-02.bilivideo.com
+
+Relay:189
+2021-06-04
+20:21:46
+server       10.3.9.44 : 53   
+ Q:cn-lnsy-cmcc-v-02.bilivideo.com
+
+Receive:190
+2021-06-04
+20:21:46
+server       10.3.9.44 : 53   
+ Q:cn-lnsy-cmcc-v-02.bilivideo.com
+
+Reponse:191
+2021-06-04
+20:21:46
+client       127.0.0.1 : 55569
+ Q:cn-lnsy-cmcc-v-02.bilivideo.com
+
+Requsest:192
+2021-06-04
+20:21:46
+client       127.0.0.1 : 58688
+upos-sz-mirrorkodoo1.bilivideo.com
+
+Relay:193
+2021-06-04
+20:21:46
+server       10.3.9.44 : 53   
+ Q:upos-sz-mirrorkodoo1.bilivideo.com
+
+Receive:194
+2021-06-04
+20:21:46
+server       10.3.9.44 : 53   
+ Q:upos-sz-mirrorkodoo1.bilivideo.com
+
+Reponse:195
+2021-06-04
+20:21:46
+client       127.0.0.1 : 58688
+ Q:upos-sz-mirrorkodoo1.bilivideo.com
+
+Requsest:196
+2021-06-04
+20:21:46
+client       127.0.0.1 : 61673
+upos-sz-mirrorkodoo1.bilivideo.com
+
+Relay:197
+2021-06-04
+20:21:46
+server       10.3.9.44 : 53   
+ Q:upos-sz-mirrorkodoo1.bilivideo.com
+
+Receive:198
+2021-06-04
+20:21:46
+server       10.3.9.44 : 53   
+ Q:upos-sz-mirrorkodoo1.bilivideo.com
+
+Reponse:199
+2021-06-04
+20:21:46
+client       127.0.0.1 : 61673
+ Q:upos-sz-mirrorkodoo1.bilivideo.com
+
+Requsest:200
+2021-06-04
+20:21:47
+client       127.0.0.1 : 55621
+bvc.bilivideo.com
+
+Relay:201
+2021-06-04
+20:21:47
+server       10.3.9.44 : 53   
+ Q:bvc.bilivideo.com
+
+Receive:202
+2021-06-04
+20:21:47
+server       10.3.9.44 : 53   
+ Q:bvc.bilivideo.com
+
+Reponse:203
+2021-06-04
+20:21:47
+client       127.0.0.1 : 55621
+ Q:bvc.bilivideo.com
+
+Requsest:204
+2021-06-04
+20:21:47
+client       127.0.0.1 : 49792
+bvc.bilivideo.com
+
+Relay:205
+2021-06-04
+20:21:47
+server       10.3.9.44 : 53   
+ Q:bvc.bilivideo.com
+
+Requsest:206
+2021-06-04
+20:21:47
+client       127.0.0.1 : 49792
+bvc.bilivideo.com
+
+Relay:207
+2021-06-04
+20:21:47
+server       10.3.9.44 : 53   
+ Q:bvc.bilivideo.com
+
+Requsest:208
+2021-06-04
+20:21:47
+client       127.0.0.1 : 51169
+upos-sz-staticks3.bilivideo.com
+
+Relay:209
+2021-06-04
+20:21:47
+server       10.3.9.44 : 53   
+ Q:upos-sz-staticks3.bilivideo.com
+
+Receive:210
+2021-06-04
+20:21:47
+server       10.3.9.44 : 53   
+ Q:upos-sz-staticks3.bilivideo.com
+
+Reponse:211
+2021-06-04
+20:21:47
+client       127.0.0.1 : 51169
+ Q:upos-sz-staticks3.bilivideo.com
+
+Requsest:212
+2021-06-04
+20:21:47
+client       127.0.0.1 : 57590
+upos-sz-staticks3.bilivideo.com
+
+Relay:213
+2021-06-04
+20:21:47
+server       10.3.9.44 : 53   
+ Q:upos-sz-staticks3.bilivideo.com
+
+Receive:214
+2021-06-04
+20:21:47
+server       10.3.9.44 : 53   
+ Q:upos-sz-staticks3.bilivideo.com
+
+Reponse:215
+2021-06-04
+20:21:47
+client       127.0.0.1 : 57590
+ Q:upos-sz-staticks3.bilivideo.com
+
+Requsest:216
+2021-06-04
+20:21:48
+client       127.0.0.1 : 62266
+broadcast.chat.bilibili.com
+
+Relay:217
+2021-06-04
+20:21:48
+server       10.3.9.44 : 53   
+ Q:broadcast.chat.bilibili.com
+
+Receive:218
+2021-06-04
+20:21:48
+server       10.3.9.44 : 53   
+ Q:broadcast.chat.bilibili.com
+
+Reponse:219
+2021-06-04
+20:21:48
+client       127.0.0.1 : 62266
+ Q:broadcast.chat.bilibili.com
+
+Requsest:220
+2021-06-04
+20:21:48
+client       127.0.0.1 : 50700
+broadcast.chat.bilibili.com
+
+Relay:221
+2021-06-04
+20:21:48
+server       10.3.9.44 : 53   
+ Q:broadcast.chat.bilibili.com
+
+Receive:222
+2021-06-04
+20:21:48
+server       10.3.9.44 : 53   
+ Q:broadcast.chat.bilibili.com
+
+Reponse:223
+2021-06-04
+20:21:48
+client       127.0.0.1 : 50700
+ Q:broadcast.chat.bilibili.com
+
+Requsest:224
+2021-06-04
+20:21:48
+client       127.0.0.1 : 59372
+web-player-tracker.biliapi.net
+
+Relay:225
+2021-06-04
+20:21:48
+server       10.3.9.44 : 53   
+ Q:web-player-tracker.biliapi.net
+
+Receive:226
+2021-06-04
+20:21:48
+server       10.3.9.44 : 53   
+ Q:web-player-tracker.biliapi.net
+
+Reponse:227
+2021-06-04
+20:21:48
+client       127.0.0.1 : 59372
+ Q:web-player-tracker.biliapi.net
+
+Requsest:228
+2021-06-04
+20:21:48
+client       127.0.0.1 : 51126
+web-player-tracker.biliapi.net
+
+Relay:229
+2021-06-04
+20:21:48
+server       10.3.9.44 : 53   
+ Q:web-player-tracker.biliapi.net
+
+Receive:230
+2021-06-04
+20:21:48
+server       10.3.9.44 : 53   
+ Q:web-player-tracker.biliapi.net
+
+Reponse:231
+2021-06-04
+20:21:48
+client       127.0.0.1 : 51126
+ Q:web-player-tracker.biliapi.net
+
+Requsest:232
+2021-06-04
+20:21:48
+client       127.0.0.1 : 49792
+bvc.bilivideo.com
+
+Relay:233
+2021-06-04
+20:21:48
+server       10.3.9.44 : 53   
+ Q:bvc.bilivideo.com
+
+Requsest:234
+2021-06-04
+20:21:50
+client       127.0.0.1 : 49792
+bvc.bilivideo.com
+
+Relay:235
+2021-06-04
+20:21:50
+server       10.3.9.44 : 53   
+ Q:bvc.bilivideo.com
+
+Requsest:236
+2021-06-04
+20:21:53
+client       127.0.0.1 : 57219
+bvc.bilivideo.com
+
+Relay:237
+2021-06-04
+20:21:53
+server       10.3.9.44 : 53   
+ Q:bvc.bilivideo.com
+
+Receive:238
+2021-06-04
+20:21:53
+server       10.3.9.44 : 53   
+ Q:bvc.bilivideo.com
+
+Reponse:239
+2021-06-04
+20:21:53
+client 

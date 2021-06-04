@@ -2646,3 +2646,3243 @@ Reponse:395
 client       127.0.0.1 : 50512
  Q:bt.byr.cn
 
+Requsest:0
+2021-06-04
+14:25:11
+client       127.0.0.1 : 57884
+client.wns.windows.com
+
+Relay:1
+2021-06-04
+14:25:11
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Receive:2
+2021-06-04
+14:25:11
+server       10.3.9.44 : 53   
+ Q:client.wns.windows.com
+
+Reponse:3
+2021-06-04
+14:25:11
+client       127.0.0.1 : 57884
+ Q:client.wns.windows.com
+
+Requsest:4
+2021-06-04
+14:25:16
+client   192.168.49.54 : 56785
+osfsr.lenovomm.com
+
+Relay:5
+2021-06-04
+14:25:16
+server       10.3.9.44 : 53   
+ Q:osfsr.lenovomm.com
+
+Receive:6
+2021-06-04
+14:25:16
+server       10.3.9.44 : 53   
+ Q:osfsr.lenovomm.com
+
+Reponse:7
+2021-06-04
+14:25:16
+client   192.168.49.54 : 56785
+ Q:osfsr.lenovomm.com
+
+Requsest:8
+2021-06-04
+14:25:21
+client   192.168.49.54 : 58592
+nav.smartscreen.microsoft.com
+
+Relay:9
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:nav.smartscreen.microsoft.com
+
+Receive:10
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:nav.smartscreen.microsoft.com
+
+Reponse:11
+2021-06-04
+14:25:21
+client   192.168.49.54 : 58592
+ Q:nav.smartscreen.microsoft.com
+
+Requsest:12
+2021-06-04
+14:25:21
+client   192.168.49.54 : 55279
+config.edge.skype.com
+
+Relay:13
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:config.edge.skype.com
+
+Receive:14
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:config.edge.skype.com
+
+Reponse:15
+2021-06-04
+14:25:21
+client   192.168.49.54 : 55279
+ Q:config.edge.skype.com
+
+Requsest:16
+2021-06-04
+14:25:21
+client   192.168.49.54 : 58829
+edge.microsoft.com
+
+Relay:17
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:edge.microsoft.com
+
+Requsest:18
+2021-06-04
+14:25:21
+client   192.168.49.54 : 58112
+edge.activity.windows.com
+
+Relay:19
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:edge.activity.windows.com
+
+Receive:20
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:edge.microsoft.com
+
+Reponse:21
+2021-06-04
+14:25:21
+client   192.168.49.54 : 58112
+ Q:edge.microsoft.com
+
+Requsest:22
+2021-06-04
+14:25:21
+client   192.168.49.54 : 57742
+login.live.com
+
+Relay:23
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:login.live.com
+
+Receive:24
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:edge.activity.windows.com
+
+Reponse:25
+2021-06-04
+14:25:21
+client   192.168.49.54 : 57742
+ Q:edge.activity.windows.com
+
+Requsest:26
+2021-06-04
+14:25:21
+client   192.168.49.54 : 55484
+ntp.msn.cn
+
+Relay:27
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Receive:28
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:login.live.com
+
+Reponse:29
+2021-06-04
+14:25:21
+client   192.168.49.54 : 55484
+ Q:login.live.com
+
+Requsest:30
+2021-06-04
+14:25:21
+client   192.168.49.54 : 52529
+static-xl.a.88cdn.com
+
+Relay:31
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:static-xl.a.88cdn.com
+
+Receive:32
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Reponse:33
+2021-06-04
+14:25:21
+client   192.168.49.54 : 52529
+ Q:ntp.msn.cn
+
+Receive:34
+2021-06-04
+14:25:21
+server       10.3.9.44 : 53   
+ Q:static-xl.a.88cdn.com
+
+Reponse:35
+2021-06-04
+14:25:21
+client   192.168.49.54 : 52529
+ Q:static-xl.a.88cdn.com
+
+Requsest:36
+2021-06-04
+14:25:22
+client   192.168.49.54 : 59091
+api.msn.com
+
+Relay:37
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Requsest:38
+2021-06-04
+14:25:22
+client   192.168.49.54 : 53565
+assets.msn.com
+
+Relay:39
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Requsest:40
+2021-06-04
+14:25:22
+client   192.168.49.54 : 59119
+darkreader.github.io
+
+Relay:41
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:darkreader.github.io
+
+Receive:42
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Reponse:43
+2021-06-04
+14:25:22
+client   192.168.49.54 : 59119
+ Q:api.msn.com
+
+Requsest:44
+2021-06-04
+14:25:22
+client   192.168.49.54 : 65309
+stat.download.xunlei.com
+
+Relay:45
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:stat.download.xunlei.com
+
+Receive:46
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Reponse:47
+2021-06-04
+14:25:22
+client   192.168.49.54 : 65309
+ Q:assets.msn.com
+
+Receive:48
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:darkreader.github.io
+
+Reponse:49
+2021-06-04
+14:25:22
+client   192.168.49.54 : 65309
+ Q:darkreader.github.io
+
+Requsest:50
+2021-06-04
+14:25:22
+client   192.168.49.54 : 58767
+img-s-msn-com.akamaized.net
+
+Relay:51
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Requsest:52
+2021-06-04
+14:25:22
+client   192.168.49.54 : 60253
+c.bing.com
+
+Relay:53
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Requsest:54
+2021-06-04
+14:25:22
+client   192.168.49.54 : 56165
+c.msn.com
+
+Relay:55
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Receive:56
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:stat.download.xunlei.com
+
+Reponse:57
+2021-06-04
+14:25:22
+client   192.168.49.54 : 56165
+ Q:stat.download.xunlei.com
+
+Requsest:58
+2021-06-04
+14:25:22
+client   192.168.49.54 : 63469
+api.hsselite.com
+
+Relay:59
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:api.hsselite.com
+
+Receive:60
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Reponse:61
+2021-06-04
+14:25:22
+client   192.168.49.54 : 63469
+ Q:img-s-msn-com.akamaized.net
+
+Requsest:62
+2021-06-04
+14:25:22
+client   192.168.49.54 : 53381
+www.bing.com
+
+Relay:63
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Receive:64
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Reponse:65
+2021-06-04
+14:25:22
+client   192.168.49.54 : 53381
+ Q:c.bing.com
+
+Requsest:66
+2021-06-04
+14:25:22
+client   192.168.49.54 : 53421
+sb.scorecardresearch.com
+
+Relay:67
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:sb.scorecardresearch.com
+
+Receive:68
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Reponse:69
+2021-06-04
+14:25:22
+client   192.168.49.54 : 53421
+ Q:c.msn.com
+
+Receive:70
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:api.hsselite.com
+
+Reponse:71
+2021-06-04
+14:25:22
+client   192.168.49.54 : 53421
+ Q:api.hsselite.com
+
+Receive:72
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Reponse:73
+2021-06-04
+14:25:22
+client   192.168.49.54 : 53421
+ Q:www.bing.com
+
+Receive:74
+2021-06-04
+14:25:22
+server       10.3.9.44 : 53   
+ Q:sb.scorecardresearch.com
+
+Reponse:75
+2021-06-04
+14:25:22
+client   192.168.49.54 : 53421
+ Q:sb.scorecardresearch.com
+
+Requsest:76
+2021-06-04
+14:25:23
+client   192.168.49.54 : 58848
+darkreader.org
+
+Relay:77
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:darkreader.org
+
+Receive:78
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:darkreader.org
+
+Reponse:79
+2021-06-04
+14:25:23
+client   192.168.49.54 : 58848
+ Q:darkreader.org
+
+Requsest:80
+2021-06-04
+14:25:23
+client   192.168.49.54 : 51462
+browser.events.data.msn.com
+
+Relay:81
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Requsest:82
+2021-06-04
+14:25:23
+client   192.168.49.54 : 49184
+deff.nelreports.net
+
+Relay:83
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:deff.nelreports.net
+
+Requsest:84
+2021-06-04
+14:25:23
+client   192.168.49.54 : 56755
+cn.bing.com
+
+Relay:85
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:cn.bing.com
+
+Receive:86
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Reponse:87
+2021-06-04
+14:25:23
+client   192.168.49.54 : 56755
+ Q:browser.events.data.msn.com
+
+Receive:88
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:deff.nelreports.net
+
+Reponse:89
+2021-06-04
+14:25:23
+client   192.168.49.54 : 56755
+ Q:deff.nelreports.net
+
+Receive:90
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:cn.bing.com
+
+Reponse:91
+2021-06-04
+14:25:23
+client   192.168.49.54 : 56755
+ Q:cn.bing.com
+
+Requsest:92
+2021-06-04
+14:25:23
+client   192.168.49.54 : 61346
+assets.msn.cn
+
+Relay:93
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:assets.msn.cn
+
+Receive:94
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:assets.msn.cn
+
+Reponse:95
+2021-06-04
+14:25:23
+client   192.168.49.54 : 61346
+ Q:assets.msn.cn
+
+Requsest:96
+2021-06-04
+14:25:23
+client   192.168.49.54 : 55644
+api-prod-partner-us-west-2.northghost.com
+
+Relay:97
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:api-prod-partner-us-west-2.northghost.com
+
+Receive:98
+2021-06-04
+14:25:23
+server       10.3.9.44 : 53   
+ Q:api-prod-partner-us-west-2.northghost.com
+
+Reponse:99
+2021-06-04
+14:25:23
+client   192.168.49.54 : 55644
+ Q:api-prod-partner-us-west-2.northghost.com
+
+Requsest:100
+2021-06-04
+14:25:24
+client   192.168.49.54 : 59545
+android.bugly.qq.com
+
+Relay:101
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:android.bugly.qq.com
+
+Receive:102
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:android.bugly.qq.com
+
+Reponse:103
+2021-06-04
+14:25:24
+client   192.168.49.54 : 59545
+ Q:android.bugly.qq.com
+
+Requsest:104
+2021-06-04
+14:25:24
+client   192.168.49.54 : 53859
+update.googleapis.com
+
+Relay:105
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:update.googleapis.com
+
+Requsest:106
+2021-06-04
+14:25:24
+client   192.168.49.54 : 65212
+www.bilibili.com
+
+Relay:107
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:www.bilibili.com
+
+Requsest:108
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50369
+s1.hdslb.com
+
+Relay:109
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:s1.hdslb.com
+
+Receive:110
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:update.googleapis.com
+
+Reponse:111
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50369
+ Q:update.googleapis.com
+
+Receive:112
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:www.bilibili.com
+
+Reponse:113
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50369
+ Q:www.bilibili.com
+
+Requsest:114
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50280
+static.hdslb.com
+
+Relay:115
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:static.hdslb.com
+
+Requsest:116
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50411
+s2.hdslb.com
+
+Relay:117
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:s2.hdslb.com
+
+Receive:118
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:s1.hdslb.com
+
+Reponse:119
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50411
+ Q:s1.hdslb.com
+
+Requsest:120
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50457
+i0.hdslb.com
+
+Relay:121
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:i0.hdslb.com
+
+Receive:122
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:static.hdslb.com
+
+Reponse:123
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50457
+ Q:static.hdslb.com
+
+Receive:124
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:s2.hdslb.com
+
+Reponse:125
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50457
+ Q:s2.hdslb.com
+
+Receive:126
+2021-06-04
+14:25:24
+server       10.3.9.44 : 53   
+ Q:i0.hdslb.com
+
+Reponse:127
+2021-06-04
+14:25:24
+client   192.168.49.54 : 50457
+ Q:i0.hdslb.com
+
+Requsest:128
+2021-06-04
+14:25:25
+client   192.168.49.54 : 58379
+self.events.data.microsoft.com
+
+Relay:129
+2021-06-04
+14:25:25
+server       10.3.9.44 : 53   
+ Q:self.events.data.microsoft.com
+
+Requsest:130
+2021-06-04
+14:25:25
+client   192.168.49.54 : 64886
+data.bilibili.com
+
+Relay:131
+2021-06-04
+14:25:25
+server       10.3.9.44 : 53   
+ Q:data.bilibili.com
+
+Receive:132
+2021-06-04
+14:25:25
+server       10.3.9.44 : 53   
+ Q:self.events.data.microsoft.com
+
+Reponse:133
+2021-06-04
+14:25:25
+client   192.168.49.54 : 64886
+ Q:self.events.data.microsoft.com
+
+Receive:134
+2021-06-04
+14:25:25
+server       10.3.9.44 : 53   
+ Q:data.bilibili.com
+
+Reponse:135
+2021-06-04
+14:25:25
+client   192.168.49.54 : 64886
+ Q:data.bilibili.com
+
+Requsest:136
+2021-06-04
+14:25:25
+client   192.168.49.54 : 55595
+i2.hdslb.com
+
+Relay:137
+2021-06-04
+14:25:25
+server       10.3.9.44 : 53   
+ Q:i2.hdslb.com
+
+Requsest:138
+2021-06-04
+14:25:25
+client   192.168.49.54 : 49844
+i1.hdslb.com
+
+Relay:139
+2021-06-04
+14:25:25
+server       10.3.9.44 : 53   
+ Q:i1.hdslb.com
+
+Requsest:140
+2021-06-04
+14:25:25
+client   192.168.49.54 : 51863
+api.bilibili.com
+
+Relay:141
+2021-06-04
+14:25:25
+server       10.3.9.44 : 53   
+ Q:api.bilibili.com
+
+Receive:142
+2021-06-04
+14:25:25
+server       10.3.9.44 : 53   
+ Q:i2.hdslb.com
+
+Reponse:143
+2021-06-04
+14:25:25
+client   192.168.49.54 : 51863
+ Q:i2.hdslb.com
+
+Receive:144
+2021-06-04
+14:25:26
+server       10.3.9.44 : 53   
+ Q:i1.hdslb.com
+
+Reponse:145
+2021-06-04
+14:25:26
+client   192.168.49.54 : 51863
+ Q:i1.hdslb.com
+
+Receive:146
+2021-06-04
+14:25:26
+server       10.3.9.44 : 53   
+ Q:api.bilibili.com
+
+Reponse:147
+2021-06-04
+14:25:26
+client   192.168.49.54 : 51863
+ Q:api.bilibili.com
+
+Requsest:148
+2021-06-04
+14:25:27
+client   192.168.49.54 : 55286
+cm.bilibili.com
+
+Relay:149
+2021-06-04
+14:25:27
+server       10.3.9.44 : 53   
+ Q:cm.bilibili.com
+
+Receive:150
+2021-06-04
+14:25:27
+server       10.3.9.44 : 53   
+ Q:cm.bilibili.com
+
+Reponse:151
+2021-06-04
+14:25:27
+client   192.168.49.54 : 55286
+ Q:cm.bilibili.com
+
+Requsest:152
+2021-06-04
+14:25:27
+client   192.168.49.54 : 59197
+message.bilibili.com
+
+Relay:153
+2021-06-04
+14:25:27
+server       10.3.9.44 : 53   
+ Q:message.bilibili.com
+
+Receive:154
+2021-06-04
+14:25:27
+server       10.3.9.44 : 53   
+ Q:message.bilibili.com
+
+Reponse:155
+2021-06-04
+14:25:27
+client   192.168.49.54 : 59197
+ Q:message.bilibili.com
+
+Requsest:156
+2021-06-04
+14:25:27
+client   192.168.49.54 : 63534
+arc.msn.com
+
+Relay:157
+2021-06-04
+14:25:27
+server       10.3.9.44 : 53   
+ Q:arc.msn.com
+
+Receive:158
+2021-06-04
+14:25:27
+server       10.3.9.44 : 53   
+ Q:arc.msn.com
+
+Reponse:159
+2021-06-04
+14:25:27
+client   192.168.49.54 : 63534
+ Q:arc.msn.com
+
+Requsest:160
+2021-06-04
+14:25:28
+client   192.168.49.54 : 53377
+api.vc.bilibili.com
+
+Relay:161
+2021-06-04
+14:25:28
+server       10.3.9.44 : 53   
+ Q:api.vc.bilibili.com
+
+Receive:162
+2021-06-04
+14:25:28
+server       10.3.9.44 : 53   
+ Q:api.vc.bilibili.com
+
+Reponse:163
+2021-06-04
+14:25:28
+client   192.168.49.54 : 53377
+ Q:api.vc.bilibili.com
+
+Requsest:164
+2021-06-04
+14:25:28
+client   192.168.49.54 : 54717
+filedownload.lenovo.com
+
+Relay:165
+2021-06-04
+14:25:28
+server       10.3.9.44 : 53   
+ Q:filedownload.lenovo.com
+
+Receive:166
+2021-06-04
+14:25:28
+server       10.3.9.44 : 53   
+ Q:filedownload.lenovo.com
+
+Reponse:167
+2021-06-04
+14:25:28
+client   192.168.49.54 : 54717
+ Q:filedownload.lenovo.com
+
+Requsest:168
+2021-06-04
+14:25:37
+client       127.0.0.1 : 62802
+srtb.msn.com
+
+Relay:169
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Requsest:170
+2021-06-04
+14:25:37
+client       127.0.0.1 : 55812
+img-s-msn-com.akamaized.net
+
+Relay:171
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Requsest:172
+2021-06-04
+14:25:37
+client       127.0.0.1 : 64403
+c.msn.com
+
+Relay:173
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Requsest:174
+2021-06-04
+14:25:37
+client       127.0.0.1 : 54131
+sb.scorecardresearch.com
+
+Response:175
+2021-06-04
+14:25:37
+client       127.0.0.1 : 54131
+ Q:sb.scorecardresearch.com A:â{oýýýýÑ'	%
+
+Requsest:176
+2021-06-04
+14:25:37
+client       127.0.0.1 : 63376
+shusa.proconcn.xyz
+
+Relay:177
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:shusa.proconcn.xyz
+
+Requsest:178
+2021-06-04
+14:25:37
+client       127.0.0.1 : 56471
+browser.events.data.msn.com
+
+Relay:179
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Requsest:180
+2021-06-04
+14:25:37
+client       127.0.0.1 : 49766
+assets.msn.cn
+
+Relay:181
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:assets.msn.cn
+
+Receive:182
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:img-s-msn-com.akamaized.net
+
+Reponse:183
+2021-06-04
+14:25:37
+client       127.0.0.1 : 49766
+ Q:img-s-msn-com.akamaized.net
+
+Requsest:184
+2021-06-04
+14:25:37
+client       127.0.0.1 : 64881
+jp27.yootoo6oocoo1oo.xyz
+
+Relay:185
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:jp27.yootoo6oocoo1oo.xyz
+
+Receive:186
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:c.msn.com
+
+Reponse:187
+2021-06-04
+14:25:37
+client       127.0.0.1 : 64881
+ Q:c.msn.com
+
+Receive:188
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:browser.events.data.msn.com
+
+Reponse:189
+2021-06-04
+14:25:37
+client       127.0.0.1 : 64881
+ Q:browser.events.data.msn.com
+
+Requsest:190
+2021-06-04
+14:25:37
+client       127.0.0.1 : 63889
+sg10.yootoo6oocoo1oo.xyz
+
+Relay:191
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:sg10.yootoo6oocoo1oo.xyz
+
+Receive:192
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:assets.msn.cn
+
+Reponse:193
+2021-06-04
+14:25:37
+client       127.0.0.1 : 63889
+ Q:assets.msn.cn
+
+Receive:194
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:sg10.yootoo6oocoo1oo.xyz
+
+Reponse:195
+2021-06-04
+14:25:37
+client       127.0.0.1 : 63889
+ Q:sg10.yootoo6oocoo1oo.xyz
+
+Requsest:196
+2021-06-04
+14:25:37
+client       127.0.0.1 : 58277
+sg03.yootoo6oocoo1oo.xyz
+
+Relay:197
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:sg03.yootoo6oocoo1oo.xyz
+
+Receive:198
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:jp27.yootoo6oocoo1oo.xyz
+
+Reponse:199
+2021-06-04
+14:25:37
+client       127.0.0.1 : 58277
+ Q:jp27.yootoo6oocoo1oo.xyz
+
+Requsest:200
+2021-06-04
+14:25:37
+client       127.0.0.1 : 56617
+sgp11.yootoo6oocoo1oo.xyz
+
+Relay:201
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:sgp11.yootoo6oocoo1oo.xyz
+
+Receive:202
+2021-06-04
+14:25:37
+server       10.3.9.44 : 53   
+ Q:shusa.proconcn.xyz
+
+Reponse:203
+2021-06-04
+14:25:37
+client       127.0.0.1 : 56617
+ Q:shusa.proconcn.xyz
+
+Requsest:204
+2021-06-04
+14:25:38
+client       127.0.0.1 : 49809
+functional.events.data.microsoft.com
+
+Relay:205
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Requsest:206
+2021-06-04
+14:25:38
+client       127.0.0.1 : 62802
+srtb.msn.com
+
+Relay:207
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Requsest:208
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63697
+ss1.bdstatic.com
+
+Relay:209
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:ss1.bdstatic.com
+
+Requsest:210
+2021-06-04
+14:25:38
+client       127.0.0.1 : 61235
+www.baidu.com
+
+Relay:211
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:www.baidu.com
+
+Receive:212
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:sgp11.yootoo6oocoo1oo.xyz
+
+Reponse:213
+2021-06-04
+14:25:38
+client       127.0.0.1 : 61235
+ Q:sgp11.yootoo6oocoo1oo.xyz
+
+Requsest:214
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63776
+dss0.bdstatic.com
+
+Relay:215
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:dss0.bdstatic.com
+
+Receive:216
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:sg03.yootoo6oocoo1oo.xyz
+
+Reponse:217
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63776
+ Q:sg03.yootoo6oocoo1oo.xyz
+
+Receive:218
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:functional.events.data.microsoft.com
+
+Reponse:219
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63776
+ Q:functional.events.data.microsoft.com
+
+Requsest:220
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63791
+pvcc01.yootoo6oocoo1oo.xyz
+
+Relay:221
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:pvcc01.yootoo6oocoo1oo.xyz
+
+Receive:222
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:srtb.msn.com
+
+Reponse:223
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63791
+ Q:srtb.msn.com
+
+Receive:224
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:ss1.bdstatic.com
+
+Reponse:225
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63791
+ Q:ss1.bdstatic.com
+
+Receive:226
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:www.baidu.com
+
+Reponse:227
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63791
+ Q:www.baidu.com
+
+Requsest:228
+2021-06-04
+14:25:38
+client       127.0.0.1 : 52575
+www.baidu.com
+
+Relay:229
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:www.baidu.com
+
+Receive:230
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:dss0.bdstatic.com
+
+Reponse:231
+2021-06-04
+14:25:38
+client       127.0.0.1 : 52575
+ Q:dss0.bdstatic.com
+
+Requsest:232
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63832
+us-sdn-08.yootoo6oocoo1oo.xyz
+
+Relay:233
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:us-sdn-08.yootoo6oocoo1oo.xyz
+
+Receive:234
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:www.baidu.com
+
+Reponse:235
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63832
+ Q:www.baidu.com
+
+Receive:236
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:us-sdn-08.yootoo6oocoo1oo.xyz
+
+Reponse:237
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63832
+ Q:us-sdn-08.yootoo6oocoo1oo.xyz
+
+Receive:238
+2021-06-04
+14:25:38
+server       10.3.9.44 : 53   
+ Q:pvcc01.yootoo6oocoo1oo.xyz
+
+Reponse:239
+2021-06-04
+14:25:38
+client       127.0.0.1 : 63832
+ Q:pvcc01.yootoo6oocoo1oo.xyz
+
+Requsest:240
+2021-06-04
+14:25:39
+client       127.0.0.1 : 58940
+dss1.bdstatic.com
+
+Relay:241
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:dss1.bdstatic.com
+
+Requsest:242
+2021-06-04
+14:25:39
+client       127.0.0.1 : 53674
+sp0.baidu.com
+
+Relay:243
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:sp0.baidu.com
+
+Requsest:244
+2021-06-04
+14:25:39
+client       127.0.0.1 : 54322
+sp1.baidu.com
+
+Relay:245
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:sp1.baidu.com
+
+Receive:246
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:dss1.bdstatic.com
+
+Reponse:247
+2021-06-04
+14:25:39
+client       127.0.0.1 : 54322
+ Q:dss1.bdstatic.com
+
+Requsest:248
+2021-06-04
+14:25:39
+client       127.0.0.1 : 57893
+sp2.baidu.com
+
+Relay:249
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:sp2.baidu.com
+
+Receive:250
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:sp0.baidu.com
+
+Reponse:251
+2021-06-04
+14:25:39
+client       127.0.0.1 : 57893
+ Q:sp0.baidu.com
+
+Receive:252
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:sp1.baidu.com
+
+Reponse:253
+2021-06-04
+14:25:39
+client       127.0.0.1 : 57893
+ Q:sp1.baidu.com
+
+Requsest:254
+2021-06-04
+14:25:39
+client       127.0.0.1 : 57322
+dss0.bdstatic.com
+
+Relay:255
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:dss0.bdstatic.com
+
+Receive:256
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:sp2.baidu.com
+
+Reponse:257
+2021-06-04
+14:25:39
+client       127.0.0.1 : 57322
+ Q:sp2.baidu.com
+
+Requsest:258
+2021-06-04
+14:25:39
+client       127.0.0.1 : 61868
+himg.bdimg.com
+
+Relay:259
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:himg.bdimg.com
+
+Requsest:260
+2021-06-04
+14:25:39
+client       127.0.0.1 : 54251
+dss2.bdstatic.com
+
+Relay:261
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:dss2.bdstatic.com
+
+Requsest:262
+2021-06-04
+14:25:39
+client       127.0.0.1 : 51214
+pics2.baidu.com
+
+Relay:263
+2021-06-04
+14:25:39
+server       10.3.9.44 : 53   
+ Q:pics2.baidu.com
+
+Receive:264
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:dss0.bdstatic.com
+
+Reponse:265
+2021-06-04
+14:25:40
+client       127.0.0.1 : 51214
+ Q:dss0.bdstatic.com
+
+Receive:266
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:himg.bdimg.com
+
+Reponse:267
+2021-06-04
+14:25:40
+client       127.0.0.1 : 51214
+ Q:himg.bdimg.com
+
+Receive:268
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:dss2.bdstatic.com
+
+Reponse:269
+2021-06-04
+14:25:40
+client       127.0.0.1 : 51214
+ Q:dss2.bdstatic.com
+
+Requsest:270
+2021-06-04
+14:25:40
+client       127.0.0.1 : 50787
+dss2.bdstatic.com
+
+Relay:271
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:dss2.bdstatic.com
+
+Receive:272
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics2.baidu.com
+
+Reponse:273
+2021-06-04
+14:25:40
+client       127.0.0.1 : 50787
+ Q:pics2.baidu.com
+
+Requsest:274
+2021-06-04
+14:25:40
+client       127.0.0.1 : 61685
+pics2.baidu.com
+
+Relay:275
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics2.baidu.com
+
+Requsest:276
+2021-06-04
+14:25:40
+client       127.0.0.1 : 65083
+pccw04.yootoo6oocoo1oo.xyz
+
+Relay:277
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pccw04.yootoo6oocoo1oo.xyz
+
+Requsest:278
+2021-06-04
+14:25:40
+client       127.0.0.1 : 56052
+ss1.bdstatic.com
+
+Relay:279
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:ss1.bdstatic.com
+
+Receive:280
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:dss2.bdstatic.com
+
+Reponse:281
+2021-06-04
+14:25:40
+client       127.0.0.1 : 56052
+ Q:dss2.bdstatic.com
+
+Requsest:282
+2021-06-04
+14:25:40
+client       127.0.0.1 : 65278
+pics0.baidu.com
+
+Relay:283
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics0.baidu.com
+
+Receive:284
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics2.baidu.com
+
+Reponse:285
+2021-06-04
+14:25:40
+client       127.0.0.1 : 65278
+ Q:pics2.baidu.com
+
+Receive:286
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pccw04.yootoo6oocoo1oo.xyz
+
+Reponse:287
+2021-06-04
+14:25:40
+client       127.0.0.1 : 65278
+ Q:pccw04.yootoo6oocoo1oo.xyz
+
+Receive:288
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:ss1.bdstatic.com
+
+Reponse:289
+2021-06-04
+14:25:40
+client       127.0.0.1 : 65278
+ Q:ss1.bdstatic.com
+
+Receive:290
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics0.baidu.com
+
+Reponse:291
+2021-06-04
+14:25:40
+client       127.0.0.1 : 65278
+ Q:pics0.baidu.com
+
+Requsest:292
+2021-06-04
+14:25:40
+client       127.0.0.1 : 55673
+pics0.baidu.com
+
+Relay:293
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics0.baidu.com
+
+Receive:294
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics0.baidu.com
+
+Reponse:295
+2021-06-04
+14:25:40
+client       127.0.0.1 : 55673
+ Q:pics0.baidu.com
+
+Requsest:296
+2021-06-04
+14:25:40
+client       127.0.0.1 : 56730
+pics5.baidu.com
+
+Relay:297
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics5.baidu.com
+
+Requsest:298
+2021-06-04
+14:25:40
+client       127.0.0.1 : 56198
+pics7.baidu.com
+
+Relay:299
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics7.baidu.com
+
+Requsest:300
+2021-06-04
+14:25:40
+client       127.0.0.1 : 50878
+hectorstatic.baidu.com
+
+Relay:301
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:hectorstatic.baidu.com
+
+Receive:302
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics5.baidu.com
+
+Reponse:303
+2021-06-04
+14:25:40
+client       127.0.0.1 : 50878
+ Q:pics5.baidu.com
+
+Requsest:304
+2021-06-04
+14:25:40
+client       127.0.0.1 : 52694
+pics5.baidu.com
+
+Relay:305
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics5.baidu.com
+
+Receive:306
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics7.baidu.com
+
+Reponse:307
+2021-06-04
+14:25:40
+client       127.0.0.1 : 52694
+ Q:pics7.baidu.com
+
+Requsest:308
+2021-06-04
+14:25:40
+client       127.0.0.1 : 59134
+pics7.baidu.com
+
+Relay:309
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:pics7.baidu.com
+
+Receive:310
+2021-06-04
+14:25:40
+server       10.3.9.44 : 53   
+ Q:hectorstatic.baidu.com
+
+Reponse:311
+2021-06-04
+14:25:40
+client       127.0.0.1 : 59134
+ Q:hectorstatic.baidu.com
+
+Requsest:312
+2021-06-04
+14:25:41
+client       127.0.0.1 : 56424
+hectorstatic.baidu.com
+
+Relay:313
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:hectorstatic.baidu.com
+
+Receive:314
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:pics5.baidu.com
+
+Reponse:315
+2021-06-04
+14:25:41
+client       127.0.0.1 : 56424
+ Q:pics5.baidu.com
+
+Receive:316
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:pics7.baidu.com
+
+Reponse:317
+2021-06-04
+14:25:41
+client       127.0.0.1 : 56424
+ Q:pics7.baidu.com
+
+Receive:318
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:hectorstatic.baidu.com
+
+Reponse:319
+2021-06-04
+14:25:41
+client       127.0.0.1 : 56424
+ Q:hectorstatic.baidu.com
+
+Requsest:320
+2021-06-04
+14:25:41
+client       127.0.0.1 : 60671
+sp1.baidu.com
+
+Relay:321
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:sp1.baidu.com
+
+Requsest:322
+2021-06-04
+14:25:41
+client       127.0.0.1 : 50897
+mss0.bdstatic.com
+
+Relay:323
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:mss0.bdstatic.com
+
+Receive:324
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:sp1.baidu.com
+
+Reponse:325
+2021-06-04
+14:25:41
+client       127.0.0.1 : 50897
+ Q:sp1.baidu.com
+
+Receive:326
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:mss0.bdstatic.com
+
+Reponse:327
+2021-06-04
+14:25:41
+client       127.0.0.1 : 50897
+ Q:mss0.bdstatic.com
+
+Requsest:328
+2021-06-04
+14:25:41
+client       127.0.0.1 : 49501
+mss0.bdstatic.com
+
+Relay:329
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:mss0.bdstatic.com
+
+Requsest:330
+2021-06-04
+14:25:41
+client       127.0.0.1 : 57894
+ntp.msn.cn
+
+Relay:331
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Requsest:332
+2021-06-04
+14:25:41
+client       127.0.0.1 : 50865
+edge.microsoft.com
+
+Relay:333
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:edge.microsoft.com
+
+Requsest:334
+2021-06-04
+14:25:41
+client   192.168.49.54 : 59545
+dns.weixin.qq.com
+
+Relay:335
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:dns.weixin.qq.com
+
+Receive:336
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:mss0.bdstatic.com
+
+Reponse:337
+2021-06-04
+14:25:41
+client   192.168.49.54 : 59545
+ Q:mss0.bdstatic.com
+
+Requsest:338
+2021-06-04
+14:25:41
+client       127.0.0.1 : 62887
+dss1.bdstatic.com
+
+Relay:339
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:dss1.bdstatic.com
+
+Receive:340
+2021-06-04
+14:25:41
+server       10.3.9.44 : 53   
+ Q:ntp.msn.cn
+
+Reponse:341
+2021-06-04
+14:25:41
+client       127.0.0.1 : 62887
+ Q:ntp.msn.cn
+
+Requsest:342
+2021-06-04
+14:25:41
+client       127.0.0.1 : 65491
+api.msn.com
+
+Relay:343
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Receive:344
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:edge.microsoft.com
+
+Reponse:345
+2021-06-04
+14:25:42
+client       127.0.0.1 : 65491
+ Q:edge.microsoft.com
+
+Requsest:346
+2021-06-04
+14:25:42
+client       127.0.0.1 : 59331
+assets.msn.com
+
+Relay:347
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Receive:348
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:dns.weixin.qq.com
+
+Reponse:349
+2021-06-04
+14:25:42
+client       127.0.0.1 : 59331
+ Q:dns.weixin.qq.com
+
+Receive:350
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:dss1.bdstatic.com
+
+Reponse:351
+2021-06-04
+14:25:42
+client       127.0.0.1 : 59331
+ Q:dss1.bdstatic.com
+
+Receive:352
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:api.msn.com
+
+Reponse:353
+2021-06-04
+14:25:42
+client       127.0.0.1 : 59331
+ Q:api.msn.com
+
+Receive:354
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:assets.msn.com
+
+Reponse:355
+2021-06-04
+14:25:42
+client       127.0.0.1 : 59331
+ Q:assets.msn.com
+
+Requsest:356
+2021-06-04
+14:25:42
+client       127.0.0.1 : 56934
+c.bing.com
+
+Relay:357
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Requsest:358
+2021-06-04
+14:25:42
+client       127.0.0.1 : 51245
+sg01.yootoo6oocoo1oo.xyz
+
+Relay:359
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:sg01.yootoo6oocoo1oo.xyz
+
+Requsest:360
+2021-06-04
+14:25:42
+client       127.0.0.1 : 58506
+www.bing.com
+
+Relay:361
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Requsest:362
+2021-06-04
+14:25:42
+client       127.0.0.1 : 50270
+sp2.baidu.com
+
+Relay:363
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:sp2.baidu.com
+
+Receive:364
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:c.bing.com
+
+Reponse:365
+2021-06-04
+14:25:42
+client       127.0.0.1 : 50270
+ Q:c.bing.com
+
+Requsest:366
+2021-06-04
+14:25:42
+client       127.0.0.1 : 56862
+hkgame04.yootoo6oocoo1oo.xyz
+
+Relay:367
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:hkgame04.yootoo6oocoo1oo.xyz
+
+Receive:368
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Reponse:369
+2021-06-04
+14:25:42
+client       127.0.0.1 : 56862
+ Q:www.bing.com
+
+Requsest:370
+2021-06-04
+14:25:42
+client       127.0.0.1 : 57301
+twct05.yootoo6oocoo1oo.xyz
+
+Relay:371
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:twct05.yootoo6oocoo1oo.xyz
+
+Receive:372
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:sp2.baidu.com
+
+Reponse:373
+2021-06-04
+14:25:42
+client       127.0.0.1 : 57301
+ Q:sp2.baidu.com
+
+Requsest:374
+2021-06-04
+14:25:42
+client       127.0.0.1 : 62862
+krgame04.yootoo6oocoo1oo.xyz
+
+Relay:375
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:krgame04.yootoo6oocoo1oo.xyz
+
+Receive:376
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:sg01.yootoo6oocoo1oo.xyz
+
+Reponse:377
+2021-06-04
+14:25:42
+client       127.0.0.1 : 62862
+ Q:sg01.yootoo6oocoo1oo.xyz
+
+Receive:378
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:hkgame04.yootoo6oocoo1oo.xyz
+
+Reponse:379
+2021-06-04
+14:25:42
+client       127.0.0.1 : 62862
+ Q:hkgame04.yootoo6oocoo1oo.xyz
+
+Receive:380
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:twct05.yootoo6oocoo1oo.xyz
+
+Reponse:381
+2021-06-04
+14:25:42
+client       127.0.0.1 : 62862
+ Q:twct05.yootoo6oocoo1oo.xyz
+
+Requsest:382
+2021-06-04
+14:25:42
+client       127.0.0.1 : 51985
+passport.baidu.com
+
+Relay:383
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:passport.baidu.com
+
+Receive:384
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:krgame04.yootoo6oocoo1oo.xyz
+
+Reponse:385
+2021-06-04
+14:25:42
+client       127.0.0.1 : 51985
+ Q:krgame04.yootoo6oocoo1oo.xyz
+
+Receive:386
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:passport.baidu.com
+
+Reponse:387
+2021-06-04
+14:25:42
+client       127.0.0.1 : 51985
+ Q:passport.baidu.com
+
+Requsest:388
+2021-06-04
+14:25:42
+client       127.0.0.1 : 53595
+passport.baidu.com
+
+Relay:389
+2021-06-04
+14:25:42
+server       10.3.9.44 : 53   
+ Q:passport.baidu.com
+
+Receive:390
+2021-06-04
+14:25:43
+server       10.3.9.44 : 53   
+ Q:passport.baidu.com
+
+Reponse:391
+2021-06-04
+14:25:43
+client       127.0.0.1 : 53595
+ Q:passport.baidu.com
+
+Requsest:392
+2021-06-04
+14:25:43
+client       127.0.0.1 : 55699
+hpd.baidu.com
+
+Relay:393
+2021-06-04
+14:25:43
+server       10.3.9.44 : 53   
+ Q:hpd.baidu.com
+
+Receive:394
+2021-06-04
+14:25:43
+server       10.3.9.44 : 53   
+ Q:hpd.baidu.com
+
+Reponse:395
+2021-06-04
+14:25:43
+client       127.0.0.1 : 55699
+ Q:hpd.baidu.com
+
+Requsest:396
+2021-06-04
+14:25:43
+client       127.0.0.1 : 64425
+hpd.baidu.com
+
+Relay:397
+2021-06-04
+14:25:43
+server       10.3.9.44 : 53   
+ Q:hpd.baidu.com
+
+Receive:398
+2021-06-04
+14:25:43
+server       10.3.9.44 : 53   
+ Q:hpd.baidu.com
+
+Reponse:399
+2021-06-04
+14:25:43
+client       127.0.0.1 : 64425
+ Q:hpd.baidu.com
+
+Requsest:400
+2021-06-04
+14:25:45
+client   192.168.49.54 : 50508
+event.shelljacket.us
+
+Relay:401
+2021-06-04
+14:25:45
+server       10.3.9.44 : 53   
+ Q:event.shelljacket.us
+
+Receive:402
+2021-06-04
+14:25:45
+server       10.3.9.44 : 53   
+ Q:event.shelljacket.us
+
+Reponse:403
+2021-06-04
+14:25:45
+client   192.168.49.54 : 50508
+ Q:event.shelljacket.us
+
+Requsest:404
+2021-06-04
+14:26:06
+client   192.168.49.54 : 50537
+46.49.168.192.in-addr.arpa
+
+Relay:405
+2021-06-04
+14:26:06
+server       10.3.9.44 : 53   
+ Q:46.49.168.192.in-addr.arpa
+
+Receive:406
+2021-06-04
+14:26:06
+server       10.3.9.44 : 53   
+ Q:46.49.168.192.in-addr.arpa
+
+Reponse:407
+2021-06-04
+14:26:06
+client   192.168.49.54 : 50537
+ Q:46.49.168.192.in-addr.arpa
+
+Requsest:408
+2021-06-04
+14:26:06
+client   192.168.49.54 : 50538
+008.cn
+
+Response:409
+2021-06-04
+14:26:06
+client   192.168.49.54 : 50538
+ Q:008.cn A:
+
+Requsest:410
+2021-06-04
+14:26:06
+client   192.168.49.54 : 50539
+008.cn
+
+Relay:411
+2021-06-04
+14:26:06
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Receive:412
+2021-06-04
+14:26:06
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Reponse:413
+2021-06-04
+14:26:06
+client   192.168.49.54 : 50539
+ Q:008.cn
+
+Requsest:414
+2021-06-04
+14:26:06
+client   192.168.49.54 : 50540
+008.cn
+
+Response:415
+2021-06-04
+14:26:06
+client   192.168.49.54 : 50540
+ Q:008.cn A:
+
+Requsest:416
+2021-06-04
+14:26:06
+client   192.168.49.54 : 50541
+008.cn
+
+Relay:417
+2021-06-04
+14:26:06
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Receive:418
+2021-06-04
+14:26:07
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Reponse:419
+2021-06-04
+14:26:07
+client   192.168.49.54 : 50541
+ Q:008.cn
+
+Requsest:420
+2021-06-04
+14:26:23
+client       127.0.0.1 : 59040
+a-ring-fallback.msedge.net
+
+Relay:421
+2021-06-04
+14:26:23
+server       10.3.9.44 : 53   
+ Q:a-ring-fallback.msedge.net
+
+Receive:422
+2021-06-04
+14:26:23
+server       10.3.9.44 : 53   
+ Q:a-ring-fallback.msedge.net
+
+Reponse:423
+2021-06-04
+14:26:23
+client       127.0.0.1 : 59040
+ Q:a-ring-fallback.msedge.net
+
+Requsest:424
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59041
+1.0.0.127.in-addr.arpa
+
+Relay:425
+2021-06-04
+14:26:26
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Receive:426
+2021-06-04
+14:26:26
+server       10.3.9.44 : 53   
+ Q:1.0.0.127.in-addr.arpa
+
+Reponse:427
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59041
+ Q:1.0.0.127.in-addr.arpa
+
+Requsest:428
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59042
+008.cn
+
+Response:429
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59042
+ Q:008.cn A:
+
+Requsest:430
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59043
+008.cn
+
+Relay:431
+2021-06-04
+14:26:26
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Receive:432
+2021-06-04
+14:26:26
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Reponse:433
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59043
+ Q:008.cn
+
+Requsest:434
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59044
+008.cn
+
+Response:435
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59044
+ Q:008.cn A:
+
+Requsest:436
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59045
+008.cn
+
+Relay:437
+2021-06-04
+14:26:26
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Receive:438
+2021-06-04
+14:26:26
+server       10.3.9.44 : 53   
+ Q:008.cn
+
+Reponse:439
+2021-06-04
+14:26:26
+client       127.0.0.1 : 59045
+ Q:008.cn
+
+Requsest:440
+2021-06-04
+14:26:40
+client       127.0.0.1 : 51035
+crl.identrust.com
+
+Relay:441
+2021-06-04
+14:26:40
+server       10.3.9.44 : 53   
+ Q:crl.identrust.com
+
+Receive:442
+2021-06-04
+14:26:40
+server       10.3.9.44 : 53   
+ Q:crl.identrust.com
+
+Reponse:443
+2021-06-04
+14:26:40
+client       127.0.0.1 : 51035
+ Q:crl.identrust.com
+
+Requsest:444
+2021-06-04
+14:26:40
+client       127.0.0.1 : 57962
+15.anycast.gay
+
+Relay:445
+2021-06-04
+14:26:40
+server       10.3.9.44 : 53   
+ Q:15.anycast.gay
+
+Receive:446
+2021-06-04
+14:26:40
+server       10.3.9.44 : 53   
+ Q:15.anycast.gay
+
+Reponse:447
+2021-06-04
+14:26:40
+client       127.0.0.1 : 57962
+ Q:15.anycast.gay
+
+Requsest:448
+2021-06-04
+14:26:46
+client       127.0.0.1 : 62977
+hr04.yootoo6oocoo1oo.xyz
+
+Relay:449
+2021-06-04
+14:26:46
+server       10.3.9.44 : 53   
+ Q:hr04.yootoo6oocoo1oo.xyz
+
+Receive:450
+2021-06-04
+14:26:46
+server       10.3.9.44 : 53   
+ Q:hr04.yootoo6oocoo1oo.xyz
+
+Reponse:451
+2021-06-04
+14:26:46
+client       127.0.0.1 : 62977
+ Q:hr04.yootoo6oocoo1oo.xyz
+
+Requsest:452
+2021-06-04
+14:26:48
+client       127.0.0.1 : 58804
+crl.apple.com
+
+Relay:453
+2021-06-04
+14:26:48
+server       10.3.9.44 : 53   
+ Q:crl.apple.com
+
+Receive:454
+2021-06-04
+14:26:48
+server       10.3.9.44 : 53   
+ Q:crl.apple.com
+
+Reponse:455
+2021-06-04
+14:26:48
+client       127.0.0.1 : 58804
+ Q:crl.apple.com
+
+Requsest:456
+2021-06-04
+14:26:48
+client       127.0.0.1 : 56814
+ctldl.windowsupdate.com
+
+Relay:457
+2021-06-04
+14:26:48
+server       10.3.9.44 : 53   
+ Q:ctldl.windowsupdate.com
+
+Receive:458
+2021-06-04
+14:26:49
+server       10.3.9.44 : 53   
+ Q:ctldl.windowsupdate.com
+
+Reponse:459
+2021-06-04
+14:26:49
+client       127.0.0.1 : 56814
+ Q:ctldl.windowsupdate.com
+
+Requsest:460
+2021-06-04
+14:26:59
+client       127.0.0.1 : 61481
+ld-1.itunes.apple.com
+
+Relay:461
+2021-06-04
+14:26:59
+server       10.3.9.44 : 53   
+ Q:ld-1.itunes.apple.com
+
+Receive:462
+2021-06-04
+14:26:59
+server       10.3.9.44 : 53   
+ Q:ld-1.itunes.apple.com
+
+Reponse:463
+2021-06-04
+14:26:59
+client       127.0.0.1 : 61481
+ Q:ld-1.itunes.apple.com
+
+Requsest:464
+2021-06-04
+14:26:59
+client       127.0.0.1 : 56639
+hkt03.yootoo6oocoo1oo.xyz
+
+Relay:465
+2021-06-04
+14:26:59
+server       10.3.9.44 : 53   
+ Q:hkt03.yootoo6oocoo1oo.xyz
+
+Requsest:466
+2021-06-04
+14:27:00
+client   192.168.49.54 : 59545
+data.mistat.xiaomi.com
+
+Relay:467
+2021-06-04
+14:27:00
+server       10.3.9.44 : 53   
+ Q:data.mistat.xiaomi.com
+
+Receive:468
+2021-06-04
+14:27:00
+server       10.3.9.44 : 53   
+ Q:hkt03.yootoo6oocoo1oo.xyz
+
+Reponse:469
+2021-06-04
+14:27:00
+client   192.168.49.54 : 59545
+ Q:hkt03.yootoo6oocoo1oo.xyz
+
+Receive:470
+2021-06-04
+14:27:00
+server       10.3.9.44 : 53   
+ Q:data.mistat.xiaomi.com
+
+Reponse:471
+2021-06-04
+14:27:00
+client   192.168.49.54 : 59545
+ Q:data.mistat.xiaomi.com
+
+Requsest:472
+2021-06-04
+14:27:17
+client       127.0.0.1 : 59126
+sgp06.yootoo6oocoo1oo.xyz
+
+Relay:473
+2021-06-04
+14:27:17
+server       10.3.9.44 : 53   
+ Q:sgp06.yootoo6oocoo1oo.xyz
+
+Receive:474
+2021-06-04
+14:27:17
+server       10.3.9.44 : 53   
+ Q:sgp06.yootoo6oocoo1oo.xyz
+
+Reponse:475
+2021-06-04
+14:27:17
+client       127.0.0.1 : 59126
+ Q:sgp06.yootoo6oocoo1oo.xyz
+
+Requsest:476
+2021-06-04
+14:27:17
+client       127.0.0.1 : 56055
+stopservice.chshap.blob.core.windows.net
+
+Relay:477
+2021-06-04
+14:27:17
+server       10.3.9.44 : 53   
+ Q:stopservice.chshap.blob.core.windows.net
+
+Receive:478
+2021-06-04
+14:27:17
+server       10.3.9.44 : 53   
+ Q:stopservice.chshap.blob.core.windows.net
+
+Reponse:479
+2021-06-04
+14:27:17
+client       127.0.0.1 : 56055
+ Q:stopservice.chshap.blob.core.windows.net
+
+Requsest:480
+2021-06-04
+14:27:17
+client       127.0.0.1 : 56888
+www.msftconnecttest.com
+
+Relay:481
+2021-06-04
+14:27:17
+server       10.3.9.44 : 53   
+ Q:www.msftconnecttest.com
+
+Receive:482
+2021-06-04
+14:27:17
+server       10.3.9.44 : 53   
+ Q:www.msftconnecttest.com
+
+Reponse:483
+2021-06-04
+14:27:17
+client       127.0.0.1 : 56888
+ Q:www.msftconnecttest.com
+
+Requsest:484
+2021-06-04
+14:27:45
+client   192.168.49.54 : 59545
+risk.dun.mi.com
+
+Relay:485
+2021-06-04
+14:27:45
+server       10.3.9.44 : 53   
+ Q:risk.dun.mi.com
+
+Receive:486
+2021-06-04
+14:27:46
+server       10.3.9.44 : 53   
+ Q:risk.dun.mi.com
+
+Reponse:487
+2021-06-04
+14:27:46
+client   192.168.49.54 : 59545
+ Q:risk.dun.mi.com
+
+Requsest:488
+2021-06-04
+14:28:11
+client   192.168.49.54 : 59545
+w.pandora.xiaomi.com
+
+Relay:489
+2021-06-04
+14:28:11
+server       10.3.9.44 : 53   
+ Q:w.pandora.xiaomi.com
+
+Receive:490
+2021-06-04
+14:28:11
+server       10.3.9.44 : 53   
+ Q:w.pandora.xiaomi.com
+
+Reponse:491
+2021-06-04
+14:28:11
+client   192.168.49.54 : 59545
+ Q:w.pandora.xiaomi.com
+
+Requsest:492
+2021-06-04
+14:28:12
+client   192.168.49.54 : 59545
+tsmapi.pay.xiaomi.com
+
+Relay:493
+2021-06-04
+14:28:12
+server       10.3.9.44 : 53   
+ Q:tsmapi.pay.xiaomi.com
+
+Receive:494
+2021-06-04
+14:28:12
+server       10.3.9.44 : 53   
+ Q:tsmapi.pay.xiaomi.com
+
+Reponse:495
+2021-06-04
+14:28:12
+client   192.168.49.54 : 59545
+ Q:tsmapi.pay.xiaomi.com
+
+Requsest:496
+2021-06-04
+14:28:16
+client       127.0.0.1 : 58301
+go.microsoft.com
+
+Relay:497
+2021-06-04
+14:28:16
+server       10.3.9.44 : 53   
+ Q:go.microsoft.com
+
+Receive:498
+2021-06-04
+14:28:16
+server       10.3.9.44 : 53   
+ Q:go.microsoft.com
+
+Reponse:499
+2021-06-04
+14:28:16
+client       127.0.0.1 : 58301
+ Q:go.microsoft.com
+
+Requsest:500
+2021-06-04
+14:28:17
+client       127.0.0.1 : 51244
+www.bing.com
+
+Relay:501
+2021-06-04
+14:28:17
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Receive:502
+2021-06-04
+14:28:17
+server       10.3.9.44 : 53   
+ Q:www.bing.com
+
+Reponse:503
+2021-06-04
+14:28:17
+client       127.0.0.1 : 51244
+ Q:www.bing.com
+
+Requsest:504
+2021-06-04
+14:28:17
+client       127.0.0.1 : 57802
+cn.bing.com
+
+Relay:505
+2021-06-04
+14:28:17
+server       10.3.9.44 : 53   
+ Q:cn.bing.com
+
+Receive:506
+2021-06-04
+14:28:17
+server       10.3.9.44 : 53   
+ Q:cn.bing.com
+
+Reponse:507
+2021-06-04
+14:28:17
+client       127.0.0.1 : 57802
+ Q:cn.bing.com
+
+Requsest:508
+2021-06-04
+14:28:18
+client   192.168.49.54 : 59545
+api.health.comm.miui.com
+
+Relay:509
+2021-06-04
+14:28:18
+server       10.3.9.44 : 53   
+ Q:api.health.comm.miui.com
+
+Receive:510
+2021-06-04
+14:28:18
+server       10.3.9.44 : 53   
+ Q:api.health.comm.miui.com
+
+Reponse:511
+2021-06-04
+14:28:18
+client   192.168.49.54 : 59545
+ Q:api.health.comm.miui.com
+
+Requsest:512
+2021-06-04
+14:28:18
+client   192.168.49.54 : 59545
+tracking.miui.com
+
+Relay:513
+2021-06-04
+14:28:18
+server       10.3.9.44 : 53   
+ Q:tracking.miui.com
+
+Receive:514
+2021-06-04
+14:28:18
+server       10.3.9.44 : 53   
+ Q:tracking.miui.com
+
+Reponse:515
+2021-06-04
+14:28:18
+client   192.168.49.54 : 59545
+ Q:tracking.miui.com
+
+Requsest:516
+2021-06-04
+14:28:36
+client   192.168.49.54 : 59545
+data.mistat.xiaomi.com
+
+Relay:517
+2021-06-04
+14:28:36
+server       10.3.9.44 : 53   
+ Q:data.mistat.xiaomi.com
+
+Receive:518
+2021-06-04
+14:28:36
+server       10.3.9.44 : 53   
+ Q:data.mistat.xiaomi.com
+
+Reponse:519
+2021-06-04
+14:28:36
+client   192.168.49.54 : 59545
+ Q:data.mistat.xiaomi.com
+
+Requsest:520
+2021-06-04
+14:28:55
+client   192.168.49.54 : 59545
+api.io.mi.com
+
+Relay:521
+2021-06-04
+14:28:55
+server       10.3.9.44 : 53   
+ Q:api.io.mi.com
+
+Receive:522
+2021-06-04
+14:28:55
+server       10.3.9.44 : 53   
+ Q:api.io.mi.com
+
+Reponse:523
+2021-06-04
+14:28:55
+client   192.168.49.54 : 59545
+ Q:api.io.mi.com
+
+Requsest:524
+2021-06-04
+14:29:41
+client   192.168.49.54 : 59545
+loc.map.baidu.com
+
+Relay:525
+2021-06-04
+14:29:41
+server       10.3.9.44 : 53   
+ Q:loc.map.baidu.com
+
+Receive:526
+2021-06-04
+14:29:41
+server       10.3.9.44 : 53   
+ Q:loc.map.baidu.com
+
+Reponse:527
+2021-06-04
+14:29:41
+client   192.168.49.54 : 59545
+ Q:loc.map.baidu.com
+
+Requsest:528
+2021-06-04
+14:29:42
+client   192.168.49.54 : 59545
+metok.sys.miui.com
+
+Relay:529
+2021-06-04
+14:29:42
+server       10.3.9.44 : 53   
+ Q:metok.sys.miui.com
+
+Receive:530
+2021-06-04
+14:29:42
+server       10.3.9.44 : 53   
+ Q:metok.sys.miui.com
+
+Reponse:531
+2021-06-04
+14:29:42
+client   192.168.49.54 : 59545
+ Q:metok.sys.miui.com
+
+Requsest:532
+2021-06-04
+14:29:50
+client   192.168.49.54 : 59545
+qqdata.ab.qq.com
+
+Relay:533
+2021-06-04
+14:29:50
+server       10.3.9.44 : 53   
+ Q:qqdata.ab.qq.com
+
+Receive:534
+2021-06-04
+14:29:51
+server       10.3.9.44 : 53   
+ Q:qqdata.ab.qq.com
+
+Reponse:535
+2021-06-04
+14:29:51
+client   192.168.49.54 : 59545
+ Q:qqdata.ab.qq.com
+
+Requsest:536
+2021-06-04
+14:29:56
+client       127.0.0.1 : 62463
+api.github.com
+
+Relay:537
+2021-06-04
+14:29:56
+server       10.3.9.44 : 53   
+ Q:api.github.com
+
+Receive:538
+2021-06-04
+14:29:56
+server       10.3.9.44 : 53   
+ Q:api.github.com
+
+Reponse:539
+2021-06-04
+14:29:56
+client       127.0.0.1 : 62463
+ Q:api.github.com
+
