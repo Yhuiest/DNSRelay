@@ -6,6 +6,7 @@ extern struct Node *head;
 extern struct Node *tail;
 extern int cacheSize;
 
+//逐字符检查，将大写字母转换为小写字母
 void strToLow(char *str)
 {
 	int len = strlen(str);
@@ -24,6 +25,8 @@ void strToLow(char *str)
 	}
 }
 
+//插入节点，遍历所有节点，如果节点已存在，则忽略他，如果没有则创建节点直到字符串结束
+//每一行空间分配 0-25 --》‘a’-‘z’ 26-35 --》‘0’-‘9’36--》‘-’ 37--》‘.’
 void insertNode(struct Trie *trie, const char *str, unsigned char ipAddress[4])
 {
 	if (str[0] == 0)
@@ -65,6 +68,7 @@ void insertNode(struct Trie *trie, const char *str, unsigned char ipAddress[4])
 	trie->endFlag[root] = true;
 }
 
+//查找字符串，在字典树中从根节点查找域名，查找到返回节点下表
 int findNode(struct Trie *trie, const char *str)
 {
 	if (str[0] == 0)
@@ -111,6 +115,8 @@ int findNode(struct Trie *trie, const char *str)
 	return root;
 }
 
+//删除节点，从字符串的末尾开始删除，如果该节点有两个以上的孩子节点（即删除到该节点时，他不是叶子节点）
+//证明该节点是共用的不能删除，如果是叶子节点，则删除该节点
 void deleteNode(struct Trie *trie, char *str)
 {
 	if (str[0] == 0)
@@ -149,7 +155,7 @@ void deleteNode(struct Trie *trie, char *str)
 		}
 
 		bool notLeave = false;
-		for (int i = 0; i < MAX_ROW; i++)
+		for (int i = 0; i < MAX_COL; i++)
 		{
 			if (trie->tree[root][i] != 0)
 			{
@@ -169,6 +175,7 @@ void deleteNode(struct Trie *trie, char *str)
 	}
 }
 
+//将10进制的字符串转换为2进制
 void tranIp(unsigned char ip[4], char *rawIp)
 {
 	int count = 0;
@@ -188,6 +195,7 @@ void tranIp(unsigned char ip[4], char *rawIp)
 	}
 }
 
+//输出缓存
 void printCache()
 {
 	struct Node *p = head->next;
@@ -203,6 +211,10 @@ void printCache()
 	}
 }
 
+//更新缓存，查看域名是否在缓存中
+//若在将其更新到队伍末尾（利用率最高）
+//若不在查看缓存是否已满，若没满则直接添加
+//若满了将域名插入缓存并将链表头部节点删除（利用率最低）
 void updateCache(unsigned char *ipAddress, const char *domain)
 {
 	int node = findNode(cacheTrie, domain);
@@ -254,6 +266,7 @@ void updateCache(unsigned char *ipAddress, const char *domain)
 	}
 }
 
+//在缓存中查找域名，并更新缓存
 bool findInCache(unsigned char ipAdderss[4], const char *domain)
 {
 	int node;
@@ -266,6 +279,7 @@ bool findInCache(unsigned char ipAdderss[4], const char *domain)
 	return true;
 }
 
+//在域名列表中查找
 bool findInTable(unsigned char ipAddress[4], const char *domain)
 {
 	int node;

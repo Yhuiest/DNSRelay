@@ -5,7 +5,7 @@
 
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 
-
+//采用select函数实现并发io
 int main(int argc, char **argv)
 {
 	if (parseArgu(argc, argv))
@@ -62,6 +62,7 @@ int main(int argc, char **argv)
 	return 0;
 }
 
+//初始化套接字文件和主要数据结构
 bool init()
 {
 	cacheTrie->tree;
@@ -173,6 +174,7 @@ bool init()
 	return true;
 }
 
+//查找函数，包括在cache中查找以及在域名列表中查找
 int search(Packet *pkt)
 {
 	struct source *s;
@@ -267,6 +269,10 @@ int search(Packet *pkt)
 	return ret;
 }
 
+//处理参数 -d表示输出debug信息，d越多等级越高
+//-l表示设置日志文件名称
+//-h表示设置上级服务器IP地址
+//-f表示设置域名列表文件
 bool parseArgu(int argc, char **argv)
 {
 	int dNum = 0;
@@ -330,6 +336,7 @@ bool parseArgu(int argc, char **argv)
 	return true;
 }
 
+//从client端接受网络包
 void clientReceive()
 {
 	//printf("C\n");
@@ -467,6 +474,7 @@ void clientReceive()
 	freePkt(&pkt);
 }
 
+//从上级服务器端接受网络包
 void serverReceive()
 {
 	struct timeval tv;
@@ -554,6 +562,7 @@ void serverReceive()
 	freePkt(&pkt);
 }
 
+//将buff中字符串以16进制输出
 void printInHex(unsigned char *buff, unsigned len)
 {
 	for (int i = 0; i < len; i++)
@@ -622,6 +631,7 @@ void printInHex(unsigned char *buff, unsigned len)
 //	return true;
 //}
 
+//拆解网络包函数 返回值表示成功与否
 bool decodePkt(Packet *pkt, char *buff, unsigned int len)
 {
 	//printf("*");
@@ -699,6 +709,7 @@ bool decodePkt(Packet *pkt, char *buff, unsigned int len)
 	return true;
 }
 
+//拆解资源部分 返回表示成功与否
 bool decodeSource(Source *s, char **buf, char *raw)
 {
 	char *name = decodeDomain(buf,raw );
@@ -717,6 +728,7 @@ bool decodeSource(Source *s, char **buf, char *raw)
 	(*buf) += s->rdLength;
 }
 
+//拆解问题部分 返回值表示成功与否
 bool decodeQuestion(Packet *pkt, char **buf)
 {
 	char *rawBuf = *buf;
@@ -754,6 +766,7 @@ bool decodeQuestion(Packet *pkt, char **buf)
 	return true;
 }
 
+//拆解域名，域名压缩利用递归方式解决
 char * decodeDomain(char **buf, char *raw)
 {
 	if (**buf == '\0')
@@ -808,6 +821,7 @@ char * decodeDomain(char **buf, char *raw)
 	return reVal;
 }
 
+//拆解头部，对于单比特数据利用掩码计算
 void getHeader(Header *head, char *buff)
 {
 	head->ID = get16bit(&buff);
@@ -827,6 +841,7 @@ void getHeader(Header *head, char *buff)
 	head->arcount = get16bit(&buff);
 }
 
+//封装网络包
 unsigned encodePkt(Packet *pkt, char *buff)
 {
 	char *rawBuf = buff;
@@ -859,6 +874,7 @@ unsigned encodePkt(Packet *pkt, char *buff)
 	return buff - rawBuf;
 } 
 
+//封装域名
 void encodeDomain(char *name, char **buf)
 {
 	int labLen[10];
@@ -891,6 +907,7 @@ void encodeDomain(char *name, char **buf)
 	}
 }
 
+//封装问题
 unsigned  encodeQuestion(Question *q, char **buf)
 {
 	char **rawBuf = buf;
@@ -902,6 +919,7 @@ unsigned  encodeQuestion(Question *q, char **buf)
 	return (*buf) - (*rawBuf);
 }
 
+//封装资源
 unsigned encodeSource(Source *s, char **buf)
 {
 	char *rawBuf = *buf;
@@ -916,6 +934,7 @@ unsigned encodeSource(Source *s, char **buf)
 	return (*buf) - rawBuf;
 }
 
+//封装头部 利用掩码
 void setHeader(Header *head, char *buf)
 {
 	set16bit(&buf, head->ID);
@@ -980,6 +999,7 @@ void set32bit(char **buf, uint32_t t)
 	(*buf) += 4;
 }
 
+//释放网络包
 void freePkt(Packet *pkt)
 {
 	free(pkt->pktHead);

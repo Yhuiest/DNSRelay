@@ -27,11 +27,11 @@ struct Node				//用链表缓存数据
 };
 
 void printCache();		//输出cache中内容
-bool findInCache(unsigned char ipAdderss[4], const char *domain);//在
-bool findInTable(unsigned char ipAddress[4], const char *domain);
-void updateCache(unsigned char *ipAddress, const char *domain);
-void strToLow(char *str);
-void insertNode(struct Trie *trie, const char *str, unsigned char ipAddress[4]);
-void deleteNode(struct Trie *trie, char *str);
-int findNode(struct Trie *trie, const char *str);
-void tranIp(unsigned char ip[4], char *rawIp);
+bool findInCache(unsigned char ipAdderss[4], const char *domain);//在cache中查找域名
+bool findInTable(unsigned char ipAddress[4], const char *domain);//在域名列表中查找
+void updateCache(unsigned char *ipAddress, const char *domain);//更新cache中的内容
+void strToLow(char *str);					//把字符串改成小写
+void insertNode(struct Trie *trie, const char *str, unsigned char ipAddress[4]);//插入节点
+void deleteNode(struct Trie *trie, char *str);		//删除节点
+int findNode(struct Trie *trie, const char *str);	//在字典树中查找结点
+void tranIp(unsigned char ip[4], char *rawIp);		//将IP地址从10进制字符串形式改为二进制
